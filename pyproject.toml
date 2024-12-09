@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "cfret-screen-map-analysis"
+version = "0.0.1"
+description = "Analysis notebooks applying mean average Precision (mAP) to the CFReT screen image-based profiles dataset."
+authors = ["axiomcura <erikishere3@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+copairs = "^0.4.2"
+ipykernel = "^6.29.5"
+seaborn = "^0.13.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^4.0.1"
+nbconvert = "^7.16.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
