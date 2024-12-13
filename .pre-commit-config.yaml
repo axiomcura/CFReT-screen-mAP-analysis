@@ -1,0 +1,58 @@
+repos:
+  # keep pre-commits update to date
+-   repo: https://gitlab.com/vojko.pribudic.foss/pre-commit-update
+    rev: v0.6.0post1
+    hooks:
+    -   id: pre-commit-update
+        args: [--verbose]
+
+  # Ruff for Python files
+-   repo: https://github.com/charliermarsh/ruff-pre-commit
+    rev: v0.8.3
+    hooks:
+    -   id: ruff
+        args: ["--fix"]
+
+  # nbQA to run Ruff on Jupyter Notebooks
+-   repo: https://github.com/nbQA-dev/nbQA
+    rev: 1.9.1
+    hooks:
+    -   id: nbqa-ruff
+        name: nbQA-Ruff
+        args: ["--fix"]
+        additional_dependencies: ["ruff"]
+    -   id: nbqa-isort
+        name: nbQA-Isort
+        args: ["--profile", "black"]
+        additional_dependencies: ["isort"]
+
+  # format toml files
+-   repo: https://github.com/pappasam/toml-sort
+    rev: v0.24.2
+    hooks:
+    -   id: toml-sort
+
+  # Sort imports with isort (if separate from Ruff)
+-   repo: https://github.com/pre-commit/mirrors-isort
+    rev: v5.10.1
+    hooks:
+    -   id: isort
+        args: ["--profile", "black"]
+
+  # Pyupgrade for updating Python syntax
+-   repo: https://github.com/asottile/pyupgrade
+    rev: v3.19.0
+    hooks:
+    -   id: pyupgrade
+        args: ["--py311-plus"]
+
+  # Check for trailing whitespaces, mixed line endings, etc.
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+    -   id: check-yaml
+    -   id: check-json
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+    -   id: check-merge-conflict
+    -   id: check-added-large-files
