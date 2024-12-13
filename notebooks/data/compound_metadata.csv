@@ -1,0 +1,726 @@
+Catalog Number,UCD ID,Product Name,Original Plate,Original Well,New Plate,New Well,MW,CAS Number,Target,Information,Pathway
+DMSO,,DMSO,L2000-01,A01,L2000-01,B02,,,,,
+S1001,UCD-0159256,Navitoclax (ABT-263),L2000-01,A02,L2000-01,B03,974.61,923564-51-6,Bcl-2,"ABT-263 (Navitoclax) is a potent inhibitor of Bcl-xL, Bcl-2 and Bcl-w with Ki of ≤ 0.5 nM, ≤1 nM and ≤1 nM, but binds more weakly to Mcl-1 and A1. Phase 1/2.",Apoptosis
+S1033,UCD-0001766,Nilotinib (AMN-107),L2000-01,A03,L2000-01,B04,529.52,641571-10-0,Bcr-Abl,Nilotinib (AMN-107) is a Bcr-Abl inhibitor with IC50 less than 30 nM.,Angiogenesis
+DMSO,,DMSO,L2000-01,B01,L2000-01,B05,,,,,
+S1069,UCD-0159262,"Luminespib (AUY-922, NVP-AUY922)",L2000-01,A04,L2000-01,B06,465.54,747412-49-3,HSP (e.g. HSP90),"AUY922 (NVP-AUY922) is a highly potent HSP90 inhibitor for HSP90α/β with IC50 of 13 nM /21 nM, weaker potency against the HSP90 family members GRP94 and TRAP-1, exhibits the tightest binding of any small-molecule HSP90 ligand. Phase 1/2.",Others
+S1092,UCD-0001915,KU-55933 (ATM Kinase Inhibitor),L2000-01,A05,L2000-01,B07,395.49,587871-26-9,ATM/ATR,"KU-55933 is a potent and specific ATM inhibitor with IC50/Ki of 12.9 nM/2.2 nM, and is highly selective for ATM as compared to DNA-PK, PI3K/PI4K, ATR and mTOR.",Others
+DMSO,,DMSO,L2000-01,C01,L2000-01,B08,,,,,
+S1109,UCD-0001783,BI 2536,L2000-01,A06,L2000-01,B09,521.66,755038-02-9,PLK,BI2536 is a potent Plk1 inhibitor with IC50 of 0.83 nM. It shows 4- and 11-fold greater selectivity against Plk2 and Plk3. Phase 2.,Others
+S1141,UCD-0159279,Tanespimycin (17-AAG),L2000-01,A07,L2000-01,B10,585.69,75747-14-7,HSP (e.g. HSP90),"17-AAG is a potent HSP90 inhibitor with IC50 of 5 nM, having a 100-fold higher binding affinity for HSP90 derived from tumour cells than HSP90 from normal cells.",Others
+DMSO,,DMSO,L2000-01,D01,L2000-01,B11,,,,,
+S1174,UCD-0159283,MK-2866 (GTx-024),L2000-01,A08,L2000-01,C02,389.33,841205-47-8,Androgen Receptor,"MK-2866 (GTx-024) is a selective androgen receptor modulator (SARM) with Ki of 3.8 nM, and is tissue-selective for anabolic organs. Phase 3.",Endocrinology & Hormones
+S1197,UCD-0001040,Finasteride,L2000-01,A09,L2000-01,C03,372.54,98319-26-7,5-alpha Reductase,Finasteride is an inhibitor of steroid Type II 5α-reductase.,Endocrinology & Hormones
+S1260,UCD-0018091,Cinacalcet HCl,L2000-01,A10,L2000-01,C04,393.87,364782-34-3,CaSR,AMG-073 represents a new class of compounds for the treatment of hyperparathyroidism.,GPCR & G Protein
+S1328,UCD-0000450,Etodolac ,L2000-01,A11,L2000-01,C05,287.35,41340-25-4,COX,Etodolac (Lodine) is a COX inhibitor with an IC50 of 53.5 nM.,Neuronal Signaling
+S1004,UCD-0159257,Veliparib (ABT-888),L2000-01,B02,L2000-01,C06,244.29,912444-00-9,PARP,"Veliparib (ABT-888) is a potent inhibitor of PARP1 and PARP2 with Ki of 5.2 nM and 2.9 nM, respectively. It is inactive to SIRT2. Phase 1/2.",DNA Damage
+S1036,UCD-0001810,PD0325901,L2000-01,B03,L2000-01,C07,482.19,391210-10-9,MEK,"PD0325901 (PD325901) is selective and non ATP-competitive MEK inhibitor with IC50 of 0.33 nM, roughly 500-fold more potent than CI-1040 on phosphorylation of ERK1 and ERK2. Phase 1/2.",DNA Damage
+S1070,UCD-0159263,PHA-665752,L2000-01,B04,L2000-01,C08,641.61,477575-56-7,c-Met,"PHA-665752 is a potent, selective and ATP-competitive c-Met inhibitor with IC50 of 9 nM,  >50-fold selectivity for c-Met than RTKs or STKs.",Others
+S1093,UCD-0159269,GSK1904529A,L2000-01,B05,L2000-01,C09,851.96,1089283-49-7,IGF-1R,"GSK1904529A is a selective inhibitor of IGF-1R and IR with IC50 of 27 nM and 25 nM, >100-fold more selective for IGF-1R/InsR than Akt1/2, Aurora A/B,B-Raf, CDK2, EGFR etc.",Others
+S1110,UCD-0159273,Varespladib (LY315920),L2000-01,B06,L2000-01,C10,380.39,172732-68-2,Phospholipase (e.g. PLA),"LY315920 (Varespladib) is a potent and selective human non-pancreatic secretory phospholipase A2 (hnsPLA) inhibitor with IC50 of 7 nM,. Phase 3.",Others
+S1144,UCD-0017907,Ivacaftor (VX-770),L2000-01,B07,L2000-01,C11,392.49,873054-44-5,CFTR,"Ivacaftor (VX-770) is a potentiator of CFTR targeting G551D-CFTR and F508del-CFTR with EC50 of 100 nM and 25 nM, respectively.",Others
+S1180,UCD-0159284,XAV-939,L2000-01,B08,L2000-01,D02,312.31,284028-89-3,Wnt/beta-catenin,"XAV-939 selectively inhibits Wnt/β-catenin-mediated transcription through tankyrase1/2 inhibition with IC50 of 11 nM/4 nM, regulates axin levels and does not affect CRE, NF-κB or TGF-β.",Stem Cells &  Wnt
+S1202,UCD-0017999,Dutasteride,L2000-01,B09,L2000-01,D03,528.53,164656-23-9,5-alpha Reductase,Dutasteride is a dual 5-α reductase inhibitor that inhibits conversion of testosterone to dihydrotestosterone (DHT).,Endocrinology & Hormones
+S1261,UCD-0000721,Celecoxib,L2000-01,B10,L2000-01,D04,381.37,169590-42-5,COX,Celecoxib is a selective COX-2 inhibitor with IC50 of 40 nM.,Neuronal Signaling
+S1329,UCD-0001014,Etomidate,L2000-01,B11,L2000-01,D05,244.29,33125-97-2,GABA Receptor,Etomidate is a GABAA receptors agonist at GABAA receptors.,Neuronal Signaling
+S1007,UCD-0159258,Roxadustat (FG-4592),L2000-01,C02,L2000-01,D06,352.34,808118-40-3,HIF,"FG-4592 is an HIF α prolyl hydroxylase inhibitor, stabilizes HIF-2 and induces EPO production. Phase 2/3.",Angiogenesis
+S1041,UCD-0159261,STF-62247,L2000-01,C03,L2000-01,D07,267.35,315702-99-9,Others,STF-62247 shows selective toxicity and growth inhibition of renal cells lacking VHL; 25-fold greater sensitivity observed for cells with VHL deficiency compared to wild-type (VHL+).,Others
+S1071,UCD-0159264,HA14-1,L2000-01,C04,L2000-01,D08,409.23,65673-63-4,Bcl-2,HA14-1 is a non-peptidic ligand of a Bcl-2 surface pocket with IC50 of ~9 μM.,Neuronal Signaling
+S1094,UCD-0001775,PF-04217903,L2000-01,C05,L2000-01,D09,372.38,956905-27-4,c-Met,"PF-04217903 is a selective ATP-competitive c-Met inhibitor with IC50 of 4.8 nM, susceptible to oncogenic mutations (no activity to Y1230C mutant). Phase 1.",Others
+S1113,UCD-0159274,GSK690693,L2000-01,C06,L2000-01,D10,425.48,937174-76-0,Akt,"GSK690693 is a pan-Akt inhibitor targeting Akt1/2/3 with IC50 of 2 nM/13 nM/9 nM, also sensitive to the AGC kinase family: PKA, PrkX and PKC isozymes. Phase 1.",Others
+S1145,UCD-0001792,SNS-032 (BMS-387032),L2000-01,C07,L2000-01,D11,380.53,345627-80-7,CDK,"SNS-032 has firstly been described as a selective inhibitor of CDK2 with IC50 of 48 nM and is 10- and 20-fold selective over CDK1/CDK4. It is also found to be sensitive to CDK7/9 with IC50 of 62 nM/4 nM, with little effect on CDK6. Phase 1.",Others
+DMSO,,DMSO,L2000-01,E01,L2000-01,E02,,,,,
+S1186,UCD-0159285,BIBR 1532,L2000-01,C08,L2000-01,E03,331.36,321674-73-1,Telomerase,"BIBR 1532 is a potent, selective, non-competitive telomerase inhibitor with IC50 of 100 nM.",DNA Damage
+S1210,UCD-0159289,Methotrexate,L2000-01,C09,L2000-01,E04,454.44,59-05-2,DHFR,"Methotrexate is an antimetabolite and antifolate drug, which acts by inhibiting the metabolism of folic acid.",Metabolism
+DMSO,,DMSO,L2000-01,F01,L2000-01,E05,,,,,
+S1267,UCD-0018179,"Vemurafenib (PLX4032, RG7204)",L2000-01,C10,L2000-01,E06,489.92,918504-65-1,Raf,"Vemurafenib (PLX4032, RG7204) is a novel and potent inhibitor of B-RafV600E with IC50 of 31 nM.",MAPK
+S1336,UCD-0001016,Fluvoxamine maleate,L2000-01,C11,L2000-01,E07,434.41,61718-82-9,5-HT Receptor,Fluvoxamine maleate is a selective serotonin (5-HT) reuptake inhibitor (SSRI).,Neuronal Signaling
+DMSO,,DMSO,L2000-01,G01,L2000-01,E08,,,,,
+S1008,UCD-0001804,Selumetinib (AZD6244),L2000-01,D02,L2000-01,E09,457.68,606143-52-6,MEK,"Selumetinib (AZD6244) is a potent, highly selective MEK1 inhibitor with IC50 of 14 nM, also inhibits ERK1/2 phosphorylation with IC50 of 10 nM, no inhibition to p38α, MKK6, EGFR, ErbB2, ERK2, B-Raf, etc. Phase 1/2.",MAPK
+S1044,UCD-0018207,"Temsirolimus (CCI-779, NSC 683864)",L2000-01,D03,L2000-01,E10,1030.29,162635-04-3,mTOR,Temsirolimus (CCI-779) is a specific mTOR inhibitor with IC50 of 1.76 μM.,Neuronal Signaling
+DMSO,,DMSO,L2000-01,H01,L2000-01,E11,,,,,
+S1078,UCD-0001844,MK-2206 2HCl,L2000-01,D04,L2000-01,F02,480.39,1032350-13-2,Akt,"MK-2206 2HCl is a highly selective inhibitor of Akt1/2/3 with IC50 of 8 nM/12 nM/65 nM, respectively; no inhibitory activities against 250 other protein kinases observed. Phase 2.",Others
+S1097,UCD-0159270,BTZ043 Racemate,L2000-01,D05,L2000-01,F03,431.39,957217-65-1,Others,BTZ043 racemate is a decaprenylphosphoryl-β-D-ribose 2'-epimerase (DprE1) inhibitor acting as a new antimycobacterial agent that kill Mycobacterium tuberculosis.,Others
+S1115,UCD-0159275,Odanacatib (MK-0822),L2000-01,D06,L2000-01,F04,525.56,603139-19-1,Cysteine Protease,"Odanacatib (MK 0822) is a potent, selective, and neutral inhibitor of cathepsin K (human/rabbit) with IC50 of 0.2 nM/1 nM, and demonstrated high selectivity versus off-target cathepsin B, L, S. Phase 3.",Others
+S1154,UCD-0001800,SNS-314 Mesylate,L2000-01,D07,L2000-01,F05,527.04,1146618-41-8,Aurora Kinase,"SNS-314 Mesylate is a potent and selective inhibitor of Aurora A, Aurora B and Aurora C with IC50 of 9 nM, 31 nM, and 3 nM, respectively. It is less potent to Trk A/B, Flt4, Fms, Axl, c-Raf and DDR2. Phase 1.",Others
+S1188,UCD-0001613,Anastrozole,L2000-01,D08,L2000-01,F06,293.37,120511-73-1,Aromatase,Anastrozole is a third-generation nonsteroidal selective aromatase inhibitor.,Endocrinology & Hormones
+S1216,UCD-0001921,PFI-1 (PF-6405761),L2000-01,D09,L2000-01,F07,347.39,1403764-72-6,Epigenetic Reader Domain,PFI-1 is a selective BET (bromodomain-containing protein) inhibitor for BRD4 with IC50 of 0.22 μM.,Epigenetics
+S1275,UCD-0159290,BX-912,L2000-01,D10,L2000-01,F08,471.35,702674-56-4,PDK,"BX912 is a potent and specific PDK1 inhibitor with IC50 of 12 nM, 9- and 105- fold greater selectivity for PDK1 than PKA and PKC, respectively. In comparison to GSK3β, selectivity for PDK1 is 600-fold.",PI3K/Akt/mTOR
+S1343,UCD-0159293,Ginkgolide B,L2000-01,D11,L2000-01,F09,424.40,15291-77-7,PAFR,Ginkgolide B is a PAFR antagonist with IC50 of 3.6 μM.,Others
+S1020,UCD-0001808,PD184352 (CI-1040),L2000-01,E02,L2000-01,F10,478.67,212631-79-3,MEK,"CI-1040 (PD 184352) is an ATP non-competitive MEK1/2 inhibitor with IC50 of 17 nM, 100-fold more selective for MEK1/2 than MEK5. Phase 2.",MAPK
+S1048,UCD-0001801,"Tozasertib (VX-680, MK-0457)",L2000-01,E03,L2000-01,F11,464.59,639089-54-6,Aurora Kinase,"VX-680 (Tozasertib, MK-0457) is a pan-Aurora inhibitor, mostly against Aurora A with Kiapp of 0.6 nM, less potent towards Aurora B/Aurora C and 100-fold more selective for Aurora A than 55 other kinases. Phase 2.",Endocrinology & Hormones
+S1080,UCD-0159265,SU11274,L2000-01,E04,L2000-01,G02,568.09,658084-23-2,c-Met,"SU11274 is a selective Met inhibitor with IC50 of 10 nM, no effects on PGDFRβ, EGFR or Tie2.",Neuronal Signaling
+S1100,UCD-0159271,MLN8054,L2000-01,E05,L2000-01,G03,476.86,869363-13-3,Aurora Kinase,MLN8054 is a potent and selective inhibitor of Aurora A with IC50 of 4 nM. It is more than 40-fold selective for Aurora A than Aurora B. Phase 1.,Others
+S1120,UCD-0001835,Everolimus (RAD001),L2000-01,E06,L2000-01,G04,958.22,159351-69-6,mTOR,Everolimus (RAD001) is an mTOR inhibitor of FKBP12 with IC50 of 1.6-2.4 nM.,Others
+S1155,UCD-0159280,S3I-201,L2000-01,E07,L2000-01,G05,365.36,501919-59-1,STAT,"S3I-201 shows potent inhibition of STAT3 DNA-binding activity with IC50 of 86 μM, and low activity towards STAT1 and STAT5.",Others
+S1189,UCD-0159286,Aprepitant,L2000-01,E08,L2000-01,G06,534.43,170729-80-3,Substance P,Aprepitant is a potent and selective neurokinin-1 receptor antagonist.,Others
+S1233,UCD-0018131,2-Methoxyestradiol (2-MeOE2),L2000-01,E09,L2000-01,G07,302.41,362-07-2,HIF,2-Methoxyestradiol depolymerizes microtubules and blocks HIF-1α nuclear accumulation and HIF-transcriptional activity. Phase 2.,Angiogenesis
+S1281,UCD-0001024,Aniracetam,L2000-01,E10,L2000-01,G08,219.24,72432-10-1,AMPA Receptor-kainate Receptor-NMDA Receptor,Aniracetam is a nootropics and neuroprotective drug.,Neuronal Signaling
+S1352,UCD-0001829,TG100-115,L2000-01,E11,L2000-01,G09,346.34,677297-51-7,PI3K,"TG100115 is a PI3Kγ/δ inhibitor with IC50 of 83 nM/235 nM, with little effect on PI3Kα/β. Phase 1/2.",PI3K/Akt/mTOR
+S1022,UCD-0159259,"Ridaforolimus (Deforolimus, MK-8669)",L2000-01,F02,L2000-01,G10,990.21,572924-54-0,mTOR,"Ridaforolimus (Deforolimus, MK-8669) is a selective mTOR inhibitor with IC50 of 0.2 nM in HT-1080 cell line; while not classified as a prodrug, mTOR inhibition and FKBP12 binding is similar to rapamycin. Phase 3.",PI3K/Akt/mTOR
+S1055,UCD-0001842,Enzastaurin (LY317615),L2000-01,F03,L2000-01,G11,515.61,170364-57-5,PKC,"Enzastaurin (LY317615) is a potent PKCβ selective inhibitor with IC50 of 6 nM, 6- to 20-fold selectivity against PKCα, PKCγ and PKCε. Phase 3.",Neuronal Signaling
+DMSO,,DMSO,L2000-01,A12,L2000-02,B02,,,,,
+S1087,UCD-0159266,Iniparib (BSI-201),L2000-01,F04,L2000-02,B03,292.03,160003-66-7,PARP,"BSI-201 (Iniparib, SAR240550) is a PARP1 inhibitor with demonstrated effectiveness in triple-negative breast cancer (TNBC). Phase 3.",Others
+S1102,UCD-0001812,U0126-EtOH,L2000-01,F05,L2000-02,B04,426.56,1173097-76-1,MEK,"U0126-EtOH is a highly selective inhibitor of MEK1/2 with IC50 of 0.07 μM/0.06 μM, 100-fold higher affinity for ΔN3-S218E/S222D MEK than PD098059.",Others
+DMSO,,DMSO,L2000-01,B12,L2000-02,B05,,,,,
+S1129,UCD-0159276,SRT1720 HCl,L2000-01,F06,L2000-02,B06,506.02,1001645-58-4,Sirtuin,"SRT1720 is a selective SIRT1 activator with EC50 of 0.16 μM, but is >230-fold less potent for SIRT2 and SIRT3. ",Others
+S1157,UCD-0159281,Delanzomib (CEP-18770),L2000-01,F07,L2000-02,B07,413.28,847499-27-8,Proteasome,"CEP-18770 is an orally active inhibitor of the chymotrypsin-like activity of proteasome with IC50 of 3.8 nM, with only marginal inhibition of the tryptic and peptidylglutamyl activities of the proteosome. Phase 1/2.",Others
+DMSO,,DMSO,L2000-01,C12,L2000-02,B08,,,,,
+S1191,UCD-0159287,Fulvestrant,L2000-01,F08,L2000-02,B09,606.77,129453-61-8,Estrogen/progestogen Receptor,Fulvestrant is an estrogen receptor (ER) antagonist with IC50 of 0.094 nM.,Endocrinology & Hormones
+S1235,UCD-0000849,Letrozole,L2000-01,F09,L2000-02,B10,285.30,112809-51-5,Aromatase,Letrozole is a third generation inhibitor of aromatase with IC50 of 0.07-20 nM.,Endocrinology & Hormones
+DMSO,,DMSO,L2000-01,D12,L2000-02,B11,,,,,
+S1315,UCD-0159291,Ki16425,L2000-01,F10,L2000-02,C02,474.96,355025-24-0,LPA Receptor,"Ki16425 is a competitive, potent and reversible antagonist to LPA1, LPA2 and LPA3 with Ki of 0.34 μM, 6.5 μM and 0.93 μM, respectively, shows no activity at LPA4, LPA5, LPA6.",GPCR & G Protein
+S1357,UCD-0000421,Lidocaine,L2000-01,F11,L2000-02,C03,234.34,137-58-6,Histamine Receptor,Lidocaine is a selective inverse peripheral histamine H1-receptor agonist with an IC50 of >32 μM.,Neuronal Signaling
+S1029,UCD-0017947,Lenalidomide (CC-5013),L2000-01,G02,L2000-02,C04,259.26,191732-72-6,TNF-alpha,Lenalidomide (CC-5013) is a TNF-α secretion inhibitor with IC50 of 13 nM.,Apoptosis
+S1065,UCD-0001816,Pictilisib (GDC-0941),L2000-01,G03,L2000-02,C05,513.64,957054-30-7,PI3K,"GDC-0941 is a potent inhibitor of PI3Kα/δ with IC50 of 3 nM, with modest selectivity against p110β (11-fold) and p110γ (25-fold).",Metabolism
+S1089,UCD-0159267,"Refametinib (RDEA119, Bay 86-9766)",L2000-01,G04,L2000-02,C06,572.34,923032-37-5,MEK,"Refametinib (RDEA119, Bay 86-9766) is a potent, ATP non-competitive and highly selective inhibitor of MEK1 and MEK2 with IC50 of 19 nM and 47 nM, respectively.",Others
+S1103,UCD-0001802,ZM 447439,L2000-01,G05,L2000-02,C07,513.59,331771-20-1,Aurora Kinase,"ZM 447439 is a selective and ATP-competitive inhibitor for Aurora A and Aurora B with IC50 of 110 nM and 130 nM, respectively. It is more than 8-fold selective for Aurora A/B than MEK1, Src, Lck and has little effect againstCDK1/2/4, Plk1, Chk1, etc.",Others
+S1130,UCD-0159277,YM155 (Sepantronium Bromide),L2000-01,G06,L2000-02,C08,443.29,781661-94-7,Survivin,"YM155 is a potent survivin suppressant by inhibiting Survivin promoter activity with IC50 of 0.54 nM; does not significantly inhibit SV40 promoter activity, but is observed to slightly inhibit the interaction of Survivin with XIAP. Phase 1/2.",Others
+S1159,UCD-0159282,Ganetespib (STA-9090),L2000-01,G07,L2000-02,C09,364.40,888216-25-9,HSP (e.g. HSP90),"Ganetespib is an HSP90 inhibitor with IC50 of 4 nM in OSA 8 cells, induces apoptosis of OSA cells while normal osteoblasts are not affected; active metabolite of STA-1474.",Others
+S1195,UCD-0159288,TAK-700 (Orteronel),L2000-01,G08,L2000-02,C10,307.35,566939-85-3,P450 (e.g. CYP17),"TAK-700 (Orteronel) is a potent and highly selective human 17,20-lyase inhibitor with IC50 of 38 nM, exhibits >1000-fold selectivity over other CYPs (e.g. 11-hydroxylase and CYP3A4). Phase 3.",Metabolism
+S1250,UCD-0018089,Enzalutamide (MDV3100),L2000-01,G09,L2000-02,C11,464.44,915087-33-1,Androgen Receptor,Enzalutamide (MDV3100) is an androgen-receptor (AR) antagonist with IC50 of 36 nM.,Endocrinology & Hormones
+S1319,UCD-0159292,Costunolide,L2000-01,G10,L2000-02,D02,232.32,553-21-9,Telomerase,"Costunolide, a natural sesquiterpene compound with multiple biological activities; inhibits FPTase with IC50 of 20 μM, also inhibits telomerase with IC50 of 65-90 μM.",DNA Damage
+S1362,UCD-0159294,Rigosertib (ON-01910),L2000-01,G11,L2000-02,D03,473.47,1225497-78-8,PLK,Rigosertib (ON-01910) is a non-ATP-competitive inhibitor of PLK1 with IC50 of 9 nM. It shows 30-fold greater selectivity against Plk2 and no activity to Plk3. Phase 3.,Cell Cycle
+S1030,UCD-0159260,Panobinostat (LBH589),L2000-01,H02,L2000-02,D04,349.43,404950-80-7,HDAC,Panobinostat (LBH589) is a novel broad-spectrum HDAC inhibitor with IC50 of 5 nM. Phase 3.,Epigenetics
+S1067,UCD-0001850,SB431542,L2000-01,H03,L2000-02,D05,384.39,301836-41-9,TGF-beta/Smad,"SB431542 is a potent and selective inhibitor of ALK5 with IC50 of 94 nM, 100-fold more selective for ALK5 than p38 MAPK and other kinases.",Others
+S1091,UCD-0159268,Linsitinib (OSI-906),L2000-01,H04,L2000-02,D06,421.49,867160-71-2,IGF-1R,"OSI-906 (Linsitinib) is a selective inhibitor of IGF-1R with IC50 of 35 nM; modestly potent to InsR with IC50 of 75 nM, and no activity towards Abl, ALK, BTK, EGFR, FGFR1/2, PKA etc. Phase 3.",Others
+S1106,UCD-0159272,OSU-03012 (AR-12),L2000-01,H05,L2000-02,D07,460.45,742112-33-0,PDK,OSU-03012 is a potent inhibitor of recombinant PDK-1 with IC50 of 5 μM and 2-fold increase in potency over OSU-02067.,Others
+S1139,UCD-0159278,ADL5859 HCl,L2000-01,H06,L2000-02,D08,428.95,850173-95-4,Opioid Receptor,"ADL5859 HCl is a δ-opioid receptor agonist with Ki of 0.8 nM, selectivity against opioid receptor κ, μ, and weak inhibitory activity at the hERG channel. Phase 2.",Others
+S1173,UCD-0001733,WZ4002,L2000-01,H07,L2000-02,D09,494.18,1213269-23-8,EGFR,"WZ4002 is a novel, mutant-selective EGFR inhibitor for EGFR(L858R)/(T790M) with IC50 of 2 nM/8 nM; does not inhibit ERBB2 phosphorylation (T798I).",Protein Tyrosine Kinase
+S1196,UCD-0001086,Exemestane,L2000-01,H08,L2000-02,D10,296.40,107868-30-4,Aromatase,"Exemestane is an aromatase inhibitor, inhibits human placental and rat ovarian aromatase with IC50 of 30 nM and 40 nM, respectively.",Endocrinology & Hormones
+S1259,UCD-0000786,Ramelteon,L2000-01,H09,L2000-02,D11,259.34,196597-26-9,MT Receptor,"Ramelteon is a novel melatonin receptor agonist for human MT1 and MT2 receptors and chick forebrain melatonin receptors with Ki of 14 pM, 112 pM and 23.1 pM, respectively.",GPCR & G Protein
+DMSO,,DMSO,L2000-01,E12,L2000-02,E02,,,,,
+S1324,UCD-0001101,Doxazosin Mesylate,L2000-01,H10,L2000-02,E03,547.58,77883-43-3,Adrenergic Receptor,Doxazosin mesylate is an alpha-1 adrenergic receptor blocker.,Neuronal Signaling
+S1366,UCD-0159295,BMS-707035,L2000-01,H11,L2000-02,E04,410.42,729607-74-3,Integrase,BMS-707035 is a specific HIV-I integrase (IN) inhibitor with IC50 of 15 nM. Phase 2.,Microbiology
+DMSO,,DMSO,L2000-02,A01,L2000-02,E05,,,,,
+S1378,UCD-0018083,Ruxolitinib (INCB018424),L2000-02,A02,L2000-02,E06,306.37,941678-49-5,JAK,"INCB018424 is the first potent, selective, JAK1/2 inhibitor to enter the clinic with IC50 of 3.3 nM/2.8 nM, >130-fold selectivity for JAK1/2 versus JAK3. Phase 3.",JAK/STAT
+S1460,UCD-0001822,SP600125,L2000-02,A03,L2000-02,E07,220.23,129-56-6,JNK,"SP600125 is a broad-spectrum JNK inhibitor for JNK1, JNK2 and JNK3 with IC50 of 40 nM, 40 nM and 90 nM, respectively; 10-fold greater selectivity against MKK4, 25-fold greater selectivity against MKK3, MKK6, PKB, and PKCα, and 100-fold selectivity against ERK2, p38, Chk1, EGFR etc.",MAPK
+DMSO,,DMSO,L2000-02,B01,L2000-02,E08,,,,,
+S1526,UCD-0001759,Quizartinib (AC220),L2000-02,A04,L2000-02,E09,560.67,950769-58-1,FLT3,"Quizartinib (AC220) is a second-generation FLT3 inhibitor for Flt3(ITD/WT) with IC50 of 1.1 nM/4.2 nM, 10-fold more selective for Flt3 than KIT, PDGFRα, PDGFRβ, RET, and CSF-1R. Phase 1/2.",Angiogenesis
+S1548,UCD-0000533,Dapagliflozin,L2000-02,A05,L2000-02,E10,408.87,461432-26-8,SGLT,"Dapagliflozin is a potent and selective hSGLT2 inhibitor with EC50 of 1.1 nM, exhibiting 1200-fold selectivity over hSGLT1. Phase 3.",GPCR & G Protein
+DMSO,,DMSO,L2000-02,C01,L2000-02,E11,,,,,
+S1593,UCD-0000295,Apixaban,L2000-02,A06,L2000-02,F02,459.50,503612-47-3,Factor Xa,"Apixaban is a highly selective, reversible inhibitor of Factor Xa with Ki of 0.08 nM and 0.17 nM in human and rabbit, respectively.",Metabolism
+S1885,UCD-0001580,Felodipine ,L2000-02,A07,L2000-02,F03,384.25,72509-76-3,Calcium Channel,Felodipine is a selective L-type Ca2+ channel blocker with IC50 of 0.15 nM.,Transmembrane Transporters
+S2013,UCD-0159317,PF-573228,L2000-02,A08,L2000-02,F04,491.49,869288-64-2,FAK,"PF-573228 is an ATP-competitive inhibitor of FAK with IC50 of 4 nM, ~50- to 250-fold selective for FAK than Pyk2, CDK1/7 and GSK-3β.",Angiogenesis
+S2065,UCD-0018516,Lafutidine,L2000-02,A09,L2000-02,F05,431.55,118288-08-7,Histamine Receptor,"Lafutidine, a newly developed histamine H(2)-receptor antagonist, inhibits gastric acid secretion.",Neuronal Signaling
+S2109,UCD-0018304,Imidapril HCl,L2000-02,A10,L2000-02,F06,441.91,89371-37-9,RAAS,"Imidapril HCl is a angiotensin-converting enzyme (ACE) inhibitor with IC50 of 2.6 nM, used for the treatment of hypertension.",Endocrinology & Hormones
+S2178,UCD-0159327,AG-14361,L2000-02,A11,L2000-02,F07,320.39,328543-09-5,PARP,AG14361 is a potent inhibitor of PARP1 with Ki of <5 nM. It is at least 1000-fold more potent than the benzamides.,DNA Damage
+S1379,UCD-0159296,Isotretinoin,L2000-02,B02,L2000-02,F08,300.44,4759-48-2,Hydroxylase,"It was developed to be used as a chemotherapy medication for the treatment of brain cancer, pancreatic cancer and more.",Metabolism
+S1462,UCD-0159302,AZD6482,L2000-02,B03,L2000-02,F09,408.45,1173900-33-8,PI3K,"AZD6482 is a PI3Kβ inhibitor with IC50 of 10 nM, 8-, 87- and 109-fold more selective to PI3Kβ than PI3Kδ, PI3Kα and PI3Kγ. Phase 1.",PI3K/Akt/mTOR
+S1532,UCD-0001793,AZD7762,L2000-02,B04,L2000-02,F10,362.42,860352-01-8,Chk,"AZD7762 is a potent and selective inhibitor of Chk1 with IC50 of 5 nM. It is equally potent against Chk2 and less potent against CAM, Yes, Fyn, Lyn, Hck and Lck. Phase 1.",Cell Cycle
+S1550,UCD-0000757,Pimobendan,L2000-02,B05,L2000-02,F11,334.37,74150-27-9,PDE,Pimobendan is a selective inhibitor of PDE3 with IC50 of 0.32 μM.,Metabolism
+S1594,UCD-0159316,Semagacestat (LY450139),L2000-02,B06,L2000-02,G02,361.44,425386-60-3,Gamma-secretase,"Semagacestat (LY450139) is a γ-secretase blocker for Aβ42, Aβ40 and Aβ38 with IC50 of 10.9 nM, 12.1 nM and 12.0 nM, also inhibits Notch signaling with IC50 of 14.1 nM. Phase 3.",Proteases
+S1905,UCD-0000878,Amlodipine ,L2000-02,B07,L2000-02,G03,408.88,88150-42-9,Calcium Channel,Amlodipine(Norvasc) is a long-acting calcium channel blocker with an IC50 of 1.9 nM.,Transmembrane Transporters
+S2018,UCD-0159318,ENMD-2076 L-(+)-Tartaric acid ,L2000-02,B08,L2000-02,G04,525.56,1291074-87-7,"Aurora Kinase,FLT3,VEGFR","ENMD-2076 L-(+)-Tartaric acid is the tartaric acid of ENMD-2076, selective activity against Aurora A and Flt3 with IC50 of 14 nM and 1.86 nM, 25-fold more selective for Aurora A than Aurora B and less potent to VEGFR2/KDR and VEGFR3, FGFR1 and FGFR2 and PDGFRα. Phase 2.",Angiogenesis
+S2067,UCD-0001616B,Ozagrel HCl,L2000-02,B09,L2000-02,G05,264.71,78712-43-3,P450 (e.g. CYP17),"Ozagrel HCl is a selective thromboxane A2 synthetase enzyme inhibitors with IC50 of 11 nM, used as antiasthmatic agent.",Others
+S2126,UCD-0001463,Naftopidil ,L2000-02,B10,L2000-02,G06,392.49,57149-07-2,Adrenergic Receptor,Naftopidil (Flivas) is a selective α1-adrenergic receptor antagonist or alpha blocker with a Ki of 58.3 nM.,Neuronal Signaling
+S2179,UCD-0001847,Gandotinib (LY2784544),L2000-02,B11,L2000-02,G07,469.94,1229236-86-5,JAK,"LY2784544 is a potent JAK2 inhibitor with IC50 of 3 nM, effective in JAK2V617F, 8- and 20-fold selective versus JAK1 and JAK3. Phase 2.",JAK/STAT
+S1398,UCD-0159297,Stavudine (d4T),L2000-02,C02,L2000-02,G08,224.21,3056-17-5,Reverse Transcriptase,Stavudine is a nucleoside analog reverse transcriptase inhibitor (NARTI) active against HIV. ,Microbiology
+S1472,UCD-0159303,Safinamide Mesylate,L2000-02,C03,L2000-02,G09,398.45,202825-46-5,MAO,"Safinamide Mesylate is mesylate salt of Safinamide, selectively and reversibly inhibits MAO-B with IC50 of 98 nM, exhibits 5918-fold selectivity against MAO-A. Phase 3.",Metabolism
+S1534,UCD-0159307,Org 27569,L2000-02,C04,L2000-02,G10,409.95,868273-06-7,Cannabinoid Receptor,"Org 27569 is an allosteric modulator of cannabinoid CB1 receptor, induces a CB1 receptor state that is characterized by enhanced agonist affinity and decreased inverse agonist affinity.",GPCR & G Protein
+S1565,UCD-0159312,VX-809 (Lumacaftor),L2000-02,C05,L2000-02,G11,452.41,936727-05-8,CFTR,"VX-809 acts to correct CFTR mutations common in cystic fibrosis by increasing mutant CFTR (F508del-CFTR) maturation,EC50 of 0.1 μM. Phase 3.",Transmembrane Transporters
+DMSO,,DMSO,L2000-02,D01,L2000-03,B02,,,,,
+S1626,UCD-0000253,Naproxen Sodium,L2000-02,C06,L2000-03,B03,252.24,26159-34-2,COX,"Naproxen is a COX inhibitor for COX-1 and COX-2 with IC50 of 8.7 μM and 5.2 μM, respectively.",Neuronal Signaling
+S1909,UCD-0000872,Fluvastatin Sodium,L2000-02,C07,L2000-03,B04,433.45,93957-55-2,HMG-CoA Reductase,Fluvastatin Sodium inhibits HMG-CoA reductase activity with IC50 of 8 nM.,Metabolism
+DMSO,,DMSO,L2000-02,E01,L2000-03,B05,,,,,
+S2020,UCD-0159319,Formoterol Hemifumarate,L2000-02,C08,L2000-03,B06,402.40,43229-80-7,Adrenergic Receptor,"Formoterol hemifumarate is a potent, selective and long-acting β2-adrenoceptor agonist to β2 and β1 receptors with pKd of 8.12 and 5.58, respectively.",Neuronal Signaling
+S2077,UCD-0000730,Atorvastatin Calcium ,L2000-02,C09,L2000-03,B07,1155.34,134523-03-8,HMG-CoA Reductase,Atorvastatin (Lipitor) is an inhibitor of HMG-CoA reductase used as a cholesterol-lowering medication that blocks the production of cholesterol.,Metabolism
+DMSO,,DMSO,L2000-02,F01,L2000-03,B08,,,,,
+S2128,UCD-0018569,Bazedoxifene HCl,L2000-02,C10,L2000-03,B09,507.06,198480-56-7,Estrogen/progestogen Receptor,"Bazedoxifene HCl is a novel, non-steroidal, indole-based estrogen receptor modulator (SERM) binding to both ERα and ERβ with IC50 of  23 nM and 89 nM.",Endocrinology & Hormones
+S2180,UCD-0159328,Ixazomib (MLN2238),L2000-02,C11,L2000-03,B10,361.03,1072833-77-2,Proteasome,"MLN2238 inhibits the chymotrypsin-like proteolytic (β5) site of the 20S proteasome with IC50 and Ki of 3.4 nM and 0.93 nM, respectively, also inhibits the caspase-like (β1) and trypsin-like (β2) proteolytic sites, with IC50 of 31 and 3500 nM.",Proteases
+DMSO,,DMSO,L2000-02,G01,L2000-03,B11,,,,,
+S1452,UCD-0159298,Ispinesib (SB-715992),L2000-02,D02,L2000-03,C02,517.06,336113-53-2,Kinesin,"Ispinesib (SB-715992, CK0238273) is a potent, specific and reversible inhibitor of kinesin spindle protein (KSP) with Ki app of 1.7 nM, no inhibition to CENP-E, RabK6, MCAK, MKLP1, KHC or Kif1A. Phase 1/2.",Cytoskeletal Signaling
+S1474,UCD-0159304,GSK429286A,L2000-02,D03,L2000-03,C03,432.37,864082-47-3,ROCK,"GSK429286A is a selective inhibitor of ROCK1 and ROCK2 with IC50 of 14 nM and 63 nM, respectively.",Cell Cycle
+S1536,UCD-0159308,CP-673451,L2000-02,D04,L2000-03,C04,417.50,343787-29-1,PDGFR,"CP 673451 is a selective inhibitor of PDGFRα/β with IC50 of 10 nM/1 nM, exhibits >450-fold selectivity over other angiogenic receptors, has antiangiogenic and antitumor activity.",Protein Tyrosine Kinase
+S1567,UCD-0018012,Pomalidomide,L2000-02,D05,L2000-03,C05,273.24,19171-19-8,TNF-alpha,Pomalidomide inhibits LPS-induced TNF-α release with IC50 of 13 nM.,Apoptosis
+S1776,UCD-0001162,Toremifene Citrate,L2000-02,D06,L2000-03,C06,598.08,89778-27-8,Estrogen/progestogen Receptor,Toremifene Citrate is an oral selective estrogen receptor modulator (SERM) which helps oppose the actions of estrogen in the body.,Endocrinology & Hormones
+S1959,UCD-0001305,Tolfenamic Acid,L2000-02,D07,L2000-03,C07,261.70,13710-19-5,COX,Tolfenamic acid is a COX-2 inhibitor with IC50 of 0.2 μM.,Neuronal Signaling
+S2026,UCD-0018311,Ginkgolide A,L2000-02,D08,L2000-03,C08,408.40,15291-75-5,GABA Receptor,Ginkgolide A is an extract from in Ginkgo biloba and a g-aminobutyric acid (GABA) antagonist with a Ki of 14.5 μM.,Neuronal Signaling
+S2085,UCD-0001441,Trimebutine,L2000-02,D09,L2000-03,C09,387.47,39133-31-8,Opioid Receptor,"Trimebutine is an agonist of peripheral mu, kappa and delta opiate receptors, used as spasmolytic agent for treatment of both acute and chronic abdominal pain.",Neuronal Signaling
+S2149,UCD-0159322,GSK1292263,L2000-02,D10,L2000-03,C10,456.56,1032823-75-8,GPR,"GSK1292263 is a novel GPR119 agonist, showing potential for the treatment of type 2 diabetes. Phase 2.",Endocrinology & Hormones
+S2193,UCD-0001784,GSK461364,L2000-02,D11,L2000-03,C11,543.60,929095-18-1,PLK,GSK461364 inhibits purified Plk1 with Ki of 2.2 nM. It is more than 1000-fold selective against Plk2/3. Phase 1.,Cell Cycle
+S1455,UCD-0159299,Cilomilast,L2000-02,E02,L2000-03,D02,343.42,153259-65-5,PDE,"Cilomilast is a potent PDE4 inhibitor with IC50 of about 110 nM, has anti-inflammatory activity and low central nervous system activity.",Metabolism
+S1481,UCD-0159305,Zosuquidar (LY335979) 3HCl,L2000-02,E03,L2000-03,D03,636.99,167465-36-3,P-gp,Zosuquidar (LY335979) is a potent modulator of P-glycoprotein-mediated multi-drug resistance with Ki of 60 nM. Phase 3.,Transmembrane Transporters
+S1537,UCD-0159309,DMXAA (Vadimezan),L2000-02,E04,L2000-03,D04,282.29,117570-53-3,VDA,"DMXAA (Vadimezan) is a vascular disrupting agents (VDA) and competitive inhibitor of DT-diaphorase with Ki of 20 μM and IC50 of 62.5 μM, respectively. Phase 3.",Angiogenesis
+S1570,UCD-0001843,KU-60019,L2000-02,E05,L2000-03,D05,547.67,925701-49-1,ATM/ATR,"KU-60019 is an improved analogue of KU-55933, with IC50 of 6.3 nM for ATM, 270- and 1600-fold more selective for ATM than DNA-PK and ATR,and is a highly effective radiosensitizer.",DNA Damage
+S1801,UCD-0000490,Ranitidine Hydrochloride,L2000-02,E06,L2000-03,D06,350.86,66357-59-3,Histamine Receptor,Ranitidine is a histamine H2-receptor antagonist with IC50 of 3.3 ± 1.4 μM. ,Neuronal Signaling
+S2001,UCD-0018439,"Elvitegravir (GS-9137, JTK-303)",L2000-02,E07,L2000-03,D07,447.88,697761-98-1,Integrase,"Elvitegravir (EVG, JTK-303/GS-9137) is an HIV integrase inhibitor for HIV-1 IIIB, HIV-2 EHO and HIV-2 ROD with IC50 of 0.7 nM, 2.8 nM and 1.4 nM, respectively.",Microbiology
+S2032,UCD-0001435,Rebamipide,L2000-02,E08,L2000-03,D08,370.79,90098-04-7,Others,Rebamipide is a cholecystokinin type 1 (CCK1) receptor inhibitor for inhibiting [125I]BH-CCK-8S with IC50 of 37.7 μM.,Others
+S2090,UCD-0018550,Dexmedetomidine HCl ,L2000-02,E09,L2000-03,D09,236.74,145108-58-3,Adrenergic Receptor,"Dexmedetomidine is a highly selective and potent alpha-2 adrenoceptor agonist, which reduces anesthetic requirements for patients by providing significant sedation.",Neuronal Signaling
+S2151,UCD-0159323,Erismodegib (NVP-LDE225),L2000-02,E10,L2000-03,D10,485.50,956697-53-3,Hedgehog/Smoothened,"LDE225 (NVP-LDE225) is a Smoothened (Smo) antagonist, inhibiting Hedgehog (Hh) signaling with IC50 of 1.3 nM (mouse) and 2.5 nM (human), respectively. Phase 3.",Stem Cells &  Wnt
+S2198,UCD-0159329,SGI-1776 free base,L2000-02,E11,L2000-03,D11,405.42,1025065-69-3,Pim,"SGI-1776 is a novel ATP competitive inhibitor of Pim1 with IC50 of 7 nM, 50- and 10-fold selective versus Pim2 and Pim3, also potent to Flt3 and haspin. Phase 1.",JAK/STAT
+DMSO,,DMSO,L2000-02,H01,L2000-03,E02,,,,,
+S1456,UCD-0159300,Zibotentan (ZD4054),L2000-02,F02,L2000-03,E03,424.43,186497-07-4,Endothelin Receptor,"Zibotentan (ZD4054) is a specific Endothelin (ET)A antagonist with IC50 of 21 nM, exhibiting no activity at ETB. Phase 3.",GPCR & G Protein
+S1487,UCD-0001790,PHA-793887,L2000-02,F03,L2000-03,E04,361.48,718630-59-2,CDK,"PHA-793887 is a novel and potent inhibitor of CDK2, CDK5 and CDK7 with IC50 of 8 nM, 5 nM and 10 nM. It is greater than 6-fold more selective for CDK2, 5, and 7 than CDK1, 4, and 9. Phase 1.",Cell Cycle
+DMSO,,DMSO,L2000-02,A12,L2000-03,E05,,,,,
+S1541,UCD-0013217,Selisistat (EX 527),L2000-02,F04,L2000-03,E06,248.71,49843-98-3,Sirtuin,"EX 527 is a potent and selective SIRT1 inhibitor with IC50 of 38 nM, exhibits >200-fold selectivity against SIRT2 and SIRT3.",Epigenetics
+S1577,UCD-0159313,Tie2 kinase inhibitor,L2000-02,F05,L2000-03,E07,439.53,948557-43-5,Tie-2,"Tie2 kinase inhibitor is an optimized compound of SB-203580, selective to Tie2 with IC50 of 0.25 μM, 200-fold more potent than p38.",Protein Tyrosine Kinase
+DMSO,,DMSO,L2000-02,B12,L2000-03,E08,,,,,
+S1802,UCD-0018240,AICAR (Acadesine),L2000-02,F06,L2000-03,E09,258.23,2627-69-2,AMPK,"Acadesine results in accumulation of ZMP, which mimics the stimulating effect of AMP on AMPK and AMPK kinase. Phase 3.",PI3K/Akt/mTOR
+S2003,UCD-0018483,Maraviroc,L2000-02,F07,L2000-03,E10,513.67,376348-65-1,CCR,"Maraviroc is a CCR5 antagonist for MIP-1α, MIP-1β and RANTES with IC50 of 3.3 nM, 7.2 nM and 5.2 nM, respectively.",Microbiology
+DMSO,,DMSO,L2000-02,C12,L2000-03,E11,,,,,
+S2042,UCD-0000101,Cyproterone Acetate,L2000-02,F08,L2000-03,F02,416.94,427-51-0,Androgen Receptor,"Cyproterone acetate is an androgen receptor (AR) antagonist with IC50 of 7.1 nM, as well as a weak progesterone receptor agonist with weak pro-gestational and glucocorticoid activity. ",Endocrinology & Hormones
+S2102,UCD-0159320,Rasagiline Mesylate,L2000-02,F09,L2000-03,F03,267.34,161735-79-1,MAO,Rasagiline Mesylate is a new MAO-B inhibitor for the treatment of idiopathic Parkinson's disease.,Metabolism
+S2153,UCD-0159324,CGS 21680 HCl,L2000-02,F10,L2000-03,F04,535.98,124431-80-7,Adenosine Receptor,"CGS 21680 HCl is an adenosine A2 receptor agonist with IC50 of 22 nM, exhibits 140-fold over A1 receptor.",Angiogenesis
+S2205,UCD-0001869,OSI-420,L2000-02,F11,L2000-03,F05,415.87,183320-51-6,EGFR,OSI-420 is the active metabolite of Erlotinib (EGFR inhibitor with IC50 of 2 nM).,Protein Tyrosine Kinase
+S1458,UCD-0001818,VX-745,L2000-02,G02,L2000-03,F06,436.26,209410-46-8,p38 MAPK,"VX-745 is a potent and selective inhibitor of p38α with IC50 of 10 nM, 22-fold greater selectivity versus p38β and no inhibition to p38γ.",MAPK
+S1497,UCD-0018051,Pralatrexate ,L2000-02,G03,L2000-03,F07,477.47,146464-95-1,DHFR,"Pralatrexate(Folotyn) is an antifolate, and structurally a folate analog. Its IC50 is < 300 nM in some cell lines.",Metabolism
+S1544,UCD-0159310,AM1241,L2000-02,G04,L2000-03,F08,503.33,444912-48-5,Cannabinoid Receptor,"AM-1241 is a selective cannabinoid CB2 receptor agonist with Ki of 3.4 nM, exhibits 82-fold selectivity over CB1 receptor.",GPCR & G Protein
+S1582,UCD-0159314,H 89 2HCl,L2000-02,G05,L2000-03,F09,519.28,130964-39-5,"PKA,S6 Kinase","H 89 2HCl is a potent PKA inhibitor with Ki of 48 nM, 10-fold selective for PKA than PKG, greater than 500-fold selectivity than PKC, MLCK, calmodulin kinase II and casein kinase I/II.",PI3K/Akt/mTOR
+S1847,UCD-0000083,Clemastine Fumarate,L2000-02,G06,L2000-03,F10,459.96,14976-57-9,Histamine Receptor,Clemastine Fumarate (Clemastine) is a selective histamine H1 receptor antagonist with IC50 of 3 nM.,Neuronal Signaling
+S2005,UCD-0018527,Raltegravir (MK-0518),L2000-02,G07,L2000-03,F11,444.42,518048-05-0,Integrase,"Raltegravir (MK-0518) is a potent integrase (IN) inhibitor for WT and S217Q PFV IN with IC50 of 90 nM and 40 nM, respectively.",Microbiology
+S2043,UCD-0000469,Memantine HCl,L2000-02,G08,L2000-03,G02,215.76,41100-52-1,AMPA Receptor-kainate Receptor-NMDA Receptor,"Memantine hydrochloride (Namenda) is a CYP2B6 and CYP2D6 inhibitor for recombinant CYP2B6 and CYP2D6 with Ki of 0.51 nM and 94.9 μM, respectively.",Neuronal Signaling
+S2103,UCD-0159321,Naltrexone HCl,L2000-02,G09,L2000-03,G03,377.86,16676-29-2,Opioid Receptor,Naltrexone is an opioid receptor antagonist with IC50 of 8 nM used primarily in the management of alcohol dependence and opioid dependence.,Neuronal Signaling
+S2163,UCD-0159325,PF-4708671,L2000-02,G10,L2000-03,G04,390.41,1255517-76-0,S6 Kinase,"PF-4708671 is a cell-permeable inhibitor of p70 ribosomal S6 kinase (S6K1 isoform) with Ki/IC50 of 20 nM/160 nM, 400-fold greater selectivity for S6K1 than S6K2, and 4- and >20-fold selectivity for S6K1 than MSK1 and RSK1/2, respectively. First S6K1-specific inhibitor to be reported.",PI3K/Akt/mTOR
+S2216,UCD-0159330,Mubritinib (TAK 165),L2000-02,G11,L2000-03,G05,468.47,366017-09-6,HER2,"Mubritinib (TAK-165) is a potent inhibitor of HER2/ErbB2 with IC50 of 6 nM; no activity to EGFR, FGFR, PDGFR, JAK1, Src and Blk.",Protein Tyrosine Kinase
+S1459,UCD-0159301,Thiazovivin,L2000-02,H02,L2000-03,G06,311.36,1226056-71-8,ROCK,"Thiazovivin (Tzv) is a novel ROCK inhibitor with IC50 of 0.5 μM, promotes hESC survival after single-cell dissociation.",Cell Cycle
+S1525,UCD-0159306,MK-1775,L2000-02,H03,L2000-03,G07,500.60,955365-80-7,Wee1,MK-1775 is a potent and selective Wee1 inhibitor with IC50 of 5.2 nM; hinders G2 DNA damage checkpoint. Phase 2.,Cell Cycle
+S1545,UCD-0159311,SB408124,L2000-02,H04,L2000-03,G08,356.37,288150-92-5,OX Receptor,"SB408124 (Tocris-1963) is a non-peptide antagonist for OX1 receptor with Ki of 57 nM and27 nM in both whole cell and membrane, respectively, exhibits 50-fold selectivity over OX2 receptor.",GPCR & G Protein
+S1590,UCD-0159315,TWS119,L2000-02,H05,L2000-03,G09,318.33,601514-19-6,GSK-3,TWS119 is a GSK-3β inhibitor with IC50 of 30 nM; capable of inducing neuronal differentiation and may be useful to stem cell biology.,PI3K/Akt/mTOR
+S1880,UCD-0000576,Roxatidine Acetate HCl,L2000-02,H06,L2000-03,G10,384.90,93793-83-0,Histamine Receptor,"Roxatidine Acetate HCl is a specific and competitive histamin H2-receptor antagonist, with IC50 of 3.2 μM, inhibits gastric acid secretion and ulcer formation.",Neuronal Signaling
+S2006,UCD-0000324,Pyrimethamine,L2000-02,H07,L2000-03,G11,248.71,58-14-0,DHFR,Pyrimethamine is a dihydrofolate reductase(DHFR) inhibitor with an IC50 of 15.4 nM.,Metabolism
+DMSO,,DMSO,L2000-02,D12,L2000-04,B02,,,,,
+S2061,UCD-0001078,Lovastatin,L2000-02,H08,L2000-04,B03,404.54,75330-75-5,HMG-CoA Reductase,"Lovastatin is an inhibitor of HMG-CoA reductase with IC50 of 3.4 nM, used for lowering cholesterol (hypolipidemic agent).",Metabolism
+S2104,UCD-0000972,Levosulpiride,L2000-02,H09,L2000-04,B04,341.43,23672-07-3,Dopamine Receptor,Levosulpiride is a selective antagonist for D2 dopamine receptors used as an antipsychotic and prokinetic agent.,Neuronal Signaling
+DMSO,,DMSO,L2000-02,E12,L2000-04,B05,,,,,
+S2168,UCD-0159326,PD128907 HCl,L2000-02,H10,L2000-04,B06,285.77,112960-16-4,Dopamine Receptor,"PD 128907 HCl is a potent and selective dopamine D3 receptor agonist, with EC50 of 0.64 nM, exhibits 53-fold selectivity over dopamine D2 receptor.",Neuronal Signaling
+S2222,UCD-0159331,PF-3716556,L2000-02,H11,L2000-04,B07,394.47,928774-43-0,"ATPase,Proton Pump","PF 3716556 is a potent and selective P-CAB (potassium-competitive acid blocker), with pIC50 of 6.026 and 7.095 for the inhibition of porcine H+,K+-ATPase activity in ion-leaky and ion-tight assay, respectively, inhibits gastric acid secretion, displays no activity at Na+,K+-ATPase, used for the treatment of gastroesophageal reflux disease.",Transmembrane Transporters
+DMSO,,DMSO,L2000-03,A01,L2000-04,B08,,,,,
+S2228,UCD-0159332,Belnacasan (VX-765),L2000-03,A02,L2000-04,B09,509.00,273404-37-8,Caspase,VX-765 is a potent and selective inhibitor of caspase-1 with Ki of 0.8 nM.,Apoptosis
+S2460,UCD-0000936,Pramipexole,L2000-03,A03,L2000-04,B10,211.33,104632-26-0,Dopamine Receptor,"Pramipexole is a partial/full D2S, D2L, D3, D4 receptor agonist with a Ki of 3.9, 2.2, 0.5 and 5.1 nM for D2S, D2L, D3, D4 receptor, respectively.",Neuronal Signaling
+DMSO,,DMSO,L2000-03,B01,L2000-04,B11,,,,,
+S2626,UCD-0001886,LY2603618,L2000-03,A04,L2000-04,C02,436.30,911222-45-2,Chk,LY2603618 is a selective Chk1 inhibitor with potential anti-tumor activity.,Cell Cycle
+S2637,UCD-0159344,TAK-875,L2000-03,A05,L2000-04,C03,533.63,1374598-80-7,GPR,"TAK-875 is a selective GPR40 agonist with EC50 of 14 nM, 400-fold more potent than oleic acid.",Endocrinology & Hormones
+S2690,UCD-0159350,ADX-47273,L2000-03,A06,L2000-04,C04,369.36,851881-60-2,GluR,"ADX47273 is a potent and specific mGlu5 positive allosteric modulator(PAM) with EC50 of 0.17 μM, showing no activity at other mGlu subtypes.",Neuronal Signaling
+S2729,UCD-0159355,SB415286,L2000-03,A07,L2000-04,C05,359.72,264218-23-7,GSK-3,SB415286 is a potent GSK3α inhibitor with IC50/Ki of 78 nM/31 nM with equally effective inhibition of GSK-3β.,PI3K/Akt/mTOR
+S2773,UCD-0159361,SB705498,L2000-03,A08,L2000-04,C06,429.23,501951-42-4,TRPV,"SB705498 is a TRPV1 antagonist for hTRPV1, antagonizes capsaicin, acid, and heat activation of TRPV1 with IC50 of 3 nM, 0.1 nM and 6 nM, shows a degree of voltage dependence, exhibits >100-fold selectivity for TRPV1 over TRPM8. Phase 2.",Others
+S2801,UCD-0159368,AZD4547,L2000-03,A09,L2000-04,C07,463.57,1035270-39-3,FGFR,"AZD4547 is a novel selective FGFR inhibitor targeting FGFR1/2/3 with IC50 of 0.2 nM/2.5 nM/1.8 nM, weaker activity against FGFR4, VEGFR2(KDR), and little activity observed against IGFR, CDK2, and p38. Phase 1/2.",Angiogenesis
+S2824,UCD-0159375,TPCA-1,L2000-03,A10,L2000-04,C08,279.29,507475-17-4,IκB/IKK,"TPCA-1 is an inhibitor of IKK-2 with IC50 of 17.9 nM, inhibits NF-κB pathway, exhibits 22-fold selectivity over IKK-1.",NF-κB
+S2863,UCD-0159383,ML130 (Nodinitib-1),L2000-03,A11,L2000-04,C09,287.34,799264-47-4,NOD1,"ML130 is a potent and selective inhibitor of NOD1 with IC50 of 0.56 μM, inhibits NF-κB activation, exhibits 36-fold selectivity over NOD2.",NF-κB
+S2233,UCD-0159333,Esomeprazole sodium,L2000-03,B02,L2000-04,C10,367.40,161796-78-7,ATPase,Esomeprazole sodium (Nexium) is a sodium salt of esomeprazole that is a potent proton pump inhibitor with an IC50 of 0.076 mg/kg.,Transmembrane Transporters
+S2496,UCD-0001616,Ozagrel,L2000-03,B03,L2000-04,C11,228.25,82571-53-7,P450 (e.g. CYP17),Ozagrel is a potent and selective thromboxane A2 synthetase inhibitor with an IC50 of 4 nM.,Metabolism
+S2629,UCD-0159339,PNU-120596,L2000-03,B04,L2000-04,D02,311.72,501925-31-1,AChR,PNU-120596 is a positive allosteric modulator of α7 nAChR with EC50 of 216 nM.,Neuronal Signaling
+S2659,UCD-0159345,"5-hydroxymethyl Tolterodine (PNU 200577, 5-HMT, 5-HM)",L2000-03,B05,L2000-04,D03,341.49,207679-81-0,AChR,5-hydroxymethyl tolterodine (PNU 200577) is a new muscarinic receptor antagonist with Kb of 0.84 nM.,Neuronal Signaling
+S2694,UCD-0159351,Turofexorate Isopropyl (XL335),L2000-03,B06,L2000-04,D04,438.47,629664-81-9,FXR,"XL335 is a potent, selective FXR agonist with EC50 of 4 nM, highly selective versus other nuclear receptors, such as LXR, PPAR, ER and etc. Phase 1.",Others
+S2730,UCD-0001790B,Crenolanib (CP-868596),L2000-03,B07,L2000-04,D05,443.54,670220-88-9,PDGFR,"Crenolanib (CP-868596) is a potent and selective inhibitor of PDGFRα/β with Kd of 2.1 nM/3.2 nM, also potently inhibits FLT3, sensitive to D842V mutation not V561D mutation, >100-fold more selective for PDGFR than c-Kit, VEGFR-2, TIE-2, FGFR-2, EGFR, erbB2, and Src.",Protein Tyrosine Kinase
+S2777,UCD-0159362,PF-5274857,L2000-03,B08,L2000-04,D06,436.96,1373615-35-0,Hedgehog/Smoothened,"PF-5274857 is a potent and selective Smoothened (Smo) antagonist, inhibits Hedgehog (Hh) signaling with IC50 and Ki of 5.8 nM and 4.6 nM, respectively, and can penetrate the blood–brain barrier.",Stem Cells &  Wnt
+S2804,UCD-0159369,Sirtinol,L2000-03,B09,L2000-04,D07,394.47,410536-97-9,Sirtuin,"Sirtinol is a specific SIRT1 and SIRT2 inhibitor with IC50 of 131 μM and 38 μM, respectively.",Epigenetics
+S2825,UCD-0159376,ML133 HCl,L2000-03,B10,L2000-04,D08,313.82,1222781-70-5,Potassium Channel,"ML133 is a selective potassium channel inhibitor for Kir2.1 with IC50 of 1.8 μM (pH 7.4) and 290 nM (pH 8.5), has no effect on Kir1.1 and weak activity for Kir4.1 and Kir7.1.",Transmembrane Transporters
+S2864,UCD-0159384,IMD 0354,L2000-03,B11,L2000-04,D09,383.67,978-62-1,IκB/IKK,IMD-0354 is an IKKβ inhibitor and blocks IκBα phosphorylation in NF-κB pathway.,NF-κB
+S2262,UCD-0159334,Apigenin,L2000-03,C02,L2000-04,D10,270.24,520-36-5,P450 (e.g. CYP17),Apigenin is a potent P450 inhibitor for CYP2C9 with IC50 of 23 pM.,Metabolism
+S2497,UCD-0159338,Pancuronium dibromide,L2000-03,C03,L2000-04,D11,732.67,15500-66-0,AChR,Pancuronium dibromide is a competitive acetylcholine antagonist with an IC50 of 5.5 ± 0.5 nM.,Neuronal Signaling
+DMSO,,DMSO,L2000-03,C01,L2000-04,E02,,,,,
+S2630,UCD-0159340,GW3965 HCl,L2000-03,C04,L2000-04,E03,618.51,405911-17-3,Liver X Receptor,"GW3965 is a potent, selective LXRagonist for hLXRα and hLXRβ with EC50 of 190 and 30 nM, respectively.",Others
+S2662,UCD-0159346,ICG-001,L2000-03,C05,L2000-04,E04,548.63,780757-88-2,Wnt/beta-catenin,"ICG-001 antagonizes Wnt/β-catenin/TCF-mediated transcription and specifically binds to element-binding protein (CBP) with IC50 of 3 μM, but is not the related transcriptional coactivator p300.",Stem Cells &  Wnt
+DMSO,,DMSO,L2000-03,D01,L2000-04,E05,,,,,
+S2697,UCD-0001900,A-769662,L2000-03,C06,L2000-04,E06,360.39,844499-71-4,AMPK,"A-769662 is a potent, reversible AMPK activator with EC50of 0.8 μM, little effect on GPPase/FBPase activity.",PI3K/Akt/mTOR
+S2731,UCD-0159356,AZ 3146,L2000-03,C07,L2000-04,E07,452.55,1124329-14-1,Kinesin,"AZ3146 is a selective Mps1 inhibitor with IC50 of ~35 nM, contributes to recruitment of CENP-E (kinesin-related motor protein), less potent to FAK, JNK1, JNK2, and Kit.",Cytoskeletal Signaling
+DMSO,,DMSO,L2000-03,E01,L2000-04,E08,,,,,
+S2782,UCD-0159363,GW4064,L2000-03,C08,L2000-04,E09,542.84,278779-30-9,FXR,GW4064 is an agonist of farnesoid X receptor (FXR) with EC50 of 65 nM.,Others
+S2807,UCD-0018540,Dabrafenib (GSK2118436),L2000-03,C09,L2000-04,E10,519.56,1195765-45-7,Raf,"Dabrafenib (GSK2118436) is a mutant BRAFV600 specific inhibitor with IC50 of 0.8 nM, with 4- and 6-fold less potency against B-Raf(wt) and c-Raf, respectively. Phase 3.",MAPK
+DMSO,,DMSO,L2000-03,F01,L2000-04,E11,,,,,
+S2828,UCD-0159377,JNJ-1661010,L2000-03,C10,L2000-04,F02,365.45,681136-29-8,FAAH,"JNJ-1661010 is a potent and selective FAAH inhibitor with IC50 of 10 nM (rat) and 12 nM (human), exhibits >100-fold selectivity for FAAH-1 when compared to FAAH-2.",Metabolism
+S2866,UCD-0159385,U-104,L2000-03,C11,L2000-04,F03,309.32,178606-66-1,Carbonic Anhydrase,"U-104 is a potent carbonic anhydrase (CA) inhibitor for CA IX and CA XII with Ki of 45.1 nM and 4.5 nM, respectively, very low inhibition for CA I and CA II.",Metabolism
+S2270,UCD-0000684,Bergenin,L2000-03,D02,L2000-04,F04,328.27,477-90-7,Others,Bergenin is trihydroxybenzoic acid glycoside and the C-glycoside of 4-O-methyl gallic acid.,Others
+S2549,UCD-0001186,Trospium chloride ,L2000-03,D03,L2000-04,F05,427.96,10405-02-4,AChR,Trospium chloride (Sanctura) is a competitive muscarinic cholinergic receptor antagonist.,Neuronal Signaling
+S2631,UCD-0159341,URB597,L2000-03,D04,L2000-04,F06,338.40,546141-08-6,FAAH,"URB597 is a potent, orally bioavailable FAAH inhibitor with IC50 of 4.6 nM, with no activity on other cannabinoid-related targets.",Metabolism
+S2666,UCD-0159347,PF-3845,L2000-03,D05,L2000-04,F07,456.46,1196109-52-0,FAAH,"PF-3845 is a potent, selective and irreversible FAAH inhibitor with Ki of 230 nM, showing negligible activity against FAAH2.",Metabolism
+S2700,UCD-0001861,KX2-391,L2000-03,D06,L2000-04,F08,431.53,897016-82-9,Src,"KX2-391 (KX01), the first clinical Src inhibitor (peptidomimetic class) that targets the peptide substrate site of Src, with GI50 of 9-60 nM in cancer cell lines. Phase 1/2.",Angiogenesis
+S2738,UCD-0159357,PAC-1,L2000-03,D07,L2000-04,F09,392.49,315183-21-2,Caspase,PAC-1 is a potent procaspase-3 activator with EC50 of 0.22 μM and the first small molecule known to directly activate procaspase-3 to caspase-3.,Apoptosis
+S2789,UCD-0011696,"Tofacitinib (CP-690550,Tasocitinib)",L2000-03,D08,L2000-04,F10,312.37,477600-75-2,JAK,"Tofacitinib is a novel inhibitor of JAK3 with IC50 of 1 nM, 20- to 100-fold less potent against JAK2 and JAK1.",JAK/STAT
+S2808,UCD-0159370,Ipatasertib (GDC-0068),L2000-03,D09,L2000-04,F11,458.00,1001264-89-6,Akt,"GDC-0068 is a highly selective pan-Akt inhibitor targeting Akt1/2/3 with IC50 of 5 nM/18 nM/8 nM, 620-fold selectivity over PKA. Phase 2.",PI3K/Akt/mTOR
+S2842,UCD-0159378,SAR131675,L2000-03,D10,L2000-04,G02,358.39,1433953-83-3,VEGFR,"SAR131675 is a VEGFR3 inhibitor with IC50/Ki of 23 nM/12 nM in cell-free assays, about 50- and 10-fold more selective for VEGFR3 than VEGFR1/2, little activity against Akt1, CDKs, PLK1, EGFR, IGF-1R, c-Met, Flt2 etc.",Protein Tyrosine Kinase
+S2871,UCD-0159386,T0070907,L2000-03,D11,L2000-04,G03,277.66,313516-66-4,PPAR,"T0070907 is a potent and selective PPARγ inhibitor with IC50 of 1 nM, with a >800-fold selectivity over PPARα and PPARδ.",DNA Damage
+S2285,UCD-0159335,Cryptotanshinone,L2000-03,E02,L2000-04,G04,296.36,35825-57-1,STAT,"Cryptotanshinone (CPT) is a STAT3 inhibitor with IC50 of 4.6 μM, strongly inhibits phosphorylation of STAT3 Tyr705, with a small effect on STAT3 Ser727, but none against STAT1 nor STAT5.",JAK/STAT
+S2593,UCD-0018448,Tolvaptan,L2000-03,E03,L2000-04,G05,448.94,150683-30-0,Vasopressin Receptor,"Tolvaptan is a selective, competitive arginine vasopressin receptor 2 antagonist with an IC50 of 1.28μM for the inhibition of AVP-induced platelet aggregation.",GPCR & G Protein
+S2632,UCD-0159342,BMS-378806 ,L2000-03,E04,L2000-04,G06,406.43,357263-13-9 ,gp120/CD4,BMS-378806 selectively inhibits the binding of HIV-1 gp120 to the CD4 receptor with EC50 of 0.85-26.5 nM in virus.,Others
+S2671,UCD-0001885,AS-252424,L2000-03,E05,L2000-04,G07,305.28,900515-16-4,PI3K,"AS-252424 is a novel, potent PI3Kγ inhibitor with IC50 of 30 nM with 30-fold selectivity for PI3Kγ than PI3Kα, and low inhibitory activity towards PI3Kδ/β.",PI3K/Akt/mTOR
+S2711,UCD-0159352,Dibenzazepine (YO-01027),L2000-03,E06,L2000-04,G08,463.48,209984-56-5,Gamma-secretase,"YO-01027 (Dibenzazepine, DBZ) is a dipeptidic γ-secretase inhibitor with IC50 of 2.6 nM and 2.9 nM for APPL and Notch cleavage, respectively.",Proteases
+S2748,UCD-0159358,Anacetrapib (MK-0859),L2000-03,E07,L2000-04,G09,637.51,875446-37-0,CETP,"Anacetrapib (MK0859) is a potent, selective, reversible rhCETP and mutant CETP(C13S) inhibitor with IC50 of 7.9 nM and 11.8 nM, increases HDL-C and decreases LDL-C, does not increase aldosterone or blood pressure. Phase 3.",Metabolism
+S2790,UCD-0159364,Istradefylline,L2000-03,E08,L2000-04,G10,384.43,155270-99-8,Adenosine Receptor,Istradefylline is a selective adenosine A2A receptor (A2AR) antagonist with Ki of 2.2 nM.,Others
+S2812,UCD-0159371,AT101,L2000-03,E09,L2000-04,G11,578.61,866541-93-7,Bcl-2,"AT101, the R-(-) enantiomer of Gossypol acetic acid, binds with Bcl-2, Bcl-xL and Mcl-1 with Ki of 0.32 μM, 0.48 μM and 0.18 μM; does not inhibit BIR3 domain and BID. Phase 1/2.",Apoptosis
+DMSO,,DMSO,L2000-03,G01,L2000-05,B02,,,,,
+S2843,UCD-0159379,BI-D1870,L2000-03,E10,L2000-05,B03,391.42,501437-28-1,S6 Kinase,"BI-D1870 is an ATP-competitive inhibitor of S6 ribosome for RSK1/2/3/4 with IC50 of 31 nM/24 nM/18 nM/15 nM, respectively; 10- to 100-fold selectivity for RSK than MST2, GSK-3β, MARK3, CK1 and Aurora B.",PI3K/Akt/mTOR
+S2876,UCD-0159387,(+)-MK 801 maleate,L2000-03,E11,L2000-05,B04,337.37,77086-22-7,NMDAR,"(+)-MK-801 is a potent, selective and non-competitive NMDA receptor antagonist with Kd of 37.2 nM in rat brain membranes
+
+",Neuronal Signaling
+DMSO,,DMSO,L2000-03,H01,L2000-05,B05,,,,,
+S2341,UCD-0159336,(-)-Parthenolide,L2000-03,F02,L2000-05,B06,248.32,20554-84-1,"HDAC,NF-κB,Mdm2,p53",(-)-Parthenolide is a sesquiterpene lactone which occurs naturally in the plant feverfew(Tanacetum parthenium) and also promotes the ubiquitination of MDM2 and activates p53 cellular functions.,Ubiquitin
+S2601,UCD-0001419,Gliclazide ,L2000-03,F03,L2000-05,B07,323.41,21187-98-4,Potassium Channel,Gliclazide (Diamicron) is a whole-cell beta-cell ATP-sensitive potassium currents blocker with an IC50 of 184 ± 30 nM.,Transmembrane Transporters
+DMSO,,DMSO,L2000-03,A12,L2000-05,B08,,,,,
+S2633,UCD-0159343,NPS-2143,L2000-03,F04,L2000-05,B09,408.92,284035-33-2,CaSR,NPS 2143 is a novel potent and selective antagonist of Ca(2+) receptor with IC50 of 43 nM.,GPCR & G Protein
+S2680,UCD-0001863,Ibrutinib (PCI-32765),L2000-03,F05,L2000-05,B10,440.50,936563-96-1,BTK,"Ibrutinib is a potent and highly selective Btk inhibitor with IC50 of 0.5 nM, modestly potent to Bmx, CSK, FGR, BRK, HCK, less potent to EGFR, Yes, ErbB2, JAK3, etc.",Angiogenesis
+DMSO,,DMSO,L2000-03,B12,L2000-05,B11,,,,,
+S2714,UCD-0159353,LY411575,L2000-03,F06,L2000-05,C02,479.48,209984-57-6,Gamma-secretase,"LY411575 is a potent γ-secretase inhibitor with IC50 of 0.078 nM/0.082 nM (membrane/cell-based), also inhibits Notch clevage with withIC50 of 0.39 nM.",Proteases
+S2757,UCD-0159359,TH-302,L2000-03,F07,L2000-05,C03,449.04,918633-87-1,Others,"TH-302 is selective hypoxia-activated prodrug targeting <b>hypoxic</b> regions of solid tumors with <b>IC50</b> of 19 nM, demonstrates 270-fold enhanced cytotoxicity under hypoxia versus their potency under aerobic conditions, stable to cytochrome P450 metabolism. ",Others
+S2791,UCD-0159365,Sotrastaurin,L2000-03,F08,L2000-05,C04,438.48,425637-18-9,PKC,"Sotrastaurin is a potent and selective pan-PKC inhibitor, mostly for PKCθ with Ki of 0.22 nM; inactive to PKCζ. Phase 1/2.",TGF-beta/Smad
+S2816,UCD-0159372,Tyrphostin AG 879,L2000-03,F09,L2000-05,C05,316.46,148741-30-4,HER2,"Tyrphostin AG 879 potently inhibits HER2/ErbB2 with IC50 of 1 μM, 100- and 500-fold higher selective to ErbB2 than PDGFR and EGFR.",Protein Tyrosine Kinase
+S2854,UCD-0159380,BML-190,L2000-03,F10,L2000-05,C06,426.89,2854-32-2,Cannabinoid Receptor,"BML-190 is a selective cannabinoid CB2 receptor inverse agonist with Ki of 435 nM, with 50-fold selectivity over CB1 receptor.",GPCR & G Protein
+S2882,UCD-0159388,IKK-16 (IKK Inhibitor VII),L2000-03,F11,L2000-05,C07,483.63,873225-46-8,IκB/IKK,"IKK 16 is a selective IκB kinase (IKK) inhibitor for IKK-2, IKK complex and IKK-1 with IC50 of 40 nM, 70 nM and 200 nM, respectively.",NF-κB
+S2437,UCD-0159337,Rotundine,L2000-03,G02,L2000-05,C08,355.43,483-14-7,Dopamine Receptor,"Rotundine (L-tetrahydropalmatine, L-THP) is a selective dopamine D1 receptor antagonist with IC50 of 166 nM.",Neuronal Signaling
+S2603,UCD-0001391,Tioxolone,L2000-03,G03,L2000-05,C09,168.17,4991-65-5,Carbonic Anhydrase,Tioxolone is a metalloenzyme carbonic anhydrase I inhibitor with a Ki of 91 nM.,Metabolism
+S2634,UCD-0001856,Rebastinib (DCC-2036),L2000-03,G04,L2000-05,C10,553.59,1020172-07-9,Bcr-Abl,"DCC-2036 is a conformational control Bcr-Abl inhibitor for Abl1(WT) and Abl1(T315I) with IC50 of 0.8 nM and 4 nM, also inhibits SRC, LYN, FGR, HCK, KDR, FLT3, and Tie-2, and low activity to seen towards c-Kit. Phase 1/2.",Angiogenesis
+S2683,UCD-0159348,CHIR-124,L2000-03,G05,L2000-05,C11,419.91,405168-58-3,Chk,"CHIR-124 is a novel and potent Chk1 inhibitor with IC50 of 0.3 nM. It shows 2,000-fold selectivity against Chk2, 500- to 5,000-fold less activity against CDK2/4 and Cdc2.",Cell Cycle
+S2717,UCD-0159354,CP-91149,L2000-03,G06,L2000-05,D02,399.87,186392-40-5,Phosphorylase,"CP-91149 is a selective glycogen phosphorylase (GP) inhibitor with IC50 of 0.13 μM in the presence of glucose, 5- to 10-fold less potent in the absence of glucose.",Metabolism
+S2760,UCD-0000201,Canagliflozin,L2000-03,G07,L2000-05,D03,444.52,842133-18-0,SGLT,"Canagliflozin is a highly potent and selective SGLT2 inhibitor for hSGLT2 with IC50 of 2.2 nM, exhibits 413-fold selectivity over hSGLT1.",GPCR & G Protein
+S2792,UCD-0159366,Torcetrapib,L2000-03,G08,L2000-05,D04,600.47,262352-17-0,CETP,"Torcetrapib is a CETP inhibitor with IC50 of 37 nM, elevates HDL-C and reduces nonHDL-C in plasma. Phase 3.",Metabolism
+S2820,UCD-0159373,TAE226 (NVP-TAE226),L2000-03,G09,L2000-05,D05,468.94,761437-28-9,FAK,"NVP-TAE226 is a potent FAK inhibitor with IC50 of 5.5 nM and modestly potent to Pyk2, ~10- to 100-fold less potent against InsR, IGF-1R, ALK, and c-Met.",Angiogenesis
+S2855,UCD-0159381,MRS 2578,L2000-03,G10,L2000-05,D06,472.67,711019-86-2,P2 Receptor,"MRS2578 is a potent P2Y6 receptor antagonist with IC50 of 37 nM, exhibits insignificant activity at P2Y1, P2Y2, P2Y4,and P2Y11 receptors.",Neuronal Signaling
+S2890,UCD-0001864,PF-562271,L2000-03,G11,L2000-05,D07,507.49,717907-75-0,FAK,"PF-562271 is a potent, ATP-competitive, reversible inhibitor of FAK with IC50 of 1.5 nM, ~10-fold less potent for Pyk2 than FAK and >100-fold selectivity against other protein kinases, except for some CDKs.",Angiogenesis
+S2454,UCD-0000737,Bupivacaine HCl ,L2000-03,H02,L2000-05,D08,324.89,18010-40-7,Sodium Channel,Bupivacaine hydrochloride(Marcain) is a more potent cAMP production inhibitor with an IC50 of 2.3 μM,GPCR & G Protein
+S2625,UCD-0001870,Fostamatinib (R788),L2000-03,H03,L2000-05,D09,580.46,901119-35-5,Syk,"Fostamatinib (R788), a prodrug of the active metabolite R406, is a Syk inhibitor with IC50 of 41 nM, strongly inhibits Syk but not Lyn, 5-fold less potent to Flt3. Phase 2.",Angiogenesis
+S2635,UCD-0001888,CCT128930,L2000-03,H04,L2000-05,D10,341.84,885499-61-6,Akt,"CCT128930 is a potent, ATP-competitive and selective inhibitor of Akt2 with IC50 of 6 nM, 28-fold greater selectivity for Akt2 than the closely related PKA kinase.",PI3K/Akt/mTOR
+S2687,UCD-0159349,PF-2545920,L2000-03,H05,L2000-05,D11,392.45,1292799-56-4,PDE,"PF-2545920 is a potent and selective <b>PDE10A</b> inhibitor with <b>IC50</b> of 0.37 nM, with >1000-fold selectivity over the PDE. ",Metabolism
+DMSO,,DMSO,L2000-03,C12,L2000-05,E02,,,,,
+S2721,UCD-0001567,Nilvadipine,L2000-03,H06,L2000-05,E03,385.37,75530-68-6,Calcium Channel,Nilvadipine is a potent calcium channel blocker with an IC50 of 0.03 nM.,Transmembrane Transporters
+S2772,UCD-0159360,"Dalcetrapib (JTT-705, RO4607381)",L2000-03,H07,L2000-05,E04,389.59,211513-37-0,CETP,Dalcetrapib (JTT-705) is a rhCETP inhibitor with IC50 of 0.2 μM that increases the plasma HDL cholesterol. Phase 3.,Metabolism
+DMSO,,DMSO,L2000-03,D12,L2000-05,E05,,,,,
+S2795,UCD-0159367,VU 0357121,L2000-03,H08,L2000-05,E06,305.32,433967-28-3,GluR,"VU0357121 is a novel positive allosteric modulator (PAM) of mGlu5 with EC50 of 33 nM, is inactive or very weakly antagonizing at other mGlu receptor subtypes.",Neuronal Signaling
+S2822,UCD-0159374,OC000459,L2000-03,H09,L2000-05,E07,348.37,"851723-84-7, 950688-14-9 (sodium salt)",GPR,OC000459 is a potent and selective D prostanoid receptor 2 (DP2) antagonist with IC50 of 13 nM.,Endocrinology & Hormones
+DMSO,,DMSO,L2000-03,E12,L2000-05,E08,,,,,
+S2862,UCD-0159382,VU 0364770,L2000-03,H10,L2000-05,E09,232.67,61350-00-3,GluR,"VU 0364770 is a positive allosteric modulator(PAM) of mGlu4 with EC50 of 1.1 μM, exhibits insignificant activity at 68 other receptors, including other mGlu subtypes.",Neuronal Signaling
+S2891,UCD-0159389,GW441756,L2000-03,H11,L2000-05,E10,275.3,504433-23-2,Trk receptor,"GW441756 is a potent, selective inhibitor of <b>TrkA</b> with <b>IC50</b> of 2 nM, with very little activity to c-Raf1 and CDK2.",Protein Tyrosine Kinase
+DMSO,,DMSO,L2000-04,A01,L2000-05,E11,,,,,
+S2894,UCD-0159390,SB742457,L2000-04,A02,L2000-05,F02,353.44,607742-69-8,5-HT Receptor,"SB742457 is a highly selective 5-HT6 receptor antagonist with pKi of 9.63, exhibits >100-fold selectivity over other receptors. Phase 2.",Neuronal Signaling
+S2918,UCD-0022022,HC-030031,L2000-04,A03,L2000-05,F03,355.39,349085-38-7,Calcium Channel,HC-030031 is a selective TRPA1 channel blocker that antagonizes AITC- and formalin-evoked calcium influx with IC50 of 6.2 μM and 5.3 μM respectively.,Others
+S3033,UCD-0018458,Vildagliptin (LAF-237),L2000-04,A04,L2000-05,F04,303.40,274901-16-5,DPP-4,Vildagliptin (LAF-237) inhibits DPP−4 with IC50 of 2.3 nM.,Proteases
+S4053,UCD-0000899,Sertraline HCl,L2000-04,A05,L2000-05,F05,342.69,79559-97-0,5-HT Receptor,Sertraline HCl is a 5-HT antagonist with Ki of 13 nM.,Neuronal Signaling
+S4261,UCD-0159408,EUK 134,L2000-04,A06,L2000-05,F06,416.74,81065-76-1,Beta Amyloid,"EUK 134, a synthetic superoxide dismutase (SOD)/catalase mimetic, exhibits potent antioxidant activities, and inhibits the formation of β-amyloid and related amyloid fibril.",Neuronal Signaling
+S4651,UCD-0017582,Etoricoxib,L2000-04,A07,L2000-05,F07,358.84,202409-33-4,COX,"Etoricoxib is a new COX-2 selective inhibitor with anti-inflammatory, antipyretic, analgesic, and potential antineoplastic properties.",Neuronal Signaling
+S4908,UCD-0159414,SN-38,L2000-04,A08,L2000-05,F08,392.40,86639-52-3,Topoisomerase,"SN-38 is an active metabolite of CPT-11, inhibits DNA topoisomerase I, DNA synthesis and causes frequent DNA single-strand breaks.",DNA Damage
+S7015,UCD-0159422,Birinapant,L2000-04,A09,L2000-05,F09,806.94,1260251-31-7,IAP,"Birinapant is a SMAC mimetic antagonist, mostly to cIAP1 with Kd of <1 nM, less potent to XIAP. Phase 1/2.",Apoptosis
+S7038,UCD-0159430,Epoxomicin,L2000-04,A10,L2000-05,F10,554.72,134381-21-8,Proteasome,"Epoxomicin is a selective proteasome inhibitor with anti-inflammatory activity, inhibits primarily the CH-L activity of the 20S proteasome, while T-L and PGPH catalytic activities are also inhibited at 100- and 1000-fold reduced rate.",Proteases
+S7083,UCD-0159435,Ceritinib (LDK378),L2000-04,A11,L2000-05,F11,558.14,1032900-25-6,ALK,"LDK378 is potent inhibitor against ALK with IC50 of 0.2 nM, shows 40- and 35-fold selectivity against IGF-1R and InsR, respectively. Phase 2.",Protein Tyrosine Kinase
+S2897,UCD-0159391,ZM 306416,L2000-04,B02,L2000-05,G02,333.74,690206-97-4,VEGFR,"ZM 306416 is a VEGFR (Flt and KDR) inhibitor for VEGFR1 with IC50 of 0.33 μM, but also found to inhibit EGFR with IC50 of <10 nM.",Protein Tyrosine Kinase
+S2922,UCD-0159398,Icotinib,L2000-04,B03,L2000-05,G03,391.42,610798-31-7,EGFR,"Icotinib is a potent and specific EGFR inhibitor with IC50 of 5 nM, including the EGFR, EGFR(L858R), EGFR(L861Q), EGFR(T790M) and EGFR(T790M, L858R). Phase 4.",Protein Tyrosine Kinase
+S3034,UCD-0159402,Sitaxentan sodium,L2000-04,B04,L2000-05,G04,476.89,210421-74-2,Endothelin Receptor,"Sitaxentan sodium is a selective endothelin A receptor (ETA) antagonist with IC50 and Ki of 1.4 nM and 0.43 nM, respectively, exhibits 7000-fold selectivity over ETB. Phase 3.",GPCR & G Protein
+S4073,UCD-0159407,Sodium 4-Aminosalicylate,L2000-04,B05,L2000-05,G05,211.15,133-10-8,NF-κB,Sodium 4-Aminosalicylate is an antibiotic used to treat tuberculosis via NF-κB inhibition and free radical scavenging.,NF-κB
+S4285,UCD-0011462,Ospemifene,L2000-04,B06,L2000-05,G06,378.89,128607-22-7,Estrogen/progestogen Receptor,"Ospemifene is a non-hormonal selective estrogen receptor modulator (SERM), used for the treatment of dyspareunia. 
+",Endocrinology & Hormones
+S4656,UCD-0159410,Parecoxib,L2000-04,B07,L2000-05,G07,370.42,198470-84-7,COX,Parecoxib is a selective COX2 inhibitor.,Neuronal Signaling
+S4921,UCD-0159415,"MNS (3,4-Methylenedioxy-β-nitrostyrene, MDBN)",L2000-04,B08,L2000-05,G08,193.16,1485-00-3,"Tyrosinase,p97,Syk,Src","MNS is a tyrosine kinases inhibitor, inhibits Syk, Src, p97 with IC50 of 2.5 μM, 29.3 μM and 1.7 μM, respectively.",Ubiquitin
+S7016,UCD-0159423,VS-5584 (SB2343),L2000-04,B09,L2000-05,G09,354.41,1246560-33-7,PI3K,"VS-5584 (SB2343) is a potent and selective dual PI3K/mTOR inhibitor for mTOR, PI3Kα/β/δ/γ with IC50 of 3.4 nM and 2.6-21 nM, respectively. Phase 1.",PI3K/Akt/mTOR
+S7050,UCD-0159431,AZ20,L2000-04,B10,L2000-05,G10,412.51,1233339-22-4,ATM/ATR,"AZ20 is a novel potent and selective inhibitor of ATR kinase with IC50 of 5 nM, 8-fold selectivity over mTOR.",PI3K/Akt/mTOR
+S7092,UCD-0159436,SANT-1,L2000-04,B11,L2000-05,G11,373.49,304909-07-7,Hedgehog/Smoothened,SANT-1 directly binds to Smoothened (Smo) receptor with Kd of 1.2 nM and inhibits Smo agonist effects with IC50 of 20 nM.,Stem Cells &  Wnt
+DMSO,,DMSO,L2000-04,B01,L2000-06,B02,,,,,
+S2899,UCD-0159392,GNF-2,L2000-04,C02,L2000-06,B03,374.32,778270-11-4,Bcr-Abl,"GNF-2 is a highly selective non-ATP competitive inhibitor of Bcr-Abl, shows no activity to Flt3-ITD, Tel-PDGFR, TPR-MET and Tel-JAK1 transformed tumor cells.",Angiogenesis
+S2927,UCD-0159399,Apoptosis Activator 2,L2000-04,C03,L2000-06,B04,306.14,79183-19-0,Caspase,"Apoptosis Activator 2 strongly induces caspase-3 activation, PARP cleavage, and DNA fragmentation which leads to the destruction of cells (Apaf-1 dependent) with IC50 of ~4 μM, inactive to HMEC, PREC, or MCF-10A cells.",Apoptosis
+DMSO,,DMSO,L2000-04,C01,L2000-06,B05,,,,,
+S3051,UCD-0159403,Bosentan Hydrate,L2000-04,C04,L2000-06,B06,569.63,157212-55-0,Endothelin Receptor,"Bosentan is an endothelin (ET) receptors antagonist for ET-A and ET-B with Ki of 4.7 nM and 95 nM, respectively. ",GPCR & G Protein
+S4076,UCD-0000904,Propranolol HCl,L2000-04,C05,L2000-06,B07,295.80,318-98-9,Adrenergic Receptor,Propranolol HCl is a competitive non-selective beta-adrenergic receptors inhibitor with IC50 of 12 nM.,GPCR & G Protein
+DMSO,,DMSO,L2000-04,D01,L2000-06,B08,,,,,
+S4289,UCD-0000243,Metoclopramide HCl,L2000-04,C06,L2000-06,B09,336.26,7232-21-5,Dopamine Receptor,"MetoclopraMide HCl is a selective dopamine D2 receptor antagonist, used for the treatment of nausea and vomiting.
+",Neuronal Signaling
+S4661,UCD-0159411B,Tiagabine hydrochloride,L2000-04,C07,L2000-06,B10,412.01,145821-59-6,GABA Receptor,"Tiagabine Hydrochloride is the hydrochloride salt form of tiagabine, a nipecotic acid derivative with anticonvulsant property. A selective gamma-aminobutyric acid (GABA) reuptake inhibitor.",Neuronal Signaling
+DMSO,,DMSO,L2000-04,E01,L2000-06,B11,,,,,
+S4926,UCD-0159416,(R)-Nepicastat HCl,L2000-04,C08,L2000-06,C02,331.81,195881-94-8,Hydroxylase,"(R)-Nepicastat HCl, the R-enantiomer of Nepicastat HCl, is a potent and selective inhibitor with IC50 of 25.1 nM and 18.3 nM for bovine and human dopamine-β-hydroxylase, with negligible affinity for twelve other enzymes and thirteen neurotransmitter receptors.",Metabolism
+S7024,UCD-0159424,Stattic,L2000-04,C09,L2000-06,C03,211.19,19983-44-9,STAT,"Stattic, the first nonpeptidic small molecule, potently inhibits STAT3 activation and nuclear translocation with IC50 of 5.1 μM, highly selectivity over STAT1.",JAK/STAT
+S7051,UCD-0159432,CGI1746,L2000-04,C10,L2000-06,C04,579.69,910232-84-7,BTK,CGI1746 is a potent and highly selective small-molecule inhibitor of the Btk with IC50 of 1.9 nM.,Angiogenesis
+S7093,UCD-0159437,IPA-3,L2000-04,C11,L2000-06,C05,350.45,42521-82-4,PAK,"IPA-3 is a selective non-ATP competitive Pak1 inhibitor with IC50 of 2.5 μM, no inhibition to group II PAKs (PAKs 4-6).",Cytoskeletal Signaling
+S2906,UCD-0159393,Ki16198,L2000-04,D02,L2000-06,C06,488.98,355025-13-7,LPA Receptor,"Ki16198 is the methyl ester of Ki16425, which is a LPA antagonist and inhibits LPA1- and LPA3-induced inositol phosphate production with Ki of 0.34 μM and 0.93 μM, respectively, shows weaker inhibition for LPA2, no activity at LPA4, LPA5, LPA6.",GPCR & G Protein
+S2930,UCD-0159400,Pifithrin-μ,L2000-04,D03,L2000-06,C07,181.21,64984-31-2,p53,"Pifithrin-μ is a specific p53 inhibitor by reducing its affinity to Bcl-xL and Bcl-2, and also inhibits HSP70 function and autophagy.",Apoptosis
+S3147,UCD-0001059,Entacapone,L2000-04,D04,L2000-06,C08,305.29,130929-57-6,Histone Methyltransferase,Entacapone inhibits catechol-O-methyltransferase(COMT) with IC50 of 151 nM.,Epigenetics
+S4079,UCD-0011606,Ticagrelor,L2000-04,D05,L2000-06,C09,522.57,274693-27-5,P2 Receptor,"Ticagrelor is the first reversibly binding oral P2Y12 receptor antagonist, also inhibits CYP2C9 and 4-hydroxylation with IC50 of 10.5 μM and 8.2 μM respectively.",Neuronal Signaling
+S4610,UCD-0000463,Mebendazole,L2000-04,D06,L2000-06,C10,295.29,31431-39-7,Antifection,"Mebendazole is a synthetic benzimidazole derivate and anthelmintic agent. Mebendazole interferes with the reproduction and survival of helminths by inhibiting the formation of their cytoplasmic microtubules, thereby selectively and irreversibly blocking glucose uptake.",Others
+S4675,UCD-0159411,Tiagabine,L2000-04,D07,L2000-06,C11,375.55,115103-54-3,GABA Receptor,Tiagabine is an anti-convulsive medication and a selective gamma-aminobutyric acid (GABA) reuptake inhibitor.,Neuronal Signaling
+S5002,UCD-0159417,Fingolimod (FTY720) HCl,L2000-04,D08,L2000-06,D02,343.90,162359-56-0,S1P Receptor,Fingolimod (FTY720) is a S1P antagonist with IC50 of 0.033 nM.,GPCR & G Protein
+S7025,UCD-0159425,Embelin,L2000-04,D09,L2000-06,D03,294.39,550-24-3,IAP,"Embelin, a quinone isolated from the Japanese Ardisia herb, is an inhibitor of X-linked inhibitor of apoptosis (XIAP) with IC50 of 4.1 &mu;M.",Apoptosis
+S7067,UCD-0159433,Tepotinib (EMD 1214063),L2000-04,D10,L2000-06,D04,492.57,1100598-32-0,c-Met,"Tepotinib (EMD 1214063) is a potent and selective <b>c-Met</b> inhibitor with <b>IC50</b> of 4 nM, >200-fold selective for c-Met than IRAK4, TrkA, Axl, IRAK1, and Mer. Phase 1.",Protein Tyrosine Kinase
+S7097,UCD-0159438,HSP990 (NVP-HSP990),L2000-04,D11,L2000-06,D05,379.39,934343-74-5,HSP (e.g. HSP90),"NVP-HSP990 (HSP990) is a novel, potent and selective HSP90 inhibitor for HSP90α/β with IC50 of 0.6 nM/0.8 nM.",Cytoskeletal Signaling
+S2911,UCD-0159394,Go 6983,L2000-04,E02,L2000-06,D06,442.51,133053-19-7,PKC,"Go 6983 is a pan-PKC inhibitor against for PKCα, PKCβ, PKCγ and PKCδ with IC50 of 7 nM, 7 nM, 6 nM and 10 nM, respectively; less potent to PKCζ and inactive to PKCμ.",TGF-beta/Smad
+S3002,UCD-0018410,Rivaroxaban,L2000-04,E03,L2000-06,D07,435.88,366789-02-8,Factor Xa,"Rivaroxaban is a direct inhibitor of Factor Xa with Ki and IC50 of 0.4 nM and  0.7 nM, respectively.",Metabolism
+S3151,UCD-0001653,Gliquidone,L2000-04,E04,L2000-06,D08,527.63,33342-05-1,Potassium Channel,Gliquidone is an ATP-sensitive K+ channel antagonist with IC50 of 27.2 nM.,Transmembrane Transporters
+S4080,UCD-0000377,Triamterene,L2000-04,E05,L2000-06,D09,253.26,396-01-0,Sodium Channel,Triamterene blocks epithelial Na+ channel (ENaC) in a voltage-dependent manner with IC50 of 4.5 μM.,Transmembrane Transporters
+S4618,UCD-0001002,Fenoldopam mesylate,L2000-04,E06,L2000-06,D10,401.86,67227-57-0,Dopamine Receptor,Fenoldopam is a selective dopamine-1 receptor (DA1) agonist with natriuretic/diuretic properties. It lowers blood pressure through arteriolar vasodilation.,Neuronal Signaling
+S4679,UCD-0001657,Terazosin HCl ,L2000-04,E07,L2000-06,D11,423.89,63074-08-8,Adrenergic Receptor,Terazosin is a selective alpha-1 antagonist used for treatment of symptoms of an enlarged prostate (BPH). It works by blocking the action of adrenaline on smooth muscle of the bladder and the blood vessel walls.,GPCR & G Protein
+DMSO,,DMSO,L2000-04,F01,L2000-06,E02,,,,,
+S6003,UCD-0159418,Ataluren (PTC124),L2000-04,E08,L2000-06,E03,284.24,775304-57-9,CFTR,"PTC124 (Ataluren) selectively induces ribosomal read-through of premature but not normal termination codons, with EC50 of 0.1 μM, may provide treatment for genetic disorders caused by nonsense mutations (e.g. CF caused by CFTR nonsense mutation). Phase 3.",Transmembrane Transporters
+S7029,UCD-0159426,AZD2461,L2000-04,E09,L2000-06,E04,395.43,1174043-16-3,PARP,AZD2461 is a novel PARP inhibitor with low affinity for Pgp than Olaparib. Phase 1.,DNA Damage
+DMSO,,DMSO,L2000-04,G01,L2000-06,E05,,,,,
+S7070,UCD-0001924,GSK J4 HCl,L2000-04,E10,L2000-06,E06,453.96,1373423-53-0(free base),Histone Demethylase,"GSK J4 HCl is a cell permeable prodrug of GSK J1, which is the first selective inhibitor of the H3K27 histone demethylase JMJD3 and UTX with IC50 of 60 nM and inactive against a panel of demethylases of the JMJ family.",Epigenetics
+S7102,UCD-0159439,VE-822,L2000-04,E11,L2000-06,E07,463.55,1232416-25-9,ATM/ATR,VE-822 is an ATR inhibitor with IC50 of 19 nM.,PI3K/Akt/mTOR
+DMSO,,DMSO,L2000-04,H01,L2000-06,E08,,,,,
+S2912,UCD-0159395,WZ811,L2000-04,F02,L2000-06,E09,290.36,55778-02-4,CXCR,WZ811 is a highly potent competitive CXCR4 antagonist with EC50 of 0.3 nM.,GPCR & G Protein
+S3021,UCD-0018456,Rimonabant,L2000-04,F03,L2000-06,E10,463.79,168273-06-1,Cannabinoid Receptor,Rimonabant is a selective antagonist of CB1 with IC50 of 13.6 nM and EC50 of 17.3 nM in hCB1 transfected HEK 293 membrane.,GPCR & G Protein
+DMSO,,DMSO,L2000-04,A12,L2000-06,E11,,,,,
+S3178,UCD-0159404,Brinzolamide,L2000-04,F04,L2000-06,F02,383.51,138890-62-7,Carbonic Anhydrase,Brinzolamide is a potent carbonic anhydrase II inhibitor with IC50 of 3.19 nM.,Metabolism
+S4091,UCD-0011098,Ifenprodil Tartrate,L2000-04,F05,L2000-06,F03,475.53,23210-58-4,NMDAR,"Ifenprodil is an atypical noncompetitive antagonist at the NMDA receptor, it interacts with high affinity at a homogeneous population of NMDA receptors in neonatal rat forebrain with IC50 of 0.3 μM.",Neuronal Signaling
+S4629,UCD-0011250,Chlorotrianisene,L2000-04,F06,L2000-06,F04,380.86,569-57-3,Estrogen/progestogen Receptor,"Chlorotrianisene is a synthetic, non-steroidal estrogen. It is a selective estrogen receptor modulator.",Endocrinology & Hormones
+S4697,UCD-0018183,Saxagliptin hydrate,L2000-04,F07,L2000-06,F05,333.43,945667-22-1,DPP-4,Saxagliptin H2O is a selective and reversible DPP4 inhibitor with IC50 of 26 nM.,Proteases
+S7000,UCD-0159419,ALK-IN-1,L2000-04,F08,L2000-06,F06,529.01,1197958-12-5,ALK,"AP26113 is a potent ALK inhibitor with IC50 of 0.62 nM, demonstrated ability overcome Crizotinib resistance mediated by a L1196M mutation. Phase 1/2.",Protein Tyrosine Kinase
+S7030,UCD-0159427,RG-7112,L2000-04,F09,L2000-06,F07,726.28,939981-39-2,Mdm2,"RG7112 (RO5045337) is an orally bioavailable and selective <b>p53-MDM2</b> inhibitor. Phase 1.
+",Apoptosis
+S7076,UCD-0001966,T0901317,L2000-04,F10,L2000-06,F08,481.33,293754-55-9,Liver X Receptor,"T0901317 is a potent and selective agonist for both LXR and FXR, with EC50 of ~50 nM and 5 μM, respectively.",Others
+S7106,UCD-0159440,AZD3463,L2000-04,F11,L2000-06,F09,448.95,1356962-20-3,ALK,"AZD3463 is a novel orally bioavailable ALK inhibitor with Ki of 0.75 nM, which also inhibits IGF1R with equivalent potency. ",Protein Tyrosine Kinase
+S2915,UCD-0159396,GW9662,L2000-04,G02,L2000-06,F10,276.68,22978-25-2,PPAR,"GW9662 is a selective PPAR antagonist for PPARγ with IC50 of 3.3 nM, with at least 100 to 1000-fold functional selectivity in cells with PPARγversus PPARα and PPARδ.",DNA Damage
+S3026,UCD-0159401,Piceatannol,L2000-04,G03,L2000-06,F11,244.24,10083-24-6,Syk,"Piceatannol, a natural stilbene, is a selective Syk inhibitor and ~10-fold selectivity versus Lyn.",Angiogenesis
+S3212,UCD-0159405,Moclobemide (Ro 111163),L2000-04,G04,L2000-06,G02,268.74,71320-77-9,MAO,Moclobemide is MAO-A (5-HT) inhibitor with IC50 of 6.1 μM.,Metabolism
+S4246,UCD-0159664,Tranylcypromine (2-PCPA) HCl,L2000-04,G05,L2000-06,G03,169.65,4548-34-9,MAO,"Tranylcypromine is a monoamine oxidase inhibitor, which inhibits CYP2A6 with Ki of 0.08 μM and 0.2 μM in cDNA-expressing microsomes and Human Liver Microsomes, respectively.",Epigenetics
+S4635,UCD-0001098,Cyproheptadine hydrochloride,L2000-04,G06,L2000-06,G04,350.88,41354-29-4,5-HT Receptor,Cyproheptadine hydrochloride is non-selective 5HT2 antagonist with IC50 of 0.6 nM. Also a SETD7/9 inhibitor.,Neuronal Signaling
+S4900,UCD-0159412,Tenovin-6,L2000-04,G07,L2000-06,G05,454.63,1011557-82-6,"p53,Sirtuin",Tenovin-6 is a small molecule activator of p53 transcriptional activity.,Apoptosis
+S7008,UCD-0159420,PP2,L2000-04,G08,L2000-06,G06,301.77,172889-27-9,Src,"PP2 is Src family kinase inhibitor, potently inhibits Lck/Fyn with IC50 of 4 nM/5 nM, ~100-fold less potent to EGFR, inactive for ZAP-70, JAK2 and PKA.",Angiogenesis
+S7033,UCD-0159428,GSK2656157,L2000-04,G09,L2000-06,G07,416.45,1337532-29-2,PERK,"GSK2656157 is an ATP-competitive and highly selective inhibitor of PERK with IC50 of 0.9 nM, 500-fold greater against a panel of 300 kinases.",Apoptosis
+S7079,UCD-0001925,SGC 0946,L2000-04,G10,L2000-06,G08,618.57,1561178-17-3,Histone Methyltransferase,"SGC 0946 is a highly potent and selective DOT1L methyltransferase inhibitor with IC50 of 0.3 nM, is inactive against a panel of 12 PMTs and DNMT1.",Epigenetics
+S7111,UCD-0159441,NLG919,L2000-04,G11,L2000-06,G09,282.38,1402836-58-1,IDO,"NLG919 is a potent IDO (indoleamine-(2,3)-dioxygenase) pathway inhibitor with Ki/EC50 of 7 nM/75 nM.",Metabolism
+S2916,UCD-0159397,ML161,L2000-04,H02,L2000-06,G10,361.23,423735-93-7,Others,ML-161 is an allosteric inhibitor of PAR1 with IC50 of 0.26 μM.,Others
+S3031,UCD-0000918,Linagliptin,L2000-04,H03,L2000-06,G11,472.54,668270-12-0,DPP-4,"Linagliptin is a highly potent, selective DPP-4 inhibitor with IC50 of 1 nM.",Proteases
+DMSO,,DMSO,L2000-04,B12,L2000-07,B02,,,,,
+S4009,UCD-0159406,Mirabegron,L2000-04,H04,L2000-07,B03,396.51,223673-61-8,Adrenergic Receptor,Mirabegron is a selective β3-adrenoceptor agonist with EC50 of 22.4 nM.,Neuronal Signaling
+S4259,UCD-0000841,Vilazodone HCl,L2000-04,H05,L2000-07,B04,477.99,163521-08-2,5-HT Receptor,"Vilazodone HCl is a selective serotonin reuptake inhibitor (SSRI) and  a partial agonist of 5-HT1A receptors, used for the treatment of major depressive disorder.",Neuronal Signaling
+DMSO,,DMSO,L2000-04,C12,L2000-07,B05,,,,,
+S4640,UCD-0159409,Lesinurad,L2000-04,H06,L2000-07,B06,404.28,878672-00-5,Others,Lesinurad is a selective uric acid reabsorption inhibitor (SURI) under investigation for treatment of gout in combination with xanthine oxidase inhibitors.,Others
+S4907,UCD-0159413,SC-514,L2000-04,H07,L2000-07,B07,224.30,354812-17-2,IκB/IKK,"SC-514 is an orally active, ATP-competitive IKK-2 inhibitor with IC50 of 3-12 μM, blocks NF-κB-dependent gene expression, does not inhibit other IKK isoforms or other serine-threonine and tyrosine kinases.",NF-κB
+DMSO,,DMSO,L2000-04,D12,L2000-07,B08,,,,,
+S7010,UCD-0159421,GDC-0152,L2000-04,H08,L2000-07,B09,498.64,873652-48-3,IAP,"GDC-0152 is a potent antagonist of XIAP-BIR3, ML-IAP-BIR3, cIAP1-BIR3 and cIAP2-BIR3 with Ki of 28 nM, 14 nM, 17 nM and 43 nM, respectively; less affinity shown to cIAP1-BIR2 and cIAP2-BIR2. Phase 1.",Apoptosis
+S7037,UCD-0159429,Wnt-C59 (C59),L2000-04,H09,L2000-07,B10,379.45,1243243-89-1,Wnt/beta-catenin,Wnt-C59 (C59) is a PORCN inhibitor for Wnt3A-mediated activation of a multimerized TCF-binding site driving luciferase with IC50 of 74 pM.,Stem Cells &  Wnt
+DMSO,,DMSO,L2000-04,E12,L2000-07,B11,,,,,
+S7080,UCD-0159434,RN486,L2000-04,H10,L2000-07,C02,606.69,1242156-23-5,BTK,"RN486 is a potent and selective <b>BTK</b> inhibitor with <b>IC50</b> of 4 nM.
+
+",Angiogenesis
+S7113,UCD-0159442,Zebularine,L2000-04,H11,L2000-07,C03,228.20,3690-10-6,DNA Methyltransferase,"Zebularine is a DNA methylation inhibitor that forms a covalent complex with DNA methyltransferases, also inhibits cytidinedeaminase with Ki of 2 μM.",Epigenetics
+S7115,UCD-0159443,AMG-517,L2000-05,A02,L2000-07,C04,430.40,659730-32-2,TRPV,"AMG 517 is a potent and selective TRPV1 antagonist, antagonizes capsaicin, proton, and heat activation of TRPV1 with IC50 of 0.76 nM, 0.62 nM and 1.3 nM.",Others
+S7140,UCD-0159451,TCID,L2000-05,A03,L2000-07,C05,283.92,30675-13-9,DUB,"TCID is a DUB inhibitor for ubiquitin C-terminal hydrolase L3 with IC50 of 0.6 μM, 125-fold selective to L1.",Ubiquitin
+S7161,UCD-0159458,Motolimod (VTX-2337),L2000-05,A04,L2000-07,C06,458.6,926927-61-9,TLR,"Motolimod (VTX-2337) is a selective and potent Toll-like receptor (TLR) 8 agonist with EC50 of 100 nM, > 50-fold selectivity over TLR7. Phase 2.",Others
+S7195,UCD-0159466,RKI-1447,L2000-05,A05,L2000-07,C07,326.37,1342278-01-6,ROCK,"RKI-1447 is a potent inhibitor of ROCK1 and ROCK2, with IC50 of 14.5 nM and 6.2 nM, respectively, has anti-invasive and antitumor activities.",Cell Cycle
+S7238,UCD-0159474,NVP-TNKS656,L2000-05,A06,L2000-07,C08,494.58,1419949-20-4,PARP,"NVP-TNKS656 is a highly potent, selective, and orally active tankyrase inhibitor with IC50 of 6 nM for TNKS2, > 300-fold selectivity against PARP1 and PARP2.",DNA Damage
+S7257,UCD-0159482,CNX-774,L2000-05,A07,L2000-07,C09,499.50,1202759-32-7,BTK,"CNX-774 is an irreversible, orally active, and highly selective BTK inhibitor with IC50 of <1 nM.",Angiogenesis
+S7285,UCD-0159490,NMS-873,L2000-05,A08,L2000-07,C10,520.67,1418013-75-8,p97,NMS-873 is an allosteric and specific p97 inhibitor with IC50 of 30 nM.,Ubiquitin
+S7318,UCD-0159498,HTH-01-015,L2000-05,A09,L2000-07,C11,468.55,1613724-42-7,AMPK,"HTH-01-015 is a potent and selective <b>NUAK1</b> inhibitor with <b>IC50</b> of 100 nM, >100-fold selectivity over NUAK2. 
+",PI3K/Akt/mTOR
+S7351,UCD-0159506,JSH-23,L2000-05,A10,L2000-07,D02,240.34,749886-87-1,NF-κB,JSH-23 is an inhibitor of NF-κB transcriptional activity with IC50 of 7.1 μM.,NF-κB
+S7372,UCD-0159514,PTC-209,L2000-05,A11,L2000-07,D03,495.19,315704-66-6,Others,"PTC-209 is a potent and selective BMI-1 inhibitor with IC50 of 0.5 μM, and results in irreversible reduction of cancer-initiating cells (CICs).",Others
+S7121,UCD-0159444,MLN2480,L2000-05,B02,L2000-07,D04,506.29,1096708-71-2,Raf,"MLN2480 is an oral, selective pan-Raf kinase inhibitor in chinical trials.",MAPK
+S7142,UCD-0159452,NSC697923,L2000-05,B03,L2000-07,D05,267.26,343351-67-7,E2 conjugating,NSC697923 is a cell-permeable and selective inhibitor of the Ub-conjugating enzyme (E2) complex Ubc13-Uev1A.,Ubiquitin
+S7162,UCD-0159459,Mdivi-1,L2000-05,B04,L2000-07,D06,353.22,338967-87-6,Dynamin,Mdivi-1 is a selective cell-permeable inhibitor of mitochondrial division DRP1 (dynamin-related GTPase) and mitochondrial division Dynamin I (Dnm1) with IC50 of 1-10 μM. ,Cytoskeletal Signaling
+S7199,UCD-0159467,DBeQ,L2000-05,B05,L2000-07,D07,340.42,177355-84-9,p97,"DBeQ is a selective, potent, reversible, and ATP-competitive p97 inhibitor with IC50 of 1.5 μM.",Ubiquitin
+S7241,UCD-0159475,AGI-6780,L2000-05,B06,L2000-07,D08,481.51,1432660-47-3,Dehydrogenase,AGI-6780 is a potent and selective inhibitor of IDH2 R140Q mutant with IC50 of 23 nM.,Metabolism
+S7263,UCD-0159483,AZD1981,L2000-05,B07,L2000-07,D09,388.87,802904-66-1,GPR,"AZD1981 is a potent, selective CRTh2 (DP2) receptor antagonist with IC50 of 4 nM, showing >1000-fold selectivity over more than 340 other enzymes and receptors, including DP1.",Endocrinology & Hormones
+S7289,UCD-0159491,PFK15,L2000-05,B08,L2000-07,D10,260.29,4382-63-2,Others,PFK15 is a potent and selective 6-phosphofructo-2-kinase (PFKFB3) with IC50 of 207 nM.,Others
+S7319,UCD-0159499,EHop-016 ,L2000-05,B09,L2000-07,D11,430.55,1380432-32-5,Rho,"EHop-016 is a specific Rac GTPase inhibitor with IC50 of 1.1 μM for Rac1, equally potent inhibition for Rac3.",Cell Cycle
+DMSO,,DMSO,L2000-05,A01,L2000-07,E02,,,,,
+S7355,UCD-0159507,ARQ 621,L2000-05,B10,L2000-07,E03,552.43,1095253-39-6,Kinesin,"ARQ 621 is an allosteric, and selective Eg5 mitotic motor protein inhibitor. Phase 1.
+",Cytoskeletal Signaling
+S7373,UCD-0159515,UNC669,L2000-05,B11,L2000-07,E04,338.24,1314241-44-5,Epigenetic Reader Domain,"UNC669 is a potent and selective MBT (malignant brain tumor) inhibitor with IC50 of 6 μM for L3MBTL1, 5- and 11-fold selective over L3MBTL3 and L3MBTL4.",Epigenetics
+DMSO,,DMSO,L2000-05,B01,L2000-07,E05,,,,,
+S7124,UCD-0159445,SC144,L2000-05,C02,L2000-07,E06,322.30,895158-95-9,P-gp,SC144 is an orally active small-molecule gp130 inhibitor.,Others
+S7146,UCD-0159453,DMH1,L2000-05,C03,L2000-07,E07,380.44,1206711-16-1,TGF-beta/Smad,"DMH1 is a selective BMP receptor inhibitor with IC50 of 107.9 nM for ALK2, exhibiting no inhibition on AMPK, ALK5, KDR (VEGFR-2) or PDGFR.",TGF-beta/Smad
+DMSO,,DMSO,L2000-05,C01,L2000-07,E08,,,,,
+S7167,UCD-0159460,SSR128129E,L2000-05,C04,L2000-07,E09,346.31,848318-25-2,FGFR,"SSR128129E is an orally-active and allosteric FGFR1 inhibitor with IC50 of 1.9 μM, while not affecting other related RTKs.",Angiogenesis
+S7205,UCD-0159468,Idasanutlin (RG-7388),L2000-05,C05,L2000-07,E10,616.48,1229705-06-9,Mdm2,"Idasanutlin (RG-7388) is a potent and selective <b>p53-MDM2</b> inhibitor with <b>IC50</b> of 6 nM.
+",Apoptosis
+DMSO,,DMSO,L2000-05,D01,L2000-07,E11,,,,,
+S7242,UCD-0159476,Erastin,L2000-05,C06,L2000-07,F02,547.04,571203-78-6,Ferroptosis,"Erastin is a ferroptosis activator by acting on mitochondrial VDAC, exhibiting selectivity for tumor cells bearing oncogenic RAS.",Metabolism
+S7265,UCD-0159484,MM-102,L2000-05,C07,L2000-07,F03,669.80,1417329-24-8,Histone Methyltransferase,MM-102 is a high-affinity peptidomimetic MLL1 inhibitor with IC50 of 0.4 μM.,Epigenetics
+S7293,UCD-0159492,ZCL278,L2000-05,C08,L2000-07,F04,584.89,587841-73-4,Rho,ZCL278 is a selective Cdc42 GTPase inhibitor with Kd of 11.4 μM.,Cell Cycle
+S7324,UCD-0159500,TMP269,L2000-05,C09,L2000-07,F05,514.52,1314890-29-3,HDAC,"TMP269 is a potent, selective class IIa HDAC inhibitor with IC50 of 157 nM, 97 nM, 43 nM and 23 nM for HDAC4, HDAC5, HDAC7 and HDAC9, respectively.",Epigenetics
+S7360,UCD-0159508,OTX015,L2000-05,C10,L2000-07,F06,491.99,202590-98-5,Epigenetic Reader Domain,"OTX015 is a potent BET bromodomain inhibitor with EC50 ranging from 10 to 19 nM for BRD2, BRD3, and BRD4. Phase 1.",Epigenetics
+S7379,UCD-0159516,E-64,L2000-05,C11,L2000-07,F07,357.41,66701-25-5,Cysteine Protease,E-64 is an irreversible and selective cysteine protease inhibitor with IC50 of 9 nM for papain.,Proteases
+S7125,UCD-0159446,KPT-185,L2000-05,D02,L2000-07,F08,355.31,1333151-73-7,CRM1,KPT-185 is a selective CRM1 inhibitor.,Transmembrane Transporters
+S7147,UCD-0159454,LDN-212854	,L2000-05,D03,L2000-07,F09,406.48,1432597-26-6,TGF-beta/Smad,"LDN-212854 is a potent and selective BMP receptor inhibitor with IC50 of 1.3 nM for ALK2, about 2-, 66-, 1641-, and 7135-fold selectivity over ALK1, ALK3, ALK4, and ALK5, respectively.",TGF-beta/Smad
+S7173,UCD-0159461,CC-292 (AVL-292),L2000-05,D04,L2000-07,F10,423.44,1202757-89-8,BTK,"AVL-292 is a covalent, orally active, and highly selective BTK inhibitor with IC50 of <0.5 nM, displaying at least 1400-fold selectivity over the other kinases assayed. Phase 1.",Angiogenesis
+S7206,UCD-0159469,CNX-2006,L2000-05,D05,L2000-07,F11,545.53,1375465-09-0,EGFR,"CNX-2006 is a novel irreversible mutant-selective EGFR inhibitor with IC50 of < 20 nM, with very weak inhibition at wild-type EGFR.",Protein Tyrosine Kinase
+S7243,UCD-0159477,Ferrostatin-1 (Fer-1),L2000-05,D06,L2000-07,G02,262.35,347174-05-4,Ferroptosis,Ferrostatin-1 (Fer-1) is a potent and selective inhibitor of ferroptosis with EC50 of 60 nM.,Metabolism
+S7266,UCD-0159485,Golgicide A,L2000-05,D07,L2000-07,G03,284.30,1139889-93-2,ATPase,Golgicide A is a potent and rapidly reversible GBF1 inhibitor.,Transmembrane Transporters
+S7296,UCD-0159493,ML324,L2000-05,D08,L2000-07,G04,349.43,1222800-79-4,Histone Demethylase,"ML324 is a selective inhibitor of <b>jumonji histone demethylase (JMJD2)</b> with <b>IC50</b> of 920 nM.
+",Epigenetics
+S7330,UCD-0159501,6H05,L2000-05,D09,L2000-07,G05,590.14,NA,Rho,"6H05 is a selective, and allosteric inhibitor of oncogenic K-Ras(G12C). 
+",Cell Cycle
+S7364,UCD-0159509,Atglistatin,L2000-05,D10,L2000-07,G06,283.37,1469924-27-3,Lipase,"Atglistatin is a highly potent, and selective inhibitor of adipose triglyceride lipase (ATGL) with IC50 of 0.7 μM, high selectivity over other key metabolic lipases.",Others
+S7392,UCD-0159517,Loxistatin Acid (E-64C),L2000-05,D11,L2000-07,G07,314.38,76684-89-4,Cysteine Protease,"Loxistatin Acid (E-64C), a derivative of E-64, is an irreversible and membrane-permeant cysteine protease inhibitor.",Proteases
+S7129,UCD-0159447,PYR-41,L2000-05,E02,L2000-07,G08,371.30,418805-02-4,E1 Activating,"PYR-41 is the first cell-permeable inhibitor of ubiquitin-activating enzyme E1, with no activity at E2.",Ubiquitin
+S7148,UCD-0159455,ML347,L2000-05,E03,L2000-07,G09,352.39,1062368-49-3,TGF-beta/Smad,"ML347 is a selective BMP receptor inhibitor with IC50 of 32 nM for ALK2, >300-fold selectivity over ALK3. Also inhibits ALK1 activity with IC50 of 46 nM.",TGF-beta/Smad
+S7174,UCD-0159462,ABC294640,L2000-05,E04,L2000-07,G10,380.91,915385-81-8,S1P Receptor,"ABC294640 is an orally bioavailable and selective <b>sphingosine kinase-2 (SphK2)</b> inhibitor with <b>IC50</b> of approximately 60 μM. Phase 1/2.
+",GPCR & G Protein
+S7215,UCD-0159470,Losmapimod (GW856553X),L2000-05,E05,L2000-07,G11,383.46,585543-15-3,p38 MAPK,"Losmapimod (GW856553X) is a selective, potent, and orally active p38 MAPK inhibitor with pKi of 8.1 and 7.6 for p38α and p38β, respectively. Phase 3.",MAPK
+DMSO,,DMSO,L2000-05,E01,L2000-08,B02,,,,,
+S7248,UCD-0159478,Ro3280,L2000-05,E06,L2000-08,B03,543.61,1062243-51-9,PLK,"RO3280 is a potent, highly selective inhibitor of  Polo-like kinase 1 (PLK1) with IC50 of 3 nM.",Cell Cycle
+S7270,UCD-0159486,SRPIN340,L2000-05,E07,L2000-08,B04,349.35,218156-96-8,Others,"SRPIN340 is a selective SRPK inhibitor with Ki of 0.89 μM for SRPK1, showing no significant inhibitory activity against more than 140 other kinases..",Others
+DMSO,,DMSO,L2000-05,F01,L2000-08,B05,,,,,
+S7297,UCD-0159494,Osimertinib (AZD9291),L2000-05,E08,L2000-08,B06,499.61,1421373-65-0,EGFR,"AZD9291 is an oral, irreversible, and mutant-selective EGFR inhibitor with IC50 of 12.92, 11.44 and 493.8 nM for Exon 19 deletion EGFR, L858R/T790M EGFR, and WT EGFR, respectively. Phase 3.",Protein Tyrosine Kinase
+S7334,UCD-0159502,ERK5-IN-1,L2000-05,E09,L2000-08,B07,638.81,1435488-37-1,ERK,"ERK5-IN-1 is a potent, and selective <b>ERK5</b> inhibitor with <b>IC50</b> of 162 nM.
+",MAPK
+DMSO,,DMSO,L2000-05,G01,L2000-08,B08,,,,,
+S7367,UCD-0159510,GNE-0877,L2000-05,E10,L2000-08,B09,339.32,1374828-69-9,LRRK2,GNE-0877 is a highly potent and selective leucine-rich repeat kinase 2 (LRRK2) inhibitor with Ki of 0.7 nM.,Autophagy
+S7393,UCD-0159518,Aloxistatin,L2000-05,E11,L2000-08,B10,342.43,88321-09-9,Cysteine Protease,Aloxistatin is an irreversible and membrane-permeable cysteine protease inhibitor.,Proteases
+DMSO,,DMSO,L2000-05,H01,L2000-08,B11,,,,,
+S7130,UCD-0159448,PR-619,L2000-05,F02,L2000-08,C02,223.28,2645-32-1,DUB,"PR-619 is a non-selective, reversible inhibitor of the deubiquitinylating enzymes (DUBs) with EC50 of 1-20 μM.",Ubiquitin
+S7149,UCD-0159456,NSC 319726,L2000-05,F03,L2000-08,C03,234.32,71555-25-4,p53,"NSC319726 is a p53(R175) mutant reactivator, exhibits growth inhibition in cells expressing mutant p53, with IC50 of 8 nM for p53(R175) mutant, shows no inhibition for p53 wild-type cells.",Apoptosis
+S7176,UCD-0159463,SKI II,L2000-05,F04,L2000-08,C04,302.78,312636-16-1,S1P Receptor,"SKI II is a highly selective and non ATP-competitive S1P receptor inhibitor with IC50 of 0.5 μM, while exhibits no inhibitory on other kinases including PI3K, PKCα and ERK2.",GPCR & G Protein
+S7218,UCD-0159471,Alvelestat (AZD9668),L2000-05,F05,L2000-08,C05,545.53,848141-11-7,Serine Protease,"Alvelestat (AZD9668) is an oral, highly selective inhibitor of neutrophil elastase (NE) with IC50 and Ki of 12 nM and 9.4 nM, at least 600-fold more selective over other serine proteases.
+ Phase 2.
+",Proteases
+S7251,UCD-0159479,KPT-276,L2000-05,F06,L2000-08,C06,426.26,1421919-75-6,CRM1,KPT-276 is an orally bioavailable selective CRM1 inhibitor.,Transmembrane Transporters
+S7272,UCD-0159487,4μ8C,L2000-05,F07,L2000-08,C07,204.18,14003-96-4,Others,4μ8C is a potent and selective IRE1 Rnase inhibitor with IC50 of 76 nM.,Others
+S7307,UCD-0159495,GSK2606414,L2000-05,F08,L2000-08,C08,451.44,1337531-36-8,PERK,"GSK2606414 is an orally available, potent, and selective PERK inhibitor with IC50 of 0.4 nM, displaying at least 100-fold selectivity over the other EIF2AKs assayed.",Apoptosis
+S7336,UCD-0159503,CW069,L2000-05,F09,L2000-08,C09,500.33,1594094-64-0,Microtubule Associated,"CW069 is an allosteric, and selective inhibitor of microtubule motor protein HSET with IC50 of 75 μM, significant selectivity over KSP.",Cytoskeletal Signaling
+S7368,UCD-0159511,GNE-9605,L2000-05,F10,L2000-08,C10,449.83,1536200-31-3,LRRK2,"GNE-9605 is a highly potent and selective leucine-rich repeat kinase 2 (LRRK2) inhibitor with Ki and IC50 of 2 nM and 19 nM, respectively.
+",Autophagy
+S7399,UCD-0159519,FLI-06,L2000-05,F11,L2000-08,C11,438.52,313967-18-9,Gamma-secretase,FLI-06 is a novel inhibitor of Notch signaling with EC50 of 2.3 μM.,Stem Cells &  Wnt
+S7133,UCD-0159449,P22077,L2000-05,G02,L2000-08,D02,315.32,1247819-59-5,DUB,"P22077 is an inhibitor of ubiquitin-specific protease USP7 with EC50 of 8.6 μM, also inhibits the closely related USP47.",Ubiquitin
+S7152,UCD-0001927,C646,L2000-05,G03,L2000-08,D03,445.42,328968-36-1,Histone Acetyltransferase,"C646 is an inhibitor for histone acetyltransferase, and inhibits p300 with a Ki of 400 nM.  Preferentially selective for p300 versus other acetyltransferases.",Epigenetics
+S7185,UCD-0159464,AGI-5198,L2000-05,G04,L2000-08,D04,462.56,1355326-35-0,Dehydrogenase,AGI-5198 is the first highly potent and selective inhibitor of IDH1 R132H/R132C mutants with IC50 of 0.07 μM/0.16 μM.,Metabolism
+S7223,UCD-0159472,RepSox,L2000-05,G05,L2000-08,D05,287.32,446859-33-2,TGF-beta/Smad,"RepSox is a potent and selective inhibitor of the TGFβR-1/ALK5 with IC50 of 23 nM and 4 nM for ATP binding to ALK5 and ALK5 autophosphorylation, respectively.",TGF-beta/Smad
+S7252,UCD-0159480,Selinexor (KPT-330),L2000-05,G06,L2000-08,D06,443.31,1393477-72-9,CRM1,KPT-330 is an orally bioavailable selective CRM1 inhibitor.,Transmembrane Transporters
+S7276,UCD-0159488,SGI-1027,L2000-05,G07,L2000-08,D07,461.52,1020149-73-8,DNA Methyltransferase,"SGI-1027 is a DNMT inhibitor with IC50 of 6, 8, 7.5 μM for DNMT1, DNMT3A, and DNMT3B",Epigenetics
+S7316,UCD-0159496,STF-118804,L2000-05,G08,L2000-08,D08,461.53,894187-61-2,NAMPT,STF-118804 is a highly specific NAMPT inhibitor.,Others
+S7338,UCD-0159504,AZ191,L2000-05,G09,L2000-08,D09,429.52,1594092-37-1,DYRK,"AZ191 is a potent and selective DYRK1B inhibitor with IC50 of 17 nM in a cell-free assay, about 5- and 110-fold selectivity over DYRK1A and DYRK2, respectively.",Others
+S7369,UCD-0159512,4EGI-1,L2000-05,G10,L2000-08,D10,451.28,315706-13-9,Others,4EGI-1 is a competitive eIF4E/eIF4G interaction inhibitor by binding to eIF4E with KD of 25 μM.,Others
+S7414,UCD-0159520,Caffeic Acid Phenethyl Ester,L2000-05,G11,L2000-08,D11,284.31,104594-70-9,NF-κB,"Caffeic acid phenethyl ester is a potent and specific inhibitor of NF-κB activation, and also displays antioxidant, immunomodulatory and antiinflammatory activities.",NF-κB
+DMSO,,DMSO,L2000-05,A12,L2000-08,E02,,,,,
+S7136,UCD-0159450,CGK 733,L2000-05,H02,L2000-08,E03,555.84,905973-89-9,ATM/ATR,CGK 733 is a potent and selective inhibitor of ATM/ATR with IC50 of ~200 nM.,DNA Damage
+S7155,UCD-0159457,Batimastat (BB-94),L2000-05,H03,L2000-08,E04,477.64,130370-60-4,MMP,"Batimastat (BB-94) is a potent, broad spectrum matrix metalloprotease (MMP) inhibitor for MMP-1, MMP-2, MMP-9, MMP-7 and MMP-3 with IC50 of 3 nM, 4 nM, 4 nM, 6 nM and 20 nM, respectively.",Proteases
+DMSO,,DMSO,L2000-05,B12,L2000-08,E05,,,,,
+S7192,UCD-0159465,PF-04620110,L2000-05,H04,L2000-08,E06,396.44,1109276-89-2,Transferase,"PF-04620110 is an orally active, selective and potent diglyceride acyltransferase-1 (DGAT1) inhibitor with IC50 of 19 nM.",Metabolism
+S7237,UCD-0159473,OG-L002,L2000-05,H05,L2000-08,E07,225.29,1357302-64-7,Histone Demethylase,"OG-L002 is a potent and specific LSD1 inhibitor with IC50 of 20 nM, exhibiting 36- and 69-fold selectivity over MAO-B and MAO-A, respectively.",Epigenetics
+DMSO,,DMSO,L2000-05,C12,L2000-08,E08,,,,,
+S7255,UCD-0159481,NMS-P937 (NMS1286937),L2000-05,H06,L2000-08,E09,532.52,1034616-18-6,PLK,"NMS-P937 (NMS1286937) is an orally available, selective Polo-like Kinase 1 (PLK1) inhibitor with IC50 of 2 nM, 5000-fold selectivity over PLK2/PLK3. Phase 1.",Cell Cycle
+S7281,UCD-0159489,JIB-04,L2000-05,H07,L2000-08,E10,308.76,199596-05-9,Histone Demethylase,"JIB-04 is a pan-selective <b>Jumonji histone demethylase</b> inhibitor with <b>IC50</b> of 230, 340, 855, 445, 435, 1100, and 290 nM for JARID1A, JMJD2E, JMJD3, JMJD2A, JMJD2B, JMJD2C, and JMJD2D in cell-free assays, respectively.",Epigenetics
+DMSO,,DMSO,L2000-05,D12,L2000-08,E11,,,,,
+S7317,UCD-0159497,WZ4003,L2000-05,H08,L2000-08,F02,496.99,1214265-58-3,AMPK,"WZ4003 is a highly specific NUAK kinase inhibitor with IC50 of 20 nM and 100 nM for NUAK1 and NUAK2, respectively, without significant inhibition on 139 other kinases.",PI3K/Akt/mTOR
+S7339,UCD-0159505,AZD3965,L2000-05,H09,L2000-08,F03,515.51,1448671-31-5,Others,"AZD3965 is a potent, selective and orally available monocarboxylate transporter 1 (MCT1) inhibitor with a binding affinity of 1.6 nM, 6-fold selective over MCT2. Phase 1.",Others
+S7370,UCD-0159513,4E1RCat,L2000-05,H10,L2000-08,F04,478.45,328998-25-0,Others,"4E1RCat is a dual inhibitor of eIF4E:eIF4G and eIF4E:4E-BP1 interaction, and inhibits the binding of eIF4G to eIF4E with IC50 of 3.2 μM.",Others
+S7421,UCD-0159521,CGP 57380,L2000-05,H11,L2000-08,F05,244.23,522629-08-9,MNK,"CGP 57380 is potent MNK1 inhibitor with IC50 of 2.2 μM, exhibiting no inhibitory activity on p38, JNK1, ERK1 and -2, PKC, or c-Src-like kinases.",Others
+S7424,UCD-0159522,PD 151746,L2000-06,A02,L2000-08,F06,237.25,179461-52-0,Cysteine Protease,"PD 151746 is a selective, cell-permeable calpain inhibitor with Ki of 0.26 μM for μ-Calpain, about 20-fold selectivity over m-calpain.
+",Proteases
+S7461,UCD-0159529,LDC000067,L2000-06,A03,L2000-08,F07,370.43,1073485-20-7,CDK,"LDC000067 is a highly selective CDK9 inhibitor with IC50 of 44 nM, 55/125/210/ >227/ >227-fold selectivity over CDK2/1/4/6/7.
+",Cell Cycle
+S7505,UCD-0159537,(S)-crizotinib,L2000-06,A04,L2000-08,F08,450.34,1374356-45-2,MTH1,"(S)-crizotinib, the (S)-enantiomer of crizotinib, is a potent MTH1 (NUDT1) inhibitor with IC50 of 72 nM.",Others
+S7528,UCD-0159545,GNE-7915,L2000-06,A05,L2000-08,F09,443.40,1351761-44-8,LRRK2,"GNE-7915 is a highly potent, selective, and brain-penetrable leucine-rich repeat kinase 2 (LRRK2) inhibitor,  with IC50 and Ki of 9 nM and 1 nM, respectively. 
+",Autophagy
+S7557,UCD-0159552,CL-387785 (EKI-785),L2000-06,A06,L2000-08,F10,381.23,194423-06-8,EGFR,"CL-387785 (EKI-785) is an irreversible, and selective <b>EGFR</b> inhibitor with <b>IC50</b> of 370 pM. 
+",Protein Tyrosine Kinase
+S7596,UCD-0159560,CAY10603,L2000-06,A07,L2000-08,F11,446.5,1045792-66-2,HDAC,"CAY10603 is a potent and selective <b>HDAC6</b> inhibitor with <b>IC50</b> of 2 pM, >200-fold selectivity over other HDACs.
+",DNA Damage
+S7632,UCD-0159568,TH588,L2000-06,A08,L2000-08,G02,295.17,1609960-31-7,MTH1,TH588 is a potent and selective MTH1 (NUDT1) inhibitor with IC50 of 5 nM.,Others
+S7685,UCD-0159576,SecinH3,L2000-06,A09,L2000-08,G03,460.5,853625-60-2,Others,"SecinH3 is a selective <b>cytohesin</b> inhibitor with <b>IC50</b> of 2.4 μM, 5.4 μM, 5.4 μM, 5.6 μM, 5.6 μM, and 65 μM for hCyh2, hCyh1, mCyh3, hCyh3, drosophila steppke, and yGea2-S7, respectively.
+",Others
+S7720,UCD-0159584,SBE 13 HCl,L2000-06,A10,L2000-08,G04,479.4,1052532-15-6,PLK,"SBE 13 HCl is a potent and selective <b>PLK1</b> inhibitor with <b>IC50</b> of 200 pM, >4000-fold selectivity over Aurora A kinase, Plk2 and Plk3.
+",Cell Cycle
+S7796,UCD-0159591,GSK2879552 2HCl,L2000-06,A11,L2000-08,G05,437.4,1401966-69-5 (free base),Histone Demethylase,"GSK2879552 2HCl is a potent, selective, orally bioavailable, irreversible LSD1 inhibitor with Kiapp of 1.7 μM. Phase 1.",Epigenetics
+S7430,UCD-0159523,SB-3CT,L2000-06,B02,L2000-08,G06,306.40,292605-14-2,MMP,"SB-3CT is an effective and selective gelatinase inhibitor with Ki of 13.9 nM and 600 nM for MMP-2 and MMP-9, respectively.
+",Proteases
+S7462,UCD-0159530,PI-1840,L2000-06,B03,L2000-08,G07,394.47,1401223-22-0,Proteasome,"PI-1840 is a reversible and selective chymotrypsin-like (CT-L) inhibitor with IC50 of 27 nM with little effects on the other two major proteasome proteolytic activities, trypsin-like (T-L) and postglutamyl-peptide-hydrolysis-like (PGPH-L).
+",Proteases
+S7508,UCD-0159538,JNK Inhibitor IX,L2000-06,B04,L2000-08,G08,332.42,312917-14-9,JNK,"JNK inhibitor IX is a selective and potent JNK inhibitor with pIC50 of 6.5 and 6.7 for JNK2 and JNK3, respectively.",MAPK
+S7529,UCD-0159546,ML323,L2000-06,B05,L2000-08,G09,384.48,1572414-83-5,DUB,"ML323 is a highly potent and selective USP1-UAF1 inhibitor with IC50 of 76 nM.
+",Ubiquitin
+S7566,UCD-0159553,IM-12,L2000-06,B06,L2000-08,G10,377.41,1129669-05-1,GSK-3,"IM-12 is a selective GSK-3β inhibitor with IC50 of 53 nM, and also enhances canonical Wnt signalling. 
+",PI3K/Akt/mTOR
+S7605,UCD-0159561,Filgotinib (GLPG0634),L2000-06,B07,L2000-08,G11,425.50,1206161-97-8,JAK,"Filgotinib (GLPG0634) is a selective JAK1 inhibitor with IC50 of 10 nM, 28 nM, 810 nM, and 116 nM for JAK1, JAK2, JAK3, and TYK2, respectively. Phase 2.
+",JAK/STAT
+DMSO,,DMSO,L2000-06,A01,L2000-09,B02,,,,,
+S7638,UCD-0159569,LDC1267,L2000-06,B08,L2000-09,B03,560.55,1361030-48-9,TAM Receptor,"LDC1267 is a highly selective <b>TAM kinase</b> inhibitor with <b>IC50</b> of <5 nM, 8 nM, and 29 nM for Mer, Tyro3, and Axl, respectively. Displays lower activity against Met, Aurora B, Lck, Src, and CDK8.
+",Protein Tyrosine Kinase
+S7686,UCD-0159577,ML141,L2000-06,B09,L2000-09,B04,407.49,71203-35-5,Rho,"ML141 is a potent, selective and reversible non-competitive inhibitor of Rho family GTPase <b>cdc42</b> with <b>IC50</b> of 200 nM.
+",Cell Cycle
+DMSO,,DMSO,L2000-06,B01,L2000-09,B05,,,,,
+S7725,UCD-0159585,BLZ945,L2000-06,B10,L2000-09,B06,398.48,953769-46-5,CSF-1R,"BLZ945 is an orally active, potent and selective <b>CSF-1R</b> inhibitor with <b>IC50</b> of 1 nM, >1000-fold selective against its closest receptor tyrosine kinase homologs.
+",Protein Tyrosine Kinase
+S7804,UCD-0159592,GSK503,L2000-06,B11,L2000-09,B07,526.67,1346572-63-1,Histone Methyltransferase,"GSK503 is a potent and specific <b>EZH2</b> methyltransferase inhibitor.
+",Epigenetics
+DMSO,,DMSO,L2000-06,C01,L2000-09,B08,,,,,
+S7436,UCD-0159524,NH125,L2000-06,C02,L2000-09,B09,524.56,278603-08-0,CaMK,"NH125 is a selective eEF-2 kinase inhibitor with IC50 of 60 nM, >125-fold selectivity over PKC, PKA, and CaMKII, and also a potent histidine kinase inhibitor.",Others
+S7467,UCD-0159531,LB42708,L2000-06,C03,L2000-09,B10,555.46,226929-39-1,Transferase,"LB42708 is an orally active farnesyltransferase (FTase) inhibitor with IC50 of 0.8, 1.2, and 2.0 nM toward H-ras, N-ras, and K-ras, respectively.",Metabolism
+DMSO,,DMSO,L2000-06,D01,L2000-09,B11,,,,,
+S7513,UCD-0159539,Trelagliptin,L2000-06,C04,L2000-09,C02,357.38,865759-25-7,DPP-4,"Trelagliptin is a highly selective, long-acting DPP-4 inhibitor. Phase 3.",Proteases
+S7531,UCD-0159547,UMI-77,L2000-06,C05,L2000-09,C03,468.34,518303-20-3,Bcl-2,"UMI-77 is a selective <b>Mcl-1</b> inhibitor with <b>K</sub>i</sub></b> of 490 nM, showing selectivity over other members of Bcl-2 family.
+",Apoptosis
+S7573,UCD-0159554,GSK2830371,L2000-06,C06,L2000-09,C04,461.02,1404456-53-6,phosphatase,"GSK2830371 is an orally active, allosteric <b>Wip1 phosphatase</b> inhibitor with <b>IC50</b> of 6 nM.
+",Angiogenesis
+S7611,UCD-0159562,EI1,L2000-06,C07,L2000-09,C05,390.48,1418308-27-6,Histone Methyltransferase,"EI1 is a potent and selective <b>EZH2</b> inhibitor with <b>IC50</b> of 15 nM and 13 nM for EZH2 (WT) and EZH2 (Y641F), respectively.
+",Epigenetics
+S7651,UCD-0159570,SB225002,L2000-06,C08,L2000-09,C06,352.14,182498-32-4,CXCR,"SB225002 is a potent, and selective <b>CXCR2</b> antagonist with <b>IC50</b> of 22 nM for inhibiting interleukin IL-8 binding to CXCR2, > 150-fold selectivity over the other 7-TMRs tested.
+",GPCR & G Protein
+S7693,UCD-0159578,AZD6738,L2000-06,C09,L2000-09,C07,412.51,1352226-88-0,ATM/ATR,"AZD6738 is an orally active, and selective <b>ATR</b> kinase inhibitor with <b>IC50</b> of 1 nM. Phase 1/2.
+",PI3K/Akt/mTOR
+S7734,UCD-0159586,LFM-A13,L2000-06,C10,L2000-09,C08,360,244240-24-2,BTK,"LFM-A13 is a specific Bruton's tyrosine kinase (<b>BTK</b>) inhibitor with <b>IC50</b> of 2.5 μM, >100-fold selectivity over other protein kinases including JAK1, JAK2, HCK, EGFR,and IRK.
+",Angiogenesis
+S7805,UCD-0159593,EPZ011989,L2000-06,C11,L2000-09,C09,642.27,1598383-40-4(free base),Histone Methyltransferase,"EPZ011989 is a potent, selective, orally bioavailable EZH2 inhibitor with Ki of <3 nM.",Epigenetics
+S7437,UCD-0159525,Sal003,L2000-06,D02,L2000-09,C10,463.21,1164470-53-4,phosphatase,Sal003 is a potent and cell-permeable eIF-2α phosphatase inhibitor.,Others
+S7492,UCD-0159532,Uprosertib (GSK2141795),L2000-06,D03,L2000-09,C11,429.25,1047634-65-0,Akt,"Uprosertib (GSK2141795) is a selective, ATP-competitive, and orally bioavailable Akt inhibitor with IC50 of 180 nM, 328 nM, and 38 nM for Akt 1, 2 and 3, respectively. Phase 2.",PI3K/Akt/mTOR
+S7517,UCD-0159540,AZD7545,L2000-06,D04,L2000-09,D02,478.87,252017-04-2,Others,"AZD7545 is a potent PDHK inhibitor with IC50 of 36.8 nM and 6.4 nM for PDHK1 and PDHK2, respectively.",Others
+S7534,UCD-0159548,BAPTA-AM,L2000-06,D05,L2000-09,D03,764.68,126150-97-8,Others,"BAPTA-AM is a selective, membrane-permeable calcium chelator.",Others
+S7577,UCD-0159555,AGK2,L2000-06,D06,L2000-09,D04,434.27,304896-28-4,Sirtuin,"AGK2 is a potent, and selective <b>SIRT2</b> inhibitor with <b>IC50</b> of 3.5 μM.
+",Cytoskeletal Signaling
+S7612,UCD-0159563,PX-478 2HCl,L2000-06,D07,L2000-09,D05,394.12,685898-44-6,HIF,"PX-478 2HCl is an orally active, and selective <b>hypoxia-inducible factor-1α (HIF-1α)</b> inhibitor. Phase 1.
+",Angiogenesis
+S7655,UCD-0159571,CB-839,L2000-06,D08,L2000-09,D06,571.57,1439399-58-2,Glutaminase,"CB-839 is a potent, selective, and orally bioavailable <b>glutaminase</b> inhibitor with <b>IC50</b> of 24 nM for recombinant human GAC. Phase 1.
+",Others
+S7694,UCD-0159579,AZD8186,L2000-06,D09,L2000-09,D07,457.47,1627494-13-6,PI3K,"AZD8186 is a potent and selective inhibitor of PI3Kβ and PI3Kδ with <b>IC50</b> of 4 nM and 12 nM, respectively. Phase 1.
+",PI3K/Akt/mTOR
+S7738,UCD-0159587,PRT-060318 2HCl,L2000-06,D10,L2000-09,D08,449.81,1194961-19-7 (free base),Syk,"PRT-060318 (PRT318) is a novel selective inhibitor of the Syk tyrosine kinase, as an approach to HIT treatment.",Angiogenesis
+S7814,UCD-0159594,AI-10-49,L2000-06,D11,L2000-09,D09,660.52,1256094-72-0,Others,AI-10-49 is a selective inhibitor of the binding of CBFβ-SMMHC to RUNX1 with IC50 of 260 nM. ,Others
+S7445,UCD-0159526,E3330,L2000-06,E02,L2000-09,D10,378.46,136164-66-4,DNA/RNA Synthesis,"E3330 is a potent and selective <b>APE1(Ref-1)</b> inhibitor, which suppressed NF-kappa B DNA-binding activity.
+",DNA Damage
+S7497,UCD-0159533,CK-636,L2000-06,E03,L2000-09,D11,284.38,442632-72-6,Microtubule Associated,"CK-636 is an Arp2/3 complex inhibitor with IC50 of 4 μM, 24 μM and 32 μM for inhibition of actin polymerization induced by human, fission yeast and bovine Arp2/3 complex, respectively.",Cytoskeletal Signaling
+DMSO,,DMSO,L2000-06,E01,L2000-09,E02,,,,,
+S7519,UCD-0159541,GNF-5837,L2000-06,E04,L2000-09,E03,535.49,1033769-28-6,Trk receptor,"GNF-5837 is a selective, and orally bioavailable pan-<b>TRK</b> inhibitor for TrkA, and TrkB with <b>IC50</b> of 8 nM, and 12 nM, respectively. 
+",Protein Tyrosine Kinase
+S7539,UCD-0159514B,PTC-209 HBr,L2000-06,E05,L2000-09,E04,576.10,1217022-63-3,Others,"PTC-209 HBr is the hydrobromide salt of PTC-209, which is a potent and selective BMI-1 inhibitor with IC50 of 0.5 μM, and results in irreversible reduction of cancer-initiating cells (CICs).
+",Others
+DMSO,,DMSO,L2000-06,F01,L2000-09,E05,,,,,
+S7585,UCD-0159556,SB-334867,L2000-06,E06,L2000-09,E06,319.32,792173-99-0,OX Receptor,"SB-334867 is a selective <b>orexin-1 (OX1) receptor</b> antagonist.
+",GPCR & G Protein
+S7620,UCD-0159564,GSK1324726A (I-BET726),L2000-06,E07,L2000-09,E07,434.91,1300031-52-0,Epigenetic Reader Domain,"GSK1324726A (I-BET726) is a highly selective inhibitor of <b>BET</b> family proteins with <b>IC50</b> of 41 nM, 31 nM, and 22 nM for BRD2, BRD3, and BRD4, respectively.
+",Epigenetics
+DMSO,,DMSO,L2000-06,G01,L2000-09,E08,,,,,
+S7656,UCD-0159572,CPI-360,L2000-06,E08,L2000-09,E09,437.53,1802175-06-9,Histone Methyltransferase,"CPI-360 is a potent, selective,and SAM-competitive <b>EZH1</b> inhibitor with <b>IC50</b> of 102.3 nM, >100-fold selectivity over other methyltransferases.
+",Epigenetics
+S7697,UCD-0159580,LY2409881,L2000-06,E09,L2000-09,E10,594.43,946518-60-1,IκB/IKK,"LY2409881 is a potent and selective <b>IKK2</b> inhibitor with <b>IC50</b> of 30 nM, >10-fold selectivity over IKK1 and other common kinases.
+",NF-κB
+DMSO,,DMSO,L2000-06,H01,L2000-09,E11,,,,,
+S7741,UCD-0159588,SB239063,L2000-06,E10,L2000-09,F02,368.4,193551-21-2,p38 MAPK,"SB239063 is a potent and selective <b>p38 MAPKα/β</b> inhibitor with <b>IC50</b> of 44 nM, showing no activity against the γ- and δ-kinase isoforms. 
+",MAPK
+S7827,UCD-0159595,4-Hydroxytamoxifen,L2000-06,E11,L2000-09,F03,387.51,68392-35-8,Estrogen/progestogen Receptor,4-Hydroxytamoxifen  is the active metabolite of tamoxifen and a selective estrogen receptor (ER) modulator that is widely used in the therapeutic and chemopreventive treatment of breast cancer.,Endocrinology & Hormones
+S7449,UCD-0159527,CRT0044876,L2000-06,F02,L2000-09,F04,206.15,6960-45-8,DNA/RNA Synthesis,CRT0044876 is a potent and selective APE1 inhibitor with IC50 of ~3 μM.,DNA Damage
+S7498,UCD-0159534,DDR1-IN-1,L2000-06,F03,L2000-09,F05,552.59,1449685-96-4,Others,"DDR1-IN-1 is a potent and selective <b>discoidin domain receptor 1 (DDR1)</b> receptor tyrosine kinase inhibitor with <b>IC50</b> of 105 nM, about 3-fold selectivity over DDR2.
+",Others
+S7524,UCD-0159542,FR 180204,L2000-06,F04,L2000-09,F06,327.34,865362-74-9,ERK,"FR 180204 is an ATP-competitive, selective <b>ERK</b> inhibitor with <b>K<sub>i</sub></b> of 0.31 μM and 0.14 μM for ERK1 And ERK2, respectively.
+",MAPK
+S7541,UCD-0159549,Decernotinib (VX-509),L2000-06,F05,L2000-09,F07,392.38,944842-54-0,JAK,"Decernotinib (VX-509) is a potent and selective JAK3 inhibitor with Ki of 2.5 nM, >4-fold selectivity over JAK1, JAK2, and TYK2, respectively. Phase 2/3.",JAK/STAT
+S7589,UCD-0159557,N6022,L2000-06,F06,L2000-09,F08,414.46,1208315-24-5,Others,"N6022 is a selective, and reversible inhibitor of S-nitrosoglutathione reductase (GSNOR) with IC50 of 8 nM and Ki of 2.5 nM. Phase 1/2.
+",Others
+S7624,UCD-0159565,SD-208,L2000-06,F07,L2000-09,F09,352.75,627536-09-8,TGF-beta/Smad,"SD-208 is a selective <b>TGF-βRI (ALK5)</b> inhibitor with <b>IC50</b> of 48 nM, >100-fold selectivity over TGF-βRII. 
+",TGF-beta/Smad
+S7668,UCD-0159573,Picropodophyllin (PPP),L2000-06,F08,L2000-09,F10,414.41,477-47-4,IGF-1R,"Picropodophyllin (PPP) is a selective <b>IGF-1R</b> inhibitor with <b>IC50</b> of 1 nM. Phase 1/2.
+",Protein Tyrosine Kinase
+S7704,UCD-0159581,LY2584702 Tosylate,L2000-06,F09,L2000-09,F11,617.62,1082949-68-5,S6 Kinase,"LY2584702 Tosylate is a selective, ATP-competitive <B>p70S6K</b> inhibitor with IC50 of 4 nM. Phase 1. 
+",PI3K/Akt/mTOR
+S7742,UCD-0159589,SCR7,L2000-06,F10,L2000-09,G02,332.38,14892-97-8,DNA/RNA Synthesis,"SCR7 is a specific DNA Ligase IV inhibitor, which blocks nonhomologous end-joining (NHEJ).
+",DNA Damage
+S7832,UCD-0001944,SGC707,L2000-06,F11,L2000-09,G03,298.34,1687736-54-4,Histone Methyltransferase,"SGC707 is a potent, selective and cell-active allosteric inhibitor of protein arginine methyltransferase 3 (PRMT3) with IC50 and Kd of 31 nM and 53 nM, respectively.",Epigenetics
+S7457,UCD-0159665,XEN445,L2000-06,G02,L2000-09,G04,366.33,1515856-92-4,Lipase,"XEN445 is a potent and selective <b>endothelial lipase</b> inhibitor with <b>IC50</b> of 0.237 μM. 
+",Others
+S7500,UCD-0159535,HJC0350,L2000-06,G03,L2000-09,G05,277.38,885434-70-8,cAMP,"HJC0350 is a potent and selective EPAC2 inhibitor with IC50 of 0.3 μM, exhibiting no inhibition on Epac1.
+",Others
+S7525,UCD-0159543,XMD8-92,L2000-06,G04,L2000-09,G06,474.55,1234480-50-2,ERK,"XMD8-92 is a potent and selective BMK1/ERK5 inhibitor with Kd of 80 nM.
+",MAPK
+S7544,UCD-0159550,Vacquinol-1,L2000-06,G05,L2000-09,G07,425.78,5428-80-8（free base）,JNK,"Vacquinol-1 is an MKK4 activator, which rapidly and selectively induces glioma cell death. ",MAPK
+S7593,UCD-0159558,Splitomicin,L2000-06,G06,L2000-09,G08,198.22,5690-03-9,Sirtuin,"Splitomicin is a selective <b>NAD(+)-dependent histone deacetylase Sir2p</b> inhibitor with <b>IC50</b> of 60 μM, showing a higher activity in a cell-based assay.
+",Cytoskeletal Signaling
+S7625,UCD-0159566,Niraparib (MK-4827) tosylate,L2000-06,G07,L2000-09,G09,492.59,1038915-73-9,PARP,MK-4827(Niraparib) tosylate is a selective inhibitor of PARP1/PARP2 with IC50 of 3.8 nM/2.1 nM.,DNA Damage
+S7680,UCD-0159574,SP2509,L2000-06,G08,L2000-09,G10,437.90,1423715-09-6,Histone Demethylase,"SP2509 is a selective <b>histone demethylase LSD1</b> inhibitor with <b>IC50</b> of  13 nM, showing no activity against MAO-A, MAO-B, lactate dehydrogenase and glucose oxidase. 
+",Epigenetics
+S7705,UCD-0159582,A-438079 HCl,L2000-06,G09,L2000-09,G11,342.61,899431-18-6,P2 Receptor,"A-438079 HCl is a potent, and selective <b>P2X7 receptor</b> antagonist with <b>pIC50</b> of 6.9.
+",Neuronal Signaling
+DMSO,,DMSO,L2000-06,A12,L2000-10,B02,,,,,
+S7748,UCD-0159253,EPZ015666(GSK3235025),L2000-06,G10,L2000-10,B03,383.44,1616391-65-1,Histone Methyltransferase,"EPZ015666 is a potent, selective and orally bioavailable <b>PRMT5</b> inhibitor with <b>K<sub>i</sub></b> of 5 nM, >20,000-fold selectivity over other PMTs. 
+
+",Epigenetics
+S7834,UCD-0159596,Cyclo (-RGDfK),L2000-06,G11,L2000-10,B04,717.69,161552-03-0,Integrin,"Cyclo (-RGDfK) is a potent and selective <b>αvβ3 integrin</b> inhibitor.
+",Cytoskeletal Signaling
+DMSO,,DMSO,L2000-06,B12,L2000-10,B05,,,,,
+S7460,UCD-0159528,BTB06584,L2000-06,H02,L2000-10,B06,417.82,219793-45-0,ATPase,"BTB06584 is an IF1-dependent, selective inhibitor of the mitochondrial F1 Fo-ATPase.",Transmembrane Transporters
+S7501,UCD-0159536,HO-3867,L2000-06,H03,L2000-10,B07,464.55,1172133-28-6,STAT,"HO-3867, an analog of curcumin, is a selective STAT3 inhibitor.
+",JAK/STAT
+DMSO,,DMSO,L2000-06,C12,L2000-10,B08,,,,,
+S7526,UCD-0159544,GNF-5,L2000-06,H04,L2000-10,B09,418.37,778277-15-9,Bcr-Abl,GNF-5 is a selective and allosteric Bcr-Abl inhibitor with IC50 of 220 nM. ,Angiogenesis
+S7555,UCD-0159551,4SC-202,L2000-06,H05,L2000-10,B10,447.51,910462-43-0,HDAC,"4SC-202 is a selective class I <b>HDAC</b> inhibitor with <b>IC50</b> of 1.20 μM, 1.12 μM, and 0.57 μM for HDAC1, HDAC2, and HDAC3, respectively. Also displays inhibitory activity against <b>Lysine specific demethylase 1 (LSD1)</b>. Phase 1.
+",Epigenetics
+DMSO,,DMSO,L2000-06,D12,L2000-10,B11,,,,,
+S7595,UCD-0159559,Santacruzamate A (CAY10683),L2000-06,H06,L2000-10,C02,278.35,1477949-42-0,HDAC,"Santacruzamate A (CAY10683) is a potent and selective HDAC inhibitor with IC50 of 119 pM for HDAC2, >3600-fold selectivity over other HDACs. 
+",DNA Damage
+S7631,UCD-0159567,TH287,L2000-06,H07,L2000-10,C03,269.13,1609960-30-6,MTH1,"TH287 is a potent and selective <b>MTH1 (NUDT1)</b> inhibitor with <b>IC50</b> of 0.8 nM.
+",Others
+S7683,UCD-0159575,PIK-III,L2000-06,H08,L2000-10,C04,319.36,1383716-40-2,"Autophagy,PI3K","PIK-III, which is a selective inhibitor of ​VPS34 enzymatic activity, inhibits autophagy and de novo lipidation of LC3 and leads to the stabilization of autophagy substrates.",Autophagy
+S7709,UCD-0159583,VX-11e ,L2000-06,H09,L2000-10,C05,500.35,896720-20-0,ERK,"VX-11e is a potent, selective, and orally bioavailable ERK2 inhibitor with Ki of <2 nM, over 200-fold selective over other kinases tested. ",MAPK
+S7753,UCD-0159590,BPTES,L2000-06,H10,L2000-10,C06,524.68,314045-39-1,Glutaminase,"BPTES is a potent and selective <b>Glutaminase GLS1 (KGA)</b> inhibitor with <b>IC50</b> of 0.16 μM.
+",Others
+S7835,UCD-0159597,I-BRD9,L2000-06,H11,L2000-10,C07,497.55,1714146-59-4,Epigenetic Reader Domain,"I-BRD9 (GSK602) is a potent and selective BRD9 inhibitor with pIC50 of 7.3, while it displayed a pIC50 of 5.3 against BRD4.",Epigenetics
+S7839,UCD-0159598,Endoxifen HCl,L2000-07,A02,L2000-10,C08,409.95,1032008-74-4,Estrogen/progestogen Receptor,"Endoxifen HCl, the active metabolite of Tamoxifen, ia a potent and selective <b>estrogen receptor</b> antagonist. Phase 2.
+",Endocrinology & Hormones
+S7886,UCD-0159605,CC-223,L2000-07,A03,L2000-10,C09,397.47,1228013-30-6,mTOR,"CC-223 is a potent, selective, and orally bioavailable mTOR inhibitor with IC50 of 16 nM, >200-fold selectivity over the related PI3K-α. Phase 1/2.",PI3K/Akt/mTOR
+S7936,UCD-0159612,KD025 (SLx-2119),L2000-07,A04,L2000-10,C10,452.51,911417-87-3,ROCK,"KD025 is an orally available, and selective ROCK2 inhibitor with IC50 and Ki of 60 nM and 41 nM, respectively. Phase 2.",Cell Cycle
+S7975,UCD-0159620,Favipiravir (T-705),L2000-07,A05,L2000-10,C11,157.1,259793-96-9,DNA/RNA Synthesis,"Favipiravir (T-705) is a potent and selective <b>RNA-dependent RNA polymerase</b> inhibitor, used to treat influenza virus infections.
+",DNA Damage
+S8022,UCD-0159628,Empagliflozin (BI 10773),L2000-07,A06,L2000-10,D02,450.91,864070-44-0,SGLT,"Empagliflozin (BI-10773) is a potent and selective SGLT-2 inhibitor with IC50 of 3.1 nM, exhibits >300-fold selectivity over SGLT-1, 4, 5 and 6. Phase 3.",GPCR & G Protein
+S8042,UCD-0159636,GW2580,L2000-07,A07,L2000-10,D03,366.41,870483-87-7,CSF-1R,"GW2580 is a selective CSF-1R inhibitor for c-FMS with IC50 of 30 nM, 150- to 500-fold selective compared to b-Raf, CDK4, c-KIT, c-SRC, EGFR, ERBB2/4, ERK2, FLT-3, GSK3, ITK, JAK2 etc.",Protein Tyrosine Kinase
+S8094,UCD-0159644,GlyH-101,L2000-07,A08,L2000-10,D04,493.15,328541-79-3,CFTR,GlyH-101 is a selective and reversible CFTR inhibitor with Ki of 4.3 μM.,Transmembrane Transporters
+S8124,UCD-0159650,BMS-582949 ,L2000-07,A09,L2000-10,D05,406.48,623152-17-0,p38 MAPK,"BMS-582949 is a potent and selective p38 mitogen-activated protein kinase (p38 MAPK) inhibitor with IC50 of 13nM,inhibiting both p38 kinase activity and activation of p38.",MAPK
+S8202,UCD-0159658,PF-06447475,L2000-07,A10,L2000-10,D06,305.33,1527473-33-1,LRRK2,"PF-06447475 is a potent, selective, and brain penetrant LRRK2 kinase inhibitor with IC50 of 3 nM.",Autophagy
+S7843,UCD-0159599,BI-847325,L2000-07,B02,L2000-10,D07,464.56,1207293-36-4,"MEK,Aurora Kinase","BI-847325 is an orally bioavailable, and selective dual <b>MEK/Aurora kinase</b> inhibitor with <b>IC50</b> of 3 nM, 25 nM, 15 nM, 25 nM, and 4 nM for Xenopus laevis Aurora B, human Aurora A and Aurora C, as well as human MEK1 and MEK2, respectively. Phase 1.",MAPK
+S7888,UCD-0159606,Spautin-1,L2000-07,B03,L2000-10,D08,271.26,1262888-28-7,Autophagy,"Spautin-1 is a potent and specific <b>autophagy</b> inhibitor, and inhibits the deubiquitinating activity of <b>USP10</b> and <b>USP13</b> with <b>IC50</b> of ∼0.6-0.7 μM. 
+",Autophagy
+S7938,UCD-0159613,GSK2292767,L2000-07,B04,L2000-10,D09,512.58,1254036-66-2,PI3K,GSK2292767 is a potent and selective PI3Kδ inhibitor.,PI3K/Akt/mTOR
+S7980,UCD-0159621,VPS34-IN1,L2000-07,B05,L2000-10,D10,425.91,1383716-33-3,PI3K,"Vps34-IN1 is a potent and highly selective Vps34 inhibitor with IC50 of 25 nM invitro,which does not significantly inhibit the isoforms of class I as well as class II PI3Ks.",PI3K/Akt/mTOR
+S8023,UCD-0159629,TCS 359,L2000-07,B06,L2000-10,D11,360.43,301305-73-7,FLT3,TCS 359 is a potent FLT3 inhibitor with IC50 of 42 nM.,Angiogenesis
+DMSO,,DMSO,L2000-07,A01,L2000-10,E02,,,,,
+S8047,UCD-0159637,Dynasore,L2000-07,B07,L2000-10,E03,322.31,304448-55-3,Dynamin,"Dynasore is a cell-permeable, reversible non-competitive dynamin inhibitor of GTPase activity of dynamin 1/2, with IC50 of 15 μM, also inhibits the mitochondrial dynamin Drp1, with no effect against other small GTPase.",Others
+S8101,UCD-0159645,CB-5083,L2000-07,B08,L2000-10,E04,413.47,1542705-92-9,ATPase,"CB-5083 is a potent, selective, and orally bioavailable p97 AAA ATPase inhibitor with IC50 of 11 nM. Phase 1.",Transmembrane Transporters
+DMSO,,DMSO,L2000-07,B01,L2000-10,E05,,,,,
+S8134,UCD-0159651,Radotinib,L2000-07,B09,L2000-10,E06,530.50,926037-48-1,Bcr-Abl,"Radotinib is a selective BCR-ABL1 tyrosine kinase inhibitor with IC50 of 34 nM, used to treat Chronic Myeloid Leukemia.",Angiogenesis
+S8205,UCD-0159659,Enasidenib (AG-221),L2000-07,B10,L2000-10,E07,473.38,1446502-11-9,Dehydrogenase,"Enasidenib is a first-in-class, oral, potent, reversible, selective inhibitor of the IDH2 mutant enzyme.",Metabolism
+DMSO,,DMSO,L2000-07,C01,L2000-10,E08,,,,,
+S7844,UCD-0159666,Cyclo(RGDyK),L2000-07,C02,L2000-10,E09,847.72,250612-42-1,Integrin,"Cyclo(RGDyK) is a potent and selective <b>αVβ3 integrin</b> inhibitor with <b>IC50</b> of 20 nM. 
+",Cytoskeletal Signaling
+S7900,UCD-0159607,SW033291,L2000-07,C03,L2000-10,E10,412.59,459147-39-8,Dehydrogenase,"SW033291 is a selective inhibitor of 15-hydroxyprostaglandin dehydrogenase (15-PGDH) with IC50 and Kiapp of 1.5 nM and 0.1 nM, respectively.",Metabolism
+DMSO,,DMSO,L2000-07,D01,L2000-10,E11,,,,,
+S7941,UCD-0159614,NCT-501,L2000-07,C04,L2000-10,F02,416.52,1802088-50-1,Dehydrogenase,NCT-501 is a potent and selective inhibitor of Aldehyde Dehydrogenase 1A1 (ALDH1A1) with IC50 of 40 nM. ,Metabolism
+S8005,UCD-0159622,SMI-4a,L2000-07,C05,L2000-10,F03,273.23,438190-29-5,Pim,"SMI-4a is a potent inhibitor of Pim1 with IC50 of 17 nM, modest potent to Pim-2, does not significantly inhibit other serine/threonine- or tyrosine-kinases.",JAK/STAT
+S8028,UCD-0159630,Tariquidar,L2000-07,C06,L2000-10,F04,646.73,206873-63-4,P-gp,"Tariquidar (XR9576) is a potent and selective noncompetitive inhibitor of P-glycoprotein with Kd of 5.1 nM, reverses drug resistance in MDR cell Lines. Phase 3.",Transmembrane Transporters
+S8048,UCD-0159638,"Venetoclax (ABT-199, GDC-0199)",L2000-07,C07,L2000-10,F05,868.44,1257044-40-8,Bcl-2,"ABT-199 (GDC-0199) is a Bcl-2-selective inhibitor with Ki of <0.01 nM, >4800-fold more selective versus Bcl-xL and Bcl-w, and no activity to Mcl-1. Phase 2.",Apoptosis
+S8104,UCD-0159646,SCH58261,L2000-07,C08,L2000-10,F06,345.36,160098-96-4,Adenosine Receptor,"SCH 58261 is a potent and selective A2a adenosine receptor antagonist with Ki of 2.3 nM and 2 nM for rat A2a and bovine A2a, respectively.",GPCR & G Protein
+S8136,UCD-0159652,Sivelestat (ONO-5046),L2000-07,C09,L2000-10,F07,434.46,127373-66-4,Serine Protease,Sivelestat is a potent and selective inhibitor of neutrophil elastase with IC50</B> of 44nM. It almost shows no activity at a range of other proteases.,Proteases
+S8209,UCD-0159660,HLCL-61 HCL,L2000-07,C10,L2000-10,F08,380.91,1158279-20-9,Histone Methyltransferase,HLCL-61 hydrochloride is a potent and selective PRMT5 inhibitor for the treatment of acute myeloid leukemia.,Epigenetics
+S7845,UCD-0159600,SirReal2,L2000-07,D02,L2000-10,F09,420.55,709002-46-0,Sirtuin,"SirReal2 is a potent and selective <b>Sirt2</b> inhibitor with <b>IC50</b> of 140 nM. 
+",Epigenetics
+S7906,UCD-0001957,PFI-4,L2000-07,D03,L2000-10,F10,380.44,900305-37-5,Epigenetic Reader Domain,"PFI-4 is a potent and selective <b>BRPF1 bromodomain</b> inhibitor with <b>IC50</b> of 80 nM.
+",Epigenetics
+S7946,UCD-0159615,KC7F2,L2000-07,D04,L2000-10,F11,570.38,927822-86-4,HIF,"KC7F2 is a selective <b>HIF-1α</b> transcription inhibitor with <b>IC50</b> of 20 μM in a cell-based assay.
+",Angiogenesis
+S8007,UCD-0159623,VE-821,L2000-07,D05,L2000-10,G02,368.41,1232410-49-9,ATM/ATR,"VE-821 is a potent and selective ATP competitive inhibitor of ATR with Ki/IC50 of 13 nM/26 nM, shows inhibition of H2AX phosphorylation, minimal activity against PIKKs ATM, DNA-PK, mTOR and PI3Kγ.",DNA Damage
+S8031,UCD-0159631,NSC 23766,L2000-07,D06,L2000-10,G03,530.96,1177865-17-6,Rho,"NSC 23766 is an inhibitor of Rac GTPase targeting Rac activation by guanine nucleotide exchange factors (GEFs) with IC50 of ~50 μM; does not inhibit the closely related  targets, Cdc42 or RhoA.",Cell Cycle
+S8054,UCD-0159639,ASP3026,L2000-07,D07,L2000-10,G04,580.74,1097917-15-1,ALK,ASP3026 is a novel and selective inhibitor for ALK  with IC50 of 3.5 nM. Phase 1.,Protein Tyrosine Kinase
+S8105,UCD-0159647,ZM241385,L2000-07,D08,L2000-10,G05,337.34,139180-30-6,Adenosine Receptor,ZM-241385?is a high affinity antagonist ligand selective for the adenosine A2A receptor.,GPCR & G Protein
+S8167,UCD-0159653,AMG 337,L2000-07,D09,L2000-10,G06,463.46,1173699-31-4,c-Met,"AMG 337 is an oral, small molecule, ATP-competitive, highly selective inhibitor of the MET receptor.",Protein Tyrosine Kinase
+S8238,UCD-0159661,SB366791,L2000-07,D10,L2000-10,G07,287.74,472981-92-3,TRPV,"SB-366791 is a novel, potent, and selective, cinnamide TRPV1 antagonist.",Transmembrane Transporters
+S7847,UCD-0159601,SGI-7079,L2000-07,E02,L2000-10,G08,455.53,1239875-86-5,VEGFR,"SGI-7079 ,a novel selective Axl inhibitor, inhibits tumor growth in a dose dependent manner and is a potential therapeutic target for overcoming EGFR inhibitor resistance.",Protein Tyrosine Kinase
+S7910,UCD-0159608,Epacadostat (INCB024360),L2000-07,E03,L2000-10,G09,438.23,1204669-58-8,IDO,"Epacadostat (INCB024360) is a potent and selective indoleamine 2,3-dioxygenase (<b>IDO1</b>) inhibitor with <b>IC50</b> of 10 nM. Phase 2.
+",Metabolism
+S7952,UCD-0159616,Ozanimod (RPC1063),L2000-07,E04,L2000-10,G10,404.46,1306760-87-1,S1P Receptor,Ozanimod (RPC1063) is a selective oral S1P Receptor 1 modulator. Phase 3.,GPCR & G Protein
+S8012,UCD-0159624,Otenabant (CP-945598) HCl,L2000-07,E05,L2000-10,G11,546.88,686347-12-6,Cannabinoid Receptor,"Otenabant (CP-945598) HCl is a potent and selective cannabinoid receptor CB1 antagonist with Ki of 0.7 nM, exhibits 10,000-fold greater selectivity against human CB2 receptor. Phase 1.",GPCR & G Protein
+DMSO,,DMSO,L2000-07,E01,L2000-11,B02,,,,,
+S8032,UCD-0159632,"PRT062607 (P505-15, BIIB057) HCl",L2000-07,E06,L2000-11,B03,429.91,"1370261-97-4,1370261-96-3(free base)",Syk,"PRT062607 (P505-15) HCl is a novel, highly selective Syk inhibitor with IC50 of 1 nM, >80-fold selective for Syk than Fgr, Lyn, FAK, Pyk2 and Zap70.",Angiogenesis
+S8056,UCD-0159640,Lomeguatrib,L2000-07,E07,L2000-11,B04,326.17,192441-08-0,DNA Methyltransferase,Lomeguatrib is a potent inhibitor of O6-alkylguanine-DNA-alkyltransferase with IC50 of 5 nM.,Epigenetics
+DMSO,,DMSO,L2000-07,F01,L2000-11,B05,,,,,
+S8111,UCD-0001952,GSK591,L2000-07,E08,L2000-11,B06,380.48,1616391-87-7,Histone Methyltransferase,"GSK591 (EPZ015866,GSK3203591) is a potent selective inhibitor of the arginine methyltransferase PRMT5 with IC50 of 11 nM.",Epigenetics
+S8179,UCD-0159654,BI-7273,L2000-07,E09,L2000-11,B07,353.41,1883429-21-7,Epigenetic Reader Domain,"BI-7273 is a potent, selective, and cell-permeable BRD9 BD Inhibitor.",Epigenetics
+DMSO,,DMSO,L2000-07,G01,L2000-11,B08,,,,,
+S8241,UCD-0159662,Ponesimod,L2000-07,E10,L2000-11,B09,460.97,854107-55-4,S1P Receptor,"Ponesimod(ACT-128800) is an orally active, selective sphingosine-1-phosphate receptor 1 (S1P1) immunomodulator with EC50 of 5.7 nM.",GPCR & G Protein
+S7877,UCD-0159602,ONO-4059 analogue,L2000-07,F02,L2000-11,B10,456.50,1351635-67-0,BTK,"ONO-4059 is a highly potent and selective oral <b>BTK</b> inhibitor with <b>IC50</b> of 23.9 nM. Phase 1.
+",Angiogenesis
+DMSO,,DMSO,L2000-07,H01,L2000-11,B11,,,,,
+S7922,UCD-0159609,Tiplaxtinin (PAI-039),L2000-07,F03,L2000-11,C02,439.38,393105-53-8,Others,"Tiplaxtinin(PAI-039) is an orally efficacious and selective plasminogen activator inhibitor-1 (<b>PAI-1</b>) inhibitor with <b>IC50</b> of 2.7 μM. 
+",Others
+S7955,UCD-0159617,EPI-001,L2000-07,F04,L2000-11,C03,394.89,227947-06-0,Androgen Receptor,EPI-001 is an androgen receptor N-terminal domain antagonist with IC50 of ∼6 μM and a selective PPAR-gamma modulator.,Endocrinology & Hormones
+S8014,UCD-0159625,GW9508,L2000-07,F05,L2000-11,C04,347.41,885101-89-3,GPR,"GW9508 is a potent and selective agonist for FFA1 (GPR40) with pEC50 of 7.32, 100-fold selective against GPR120, stimulates insulin secretion in a glucose-sensitive manner.",Endocrinology & Hormones
+S8037,UCD-0159633,Necrostatin-1,L2000-07,F06,L2000-11,C05,259.33,4311-88-0,TNF-alpha,Necrostatin-1 is a specific RIP1 inhibitor and inhibits TNF-α-induced necroptosis with EC50 of 490 nM.,Apoptosis
+S8057,UCD-0159641,Pacritinib (SB1518),L2000-07,F07,L2000-11,C06,472.58,937272-79-2,"FLT3,JAK","Pacritinib (SB1518) is a potent and selective inhibitor of Janus Kinase 2 (JAK2) and Fms-Like Tyrosine Kinase-3 (FLT3) with IC50s of 23 and 22 nM, respectively.",JAK/STAT
+S8112,UCD-0001953,MS023,L2000-07,F08,L2000-11,C07,287.40,1831110-54-3,Histone Methyltransferase,"MS023 is a potent, selective, and cell-active Type I PRMT inhibitor with IC50 of 30 nM, 119 nM, 83 nM, 4 nM, and 5 nM for PRMT1, PRMT3, PRMT4, PRMT6 and PRMT8, respectively.",Epigenetics
+S8180,UCD-0159655,PF-CBP1 HCl,L2000-07,F09,L2000-11,C08,525.08,NA,Epigenetic Reader Domain,PF-CBP1 is a highly selective inhibitor of the bromodomain of CREB-binding protein(CREBBP).It inhibits CREBBP and p300 bromodomains with IC50 of 125 and 363 nM respectively.,Epigenetics
+S8319,UCD-0159663,"7,8-Dihydroxyflavone",L2000-07,F10,L2000-11,C09,254.24,38183-03-8,Trk receptor,"7,8-Dihydroxyflavone acts as a potent and selective small-molecule agonist of the TrkB receptor (Kd ≈ 320 nM), the main signaling receptor of brain-derived neurotrophic factor (BDNF).",Protein Tyrosine Kinase
+S7883,UCD-0159603,BQ-123,L2000-07,G02,L2000-11,C10,610.7,136553-81-6,Endothelin Receptor,"BQ-123 is a selective <b>endothelin A receptor (ETA)</b> antagonist with <b>IC50</b> of 7.3 nM. Phase 2.
+",GPCR & G Protein
+S7924,UCD-0159610,Bay K 8644,L2000-07,G03,L2000-11,C11,356.30,71145-03-4,Calcium Channel,"Bay K 8644 is a potent, selective activator of L-type Ca2+ channel with IC50 of 17.3 nM.",Transmembrane Transporters
+S7964,UCD-0159618,PLX7904,L2000-07,G04,L2000-11,D02,512.53,1393465-84-3,Raf,"PLX7904, also known as PB04, is a potent and selective paradox-breaker RAF inhibitor. It is able to efficiently inhibit activation of ERK1/2 in mutant BRAF melanoma cells but does not hyperactivate ERK1/2 in mutant RAS-expressing cells.",MAPK
+S8018,UCD-0159626,PF-03084014 (PF-3084014),L2000-07,G05,L2000-11,D03,489.64,1290543-63-3,Gamma-secretase,"PF-03084014 (PF-3084014) is a selective <b>gamma-secretase</b> inhibitor with <b>IC50</b> of 6.2 nM in a cell-free assay. Phase 2.
+",Neuronal Signaling
+S8039,UCD-0159634,PU-H71,L2000-07,G06,L2000-11,D04,512.37,873436-91-0,HSP (e.g. HSP90),PU-H71 is a potent and selective inhibitor of HSP90 with IC50 of 51 nM. Phase 1.,Cytoskeletal Signaling
+S8072,UCD-0159642,NSC 405020,L2000-07,G07,L2000-11,D05,260.16,7497-07-6,MMP,"NSC 405020 is a noncatalytic inhibitor of MT1-MMP, directly interacts with PEX domain of MT1-MMP, affects PEX homodimerization but not catalytic activity of MT1-MMP.",Proteases
+S8114,UCD-0159648,ICI-118551 Hydrochloride,L2000-07,G08,L2000-11,D06,313.86,1217094-53-5,Adrenergic Receptor,"ICI-118551 is a highly selective β2-adrenergic receptor antagonist with Ki values of 0.7, 49.5 and 611 nM for β2, β1 and β3 receptors, respectively.",GPCR & G Protein
+S8183,UCD-0159656,Pimavanserin ,L2000-07,G09,L2000-11,D07,1005.2,706782-28-7,5-HT Receptor,"Pimavanserin is a potent and selective serotonin 5-HT2A inverse agonist with pIC50 of 8.73, used to treat psychosis associated with Parkinson’s disease.",GPCR & G Protein
+S7885,UCD-0159604,SBI-0206965,L2000-07,H02,L2000-11,D08,489.32,NA,Autophagy,"SBI-0206965 is a highly selective autophagy kinase <b>ULK1</b> inhibitor with <b>IC50</b> of 108 nM, about 7-fold selectivity over ULK2. 
+",Autophagy
+S7931,UCD-0159611,STF-31,L2000-07,H03,L2000-11,D09,423.53,724741-75-7,GLUT1,"STF-31 is a selective glucose transporter <b>GLUT1</b> inhibitor.
+",Others
+S7974,UCD-0159619,L755507,L2000-07,H04,L2000-11,D10,584.73,159182-43-1,Adrenergic Receptor,"L-755,507 is characterized as a potent and selective β3 adrenergic receptor partial agonist with EC50 of 0.43 nM. It is also recently identified to enhance CRISPR-mediated homology-directed repair (HDR) efficiency in human induced pluripotent stem cells (iPSCs) and other cell types.",GPCR & G Protein
+S8020,UCD-0159627,GW0742,L2000-07,H05,L2000-11,D11,471.49,317318-84-6,PPAR,"GW0742 is a potent and highly selective PPARβ/δ agonist, with IC50 of 1 nM, with 1000-fold selectivity over hPPARα and hPPARγ.",Metabolism
+DMSO,,DMSO,L2000-07,A12,L2000-11,E02,,,,,
+S8041,UCD-0159635,"Cobimetinib (GDC-0973, RG7420)",L2000-07,H06,L2000-11,E03,531.31,934660-93-2,MEK,"Cobimetinib (GDC-0973, RG7420) is a potent and highly selective <b>MEK1</b> inhibitor with <b>IC50</b> of 4.2 nM. Phase 3.
+",MAPK
+S8076,UCD-0159643,PluriSIn #1 (NSC 14613),L2000-07,H07,L2000-11,E04,213.24,91396-88-2,Dehydrogenase,"PluriSIn #1 is an inhibitor of the stearoyl-coA desaturase 1 (SCD1), which is able to selectively eliminate hPSCs.",Metabolism
+DMSO,,DMSO,L2000-07,B12,L2000-11,E05,,,,,
+S8116,UCD-0159649,Acalabrutinib (ACP-196),L2000-07,H08,L2000-11,E06,465.51,1420477-60-6,BTK,"Acalabrutinib is a selective second-generation Bruton’s tyrosine kinase (BTK) inhibitor, which prevents the activation of the B-cell antigen receptor (BCR) signaling pathway.",Angiogenesis
+S8196,UCD-0159657,ML264,L2000-07,H09,L2000-11,E07,384.88,1550008-55-3,Others,"ML264, a selectively inhibitor of kruppel-like factor 5 (KLF5),potently Inhibits Growth of Colorectal Cancer.",Others
+DMSO,,DMSO,L2000-07,C12,L2000-11,E08,,,,,
+DMSO,,DMSO,L2000-07,D12,L2000-11,E11,,,,,
