@@ -1,6 +1,6 @@
 """io_utils.py
 
-This module will contain functions pertaining to loading and writing files. 
+This module will contain functions pertaining to loading and writing files.
 """
 import pathlib
 
@@ -32,4 +32,3 @@ def load_config(fpath: str | pathlib.Path ) -> dict:
 
     # next is to load the yaml file
     return yaml.safe_load(fpath)
-

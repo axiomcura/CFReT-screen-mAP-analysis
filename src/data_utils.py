@@ -1,5 +1,5 @@
 """
-In this module, we have functions that has to do with providing utilts for our 
+In this module, we have functions that has to do with providing utilts for our
 """
 
 from typing import List, Optional, Tuple
@@ -10,9 +10,9 @@ from pycytominer.cyto_utils.features import infer_cp_features
 
 def split_meta_and_features(
     profile: pd.DataFrame,
-    compartments: List[str] = ["Nuclei", "Cells", "Cytoplasm"],
-    metadata_tag: Optional[bool] = False,
-) -> Tuple[List[str], List[str]]:
+    compartments: list[str] = ["Nuclei", "Cells", "Cytoplasm"],
+    metadata_tag: bool | None = False,
+) -> tuple[list[str], list[str]]:
     """Splits metadata and feature column names
 
     Parameters

@@ -1,8 +1,8 @@
 general_configs:
-  seed: 0 
+  seed: 0
 
-# this contains the configs used for mAP  
-compound_ap_configs: 
+# this contains the configs used for mAP
+compound_ap_configs:
   pos_sameby: ["Metadata_broad_sample"]
   pos_diffby: []
   neg_sameby: []
@@ -10,8 +10,8 @@ compound_ap_configs:
   batch_size: 20000
   distance: cosine
 
-# these configs is part of analysis two were select metadata columns were we aim to evaluate 
-# the MOA of each compound 
+# these configs is part of analysis two were select metadata columns were we aim to evaluate
+# the MOA of each compound
 moa_ap_configs:
   pos_sameby: ["Metadata_broad_sample"]
   pos_diffby: []
@@ -20,8 +20,7 @@ moa_ap_configs:
   batch_size: 20000
   distance: cosine
 
-compound_map_configs: 
+compound_map_configs:
     pos_sameby: []
     null_size: 10000
     threshold: 0.05
-
