@@ -6,10 +6,12 @@ authors = ["axiomcura <erikishere3@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.11 < 3.13"
 copairs = "^0.4.2"
 ipykernel = "^6.29.5"
 seaborn = "^0.13.2"
+pyyaml = "^6.0.2"
+pycytominer = "^1.2.1"
 
 
 [tool.poetry.group.dev.dependencies]
