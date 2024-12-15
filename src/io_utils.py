@@ -22,7 +22,7 @@ def load_config(fpath: str | pathlib.Path ) -> dict:
     """
 
     # type checking
-    if not isinstance(fpath, str):
+    if not isinstance(fpath, (str | pathlib.Path)):
         raise TypeError("'fpath' must be a string or pathlib.Path object")
     if isinstance(fpath, str):
         fpath = pathlib.Path(fpath)
@@ -31,4 +31,5 @@ def load_config(fpath: str | pathlib.Path ) -> dict:
     fpath = fpath.resolve(strict=True)
 
     # next is to load the yaml file
-    return yaml.safe_load(fpath)
+    with open(fpath, mode="r") as content:
+        return yaml.safe_load(content)

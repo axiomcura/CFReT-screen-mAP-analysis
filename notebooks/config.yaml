@@ -1,6 +1,13 @@
 general_configs:
   seed: 0
 
+
+# data source configs:
+download_configs:
+  download_chunk_size: 128
+  github_metdata_url: https://github.com/WayScience/targeted_fibrosis_drug_screen/archive/refs/heads/main.zip
+
+
 # this contains the configs used for mAP
 compound_ap_configs:
   pos_sameby: ["Metadata_broad_sample"]
@@ -9,6 +16,16 @@ compound_ap_configs:
   neg_diffby: ["Metadata_broad_sample", "Metadata_treatment_index"]
   batch_size: 20000
   distance: cosine
+
+compound_map_configs:
+  pos_sameby: ["Metadata_broad_sample"]
+  neg_diffby: ["Metadata_broad_sample", "Metadata_treatment_index"]
+  batch_size: 20000
+  distance: cosine
+
+
+
+
 
 # these configs is part of analysis two were select metadata columns were we aim to evaluate
 # the MOA of each compound
