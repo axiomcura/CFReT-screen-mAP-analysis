@@ -15,7 +15,7 @@ Additionally, we identified morphological features that were critical for the mo
 These findings suggest that specific cellular structures are strong indicators of heart cell health or failure.
 The processing methods and results of this analysis can be accessed [here](https://github.com/WayScience/cellpainting_predicts_cardiac_fibrosis).
 
-Building upon these results, we advanced our study to the next level by leveraging high-content screening (HCS) with CP assay. 
+Building upon these results, we advanced our study to the next level by leveraging high-content screening (HCS) with CP assay.
 Specifically, we applied a library of 550 small-molecule compounds to identify those with the potential to reverse the effects of cardiac fibrosis.
 This approach not only aims to pinpoint candidate compounds for therapeutic intervention but also seeks to understand the biological mechanisms underlying the reversal of fibrosis.
 
@@ -31,3 +31,76 @@ This framework enables us to assess two key aspects:
 
 By leveraging mAP, we aim to identify potential compounds that can reverse the effects of cardiac fibroblasts, which are central to the pathology of cardiac fibrosis.
 Beyond identifying these candidate compounds, mAP also helps us uncover the biological mechanisms driving this reversal, providing insights into the cellular and molecular processes that contribute to phenotypic recovery.
+
+## Installation guide
+
+This document outlines the steps to install and set up the repository on your local machine. The repository uses **Poetry** to manage all dependencies. Follow these steps to ensure a smooth installation process.
+
+### Prerequisites
+
+Before starting, ensure that:
+
+1. **Poetry** is installed on your local machine.
+   - Follow the official [Poetry installation guide](https://python-poetry.org/docs/#installation) to install Poetry on your operating system.
+2. You have a Python environment manager, such as **conda**, installed.
+
+### Installation Steps
+
+#### 1. Create a Python Environment
+
+It is recommended to create a virtual environment to avoid dependency conflicts. Use `conda` or another Python environment manager to create a new environment:
+
+```bash
+conda create -n CFReT-screen-mAP python=3.9
+conda activate CFReT-screen-mAP
+```
+
+#### 2. Clone the Repository
+
+Clone the repository to your local machine and navigate into it:
+
+```bash
+git clone https://github.com/WayScience/CFReT-screen-mAP-analysis.git
+cd CFReT-screen-mAP-analysis
+```
+
+#### 3. Install Dependencies with Poetry
+
+Use Poetry to install all the dependencies required for the project:
+
+```bash
+poetry install
+```
+
+#### 4. (Optional) Install Development Tools
+
+If you are a contributor and need to make changes to the project, install the development dependencies:
+
+```bash
+poetry install --with dev
+```
+
+### Troubleshooting
+
+- **Poetry not found**: Ensure that Poetry is installed and added to your system's PATH. Verify the installation with:
+
+  ```bash
+  poetry --version
+  ```
+
+- **Dependency issues**: If you encounter dependency conflicts, try updating Poetry and clearing its cache:
+
+  ```bash
+  poetry self update
+  poetry cache clear --all .
+  ```
+
+### Additional Notes
+
+- Always activate your Python environment before working on the project:
+
+  ```bash
+  conda activate CFReT-screen-mAP
+  ```
+
+- For more information about using Poetry, visit the [official documentation](https://python-poetry.org/docs/).
