@@ -15,7 +15,8 @@ Additionally, we identified morphological features that were critical for the mo
 These findings suggest that specific cellular structures are strong indicators of heart cell health or failure.
 The processing methods and results of this analysis can be accessed [here](https://github.com/WayScience/cellpainting_predicts_cardiac_fibrosis).
 
-Building upon these results, we advanced our study to the next level by leveraging high-content screening (HCS) with CP assay.
+
+Building upon these results, we advanced our study to the next level by leveraging [high-content screening](https://www.sciencedirect.com/science/article/pii/S2472555223000667?via%3Dihub) (HCS) with CP assay.
 Specifically, we applied a library of 550 small-molecule compounds to identify those with the potential to reverse the effects of cardiac fibrosis.
 This approach not only aims to pinpoint candidate compounds for therapeutic intervention but also seeks to understand the biological mechanisms underlying the reversal of fibrosis.
 

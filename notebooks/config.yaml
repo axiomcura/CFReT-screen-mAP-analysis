@@ -1,0 +1,21 @@
+# General configurations for this project:
+# seed (int): Seed value for ensuring reproducibility in analyses that involve random operations
+#
+# root_anchor (str): A relative path to a specific file or directory used as a reference
+# (anchor) to determine the project's root directory. Example: If the project root
+# contains a .git/ folder, this can be used to dynamically locate the root directory
+# regardless of the script's location.
+general_configs:
+  seed: 0
+  root_anchor: .git/  # Default anchor pointing to the .git directory at the project root
+
+
+# Data download configurations:
+# download_chunk_size (int): The size (in KB) of data chunks to download at a time for
+# optimized performance
+#
+# github_metadata_url (str): The URL of the dataset source. In this case, the file being
+# downloaded is a zip archive, as the source contains a directory.
+download_configs:
+  download_chunk_size: 128
+  github_metadata_url: https://github.com/WayScience/targeted_fibrosis_drug_screen/archive/refs/heads/main.zip

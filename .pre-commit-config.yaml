@@ -1,12 +1,15 @@
+# Pre-commit configuration file
+# Documentation: https://pre-commit.com/
+
 repos:
-  # keep pre-commits update to date
+  # Keep pre-commit itself up to date
 -   repo: https://gitlab.com/vojko.pribudic.foss/pre-commit-update
     rev: v0.6.0post1
     hooks:
     -   id: pre-commit-update
-        args: [--verbose]
+        args: ["--verbose"]
 
-  # Ruff for Python files
+  # Ruff for linting Python files
 -   repo: https://github.com/charliermarsh/ruff-pre-commit
     rev: v0.8.3
     hooks:
@@ -21,38 +24,34 @@ repos:
         name: nbQA-Ruff
         args: ["--fix"]
         additional_dependencies: ["ruff"]
-    -   id: nbqa-isort
-        name: nbQA-Isort
-        args: ["--profile", "black"]
-        additional_dependencies: ["isort"]
 
-  # format toml files
+  # Format and sort TOML files
 -   repo: https://github.com/pappasam/toml-sort
     rev: v0.24.2
     hooks:
     -   id: toml-sort
+        args: ["--in-place"]
 
-  # Sort imports with isort (if separate from Ruff)
+  # Sort imports in Python files (if separate from Ruff)
 -   repo: https://github.com/pre-commit/mirrors-isort
     rev: v5.10.1
     hooks:
     -   id: isort
         args: ["--profile", "black"]
 
-  # Pyupgrade for updating Python syntax
+  # Pyupgrade for updating Python syntax to newer versions
 -   repo: https://github.com/asottile/pyupgrade
-    rev: v3.19.0
+    rev: v3.19.1
     hooks:
     -   id: pyupgrade
         args: ["--py311-plus"]
 
-  # Check for trailing whitespaces, mixed line endings, etc.
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v5.0.0
     hooks:
-    -   id: check-yaml
-    -   id: check-json
-    -   id: end-of-file-fixer
-    -   id: trailing-whitespace
-    -   id: check-merge-conflict
-    -   id: check-added-large-files
+    -   id: check-yaml        # Validate YAML files
+    -   id: check-json        # Validate JSON files
+    -   id: end-of-file-fixer # Ensure files end with a newline
+    -   id: trailing-whitespace # Remove trailing whitespace
+    -   id: check-merge-conflict # Prevent committing merge conflict markers
+    -   id: check-added-large-files # Warn about large files being added
