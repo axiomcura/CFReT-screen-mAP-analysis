@@ -1,21 +1,61 @@
-# General configurations for this project:
-# seed (int): Seed value for ensuring reproducibility in analyses that involve random operations
-#
-# root_anchor (str): A relative path to a specific file or directory used as a reference
-# (anchor) to determine the project's root directory. Example: If the project root
-# contains a .git/ folder, this can be used to dynamically locate the root directory
-# regardless of the script's location.
 general_configs:
+  # General configurations for this project
+
+  # seed (int): Seed value for ensuring reproducibility in analyses that involve random
+  # operations
   seed: 0
-  root_anchor: .git/  # Default anchor pointing to the .git directory at the project root
 
-
-# Data download configurations:
-# download_chunk_size (int): The size (in KB) of data chunks to download at a time for
-# optimized performance
-#
-# github_metadata_url (str): The URL of the dataset source. In this case, the file being
-# downloaded is a zip archive, as the source contains a directory.
 download_configs:
+  # Parameters for downloading the screen data from:
+  # https://github.com/WayScience/targeted_fibrosis_drug_screen
+
+  # download_chunk_size (int): The size (in KB) of data chunks to download at a time for
+  # optimized performance
   download_chunk_size: 128
+
+  # github_metadata_url (str): The URL of the dataset source. In this case, the file being
+  # downloaded is a zip archive, as the source contains a directory.
   github_metadata_url: https://github.com/WayScience/targeted_fibrosis_drug_screen/archive/refs/heads/main.zip
+
+copairs_ap_configs:
+  # This section contains the configurations used for calculating AP
+  # (Average Precision)
+
+  # pos_sameby (list[str]): Using metadata to identify profiles that belong to the same
+  # group, that is not the control group (e.g if using some sort of sample id, profiles)
+  pos_sameby: ["Metadata_treatment"]
+
+  # pos_diffby (list[str]): Metadata columns used to differentiate positive pairs.
+  # If specified, positive pairs must differ in these columns. Since replicates are
+  # defined at the plate level, this parameter ensures that positive pairs are
+  # identified across different plates.
+  pos_diffby: ["Metadata_plate_barcode"]
+
+  # neg_diffby (list[str]): Define negative pairs as profiles where one belongs to a group
+  # of compound replicates and the other to DMSO controls
+  neg_diffby: ["Metadata_treatment", "Metadata_reference_index"]
+
+
+  # batch_size (int): The batch size for processing similarity computations
+  # Larger values use more memory but process faster.
+  batch_size: 10000
+
+  # distance (str): The distance metric used for similarity computations. Common options
+  # include "cosine". Other options can be found here:
+  # https://github.com/cytomining/copairs/blob/main/src/copairs/compute.py
+  distance: cosine
+
+copairs_map_configs:
+  # Parameters for calculating the mean average precision (mAP)
+
+  # same_by (list[str]): Specifies the metadata columns to focus on when computing
+  # the mAP score. For instance, to calculate the mAP score for a single treatment,
+  # this parameter ensures the mean of AP scores is computed across entries with the
+  # same treatment.
+  same_by: ["Metadata_treatment"]
+
+  # null_size (int): Defines the size of the null distribution when calculating p-values.
+  null_size: 1000
+
+  # threshold (float): Specifies the p-value threshold for determining statistical significance.
+  threshold: 0.05
