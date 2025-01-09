@@ -11,3 +11,4 @@ jupyter nbconvert --to python --output-dir=nbconverted/ *.ipynb
 
 # Execute the data download script
 python nbconverted/1.run-map.py
+python nbconverted/2.map-analysis.py

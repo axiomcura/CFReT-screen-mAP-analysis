@@ -62,8 +62,8 @@ platemap_path = (metadata_dir / "updated_barcode_platemap.csv").resolve(strict=T
 config_path = pathlib.Path("../config.yaml").resolve(strict=True)
 
 # Setting the results directory, resolve the full path, and create it if it doesn't already exist
-results_dir = pathlib.Path("./results").resolve()
-results_dir.mkdir(exist_ok=True)
+results_dir = pathlib.Path("./results/map_scores").resolve()
+results_dir.mkdir(exist_ok=True, parents=True)
 
 
 # Loading in the files
