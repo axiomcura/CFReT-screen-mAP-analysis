@@ -160,20 +160,24 @@ for batch_index, (platemap_filename, associated_plates_df) in enumerate(
         aggregated_data = aggregated_data[shared_cols]
 
         # Add a new column indicating the source plate for each row
-        aggregated_data.insert(0,"Metadata_plate_barcode" , plate_barcode)
+        aggregated_data.insert(0, "Metadata_plate_barcode", plate_barcode)
 
         # Append the processed aggregated data for this plate to the batch list
         loaded_aggregated_plates.append(aggregated_data)
 
     # Combine all processed plates for the current batch into a single DataFrame
     combined_aggregated_data = pd.concat(loaded_aggregated_plates)
-    meta_concat, feats_concat = data_utils.split_meta_and_features(combined_aggregated_data)
+    meta_concat, feats_concat = data_utils.split_meta_and_features(
+        combined_aggregated_data
+    )
 
     # Store the combined DataFrame in the loaded_plate_batches dictionary
     loaded_plate_batches[batch_id] = combined_aggregated_data
 
 
 # ## Running mAP only on controls across all plates
+
+# In this section, we calculate the mAP (mean Average Precision) scores between controls to assess their quality. Specifically, we aim to evaluate how the negative control compares when using a positive control as a reference, and vice versa. This analysis helps determine whether the controls in the experiment are reliable indicators of quality and consistency. Reliable controls are critical for ensuring the validity of the experiment's results.
 
 # In[7]:
 
@@ -186,11 +190,38 @@ cntrl_copairs_map_configs = configs["cntrl_copairs_map_configs"]
 # In[8]:
 
 
+profile = loaded_plate_batches["batch_1"]
+dmso_profile = profile.loc[profile["Metadata_treatment"] == "DMSO"]
+plate_ids = dmso_profile["Metadata_plate_barcode"].unique().tolist()
+
+# add control type information
+# adding control_type information into the data frame
+dmso_profile["Metadata_treatment_type"] = "control"
+dmso_profile["Metadata_control_type"] = dmso_profile.apply(
+    lambda row: label_control_types(
+        row["Metadata_cell_type"], row["Metadata_heart_failure_type"]
+    ),
+    axis=1,
+)
+dmso_profile = dmso_profile.reset_index().rename(columns={"index": "original_index"})
+
+
+# In[9]:
+
+
+# List of control types to evaluate
+control_list = ["negative", "positive"]
+
+# Iterate over batches of loaded plate profiles
 for batch_id, profile in loaded_plate_batches.items():
-    # only select DMSO control profiles
+    # Filter profiles for DMSO-treated wells
     dmso_profile = profile.loc[profile["Metadata_treatment"] == "DMSO"]
 
-    # adding control_type information into the data frame
+    # Get unique plate IDs for DMSO-treated wells
+    plate_ids = dmso_profile["Metadata_plate_barcode"].unique().tolist()
+
+    # Add control type information to the dataframe
+    dmso_profile["Metadata_treatment_type"] = "control"  # Tag all rows as control
     dmso_profile["Metadata_control_type"] = dmso_profile.apply(
         lambda row: label_control_types(
             row["Metadata_cell_type"], row["Metadata_heart_failure_type"]
@@ -198,31 +229,83 @@ for batch_id, profile in loaded_plate_batches.items():
         axis=1,
     )
 
-    # split the metadata and morphology feature columns
-    dmso_meta, dmso_feats = data_utils.split_meta_and_features(dmso_profile)
-
-    # Calculate average precision (AP) for the only Control Profiles (Positive and negative controls)
-    # Positive pairs: These represent comparisons between wells that are on the same plate
-    # and belong to the same control type.
-    #
-    # Negative pairs: These represent comparisons between wells that have the same well position
-    # and belong to the same control type, but are located on different plates.
-    cntrl_replicate_aps = map.average_precision(
-        meta=dmso_profile[dmso_meta],
-        feats=dmso_profile[dmso_feats].values,
-        pos_sameby=cntrl_copairs_ap_configs["pos_sameby"],
-        pos_diffby=cntrl_copairs_ap_configs["pos_diffby"],
-        neg_sameby=cntrl_copairs_ap_configs["neg_sameby"],
-        neg_diffby=cntrl_copairs_ap_configs["neg_diffby"],
+    # Reset index and store the original index for reference
+    dmso_profile = dmso_profile.reset_index().rename(
+        columns={"index": "original_index"}
     )
 
-    # Save the calculated AP scores to a file for further analysis
-    cntrl_replicate_aps.to_csv(
-        results_dir
-        / f"{batch_id}_DMSO_controls_AP_scores.csv",
-        index=False,
-    )
+    # Iterate over control types to use them as references
+    for ref_type in control_list:
+        print(f"Using '{ref_type}' as reference to calculate mAP")
 
+        ap_scores = []  # Initialize list to store AP scores
+
+        # Iterate over all targeted plate IDs
+        for targeted_plate_id in plate_ids:
+            # Create a deep copy of the DMSO profile for manipulation
+            dmso_profile_w_target_plate = dmso_profile.copy(deep=True)
+
+            # Tag rows corresponding to the targeted plate
+            dmso_profile_w_target_plate["Metadata_targeted"] = (
+                dmso_profile_w_target_plate["Metadata_plate_barcode"].apply(
+                    lambda plate_id: plate_id == targeted_plate_id
+                )
+            )
+
+            # Initialize reference index for mAP calculation
+            # Default to -1 for all wells except targeted reference wells
+            dmso_profile_w_target_plate["Metadata_reference_index"] = (
+                dmso_profile_w_target_plate.index
+            )
+            dmso_profile_w_target_plate["Metadata_reference_index"] = (
+                dmso_profile_w_target_plate.apply(
+                    lambda row: row["Metadata_reference_index"]
+                    if row["Metadata_targeted"]
+                    and row["Metadata_control_type"] == ref_type
+                    else -1,
+                    axis=1,
+                )
+            )
+
+            # Split metadata and feature columns for analysis
+            dmso_meta, dmso_feats = data_utils.split_meta_and_features(
+                dmso_profile_w_target_plate
+            )
+
+            # Compute average precision (AP) scores for the current setup
+            dmso_ap_scores = map.average_precision(
+                meta=dmso_profile_w_target_plate[dmso_meta],
+                feats=dmso_profile_w_target_plate[dmso_feats].values,
+                pos_sameby=cntrl_copairs_ap_configs["pos_sameby"],
+                pos_diffby=[],
+                neg_sameby=[],
+                neg_diffby=cntrl_copairs_ap_configs["neg_diffby"],
+                batch_size=cntrl_copairs_ap_configs["batch_size"],
+                distance=cntrl_copairs_ap_configs["distance"],
+            )
+
+            # Append the computed AP scores for this targeted plate
+            ap_scores.append(dmso_ap_scores)
+
+        # Concatenate all AP scores into a single dataframe
+        dmso_ap_scores = pd.concat(ap_scores)
+
+        # Calculate mean Average Precision (mAP) scores
+        dmso_map_scores = map.mean_average_precision(
+            dmso_ap_scores,
+            sameby=cntrl_copairs_map_configs["same_by"],
+            null_size=cntrl_copairs_map_configs["null_size"],
+            threshold=cntrl_copairs_map_configs["threshold"],
+            seed=general_configs["seed"],
+        )
+
+        # Store the computed AP and mAP scores as CSV files
+        dmso_ap_scores.to_csv(
+            results_dir / f"{batch_id}_{ref_type}_ref_dmso_AP_scores.csv"
+        )
+        dmso_map_scores.to_csv(
+            results_dir / f"{batch_id}_{ref_type}_ref_dmso_mAP_scores.csv"
+        )
 
 
 # ## Calculating mAP scores on only treatments
@@ -233,7 +316,7 @@ for batch_id, profile in loaded_plate_batches.items():
 #
 # Once the AP scores are computed, we aggregate them across all plates for each treatment to derive the mean average precision (mAP) score. This process captures the consistency of treatment performance relative to the controls and allows for a comprehensive evaluation of the dataset. Finally, we save both the AP and mAP scores for each control condition, providing a well-structured dataset for further interpretation and downstream analysis.
 
-# In[9]:
+# In[10]:
 
 
 # Load configurations for average precision (AP) and mean average precision (mAP)
@@ -308,6 +391,7 @@ for batch_id, profile in loaded_plate_batches.items():
 
         # Save the mAP scores to a file for reporting
         trt_replicate_maps.to_csv(
-            results_dir / f"{control_type}_control_{cell_state}_{control_treatment}_mAP_scores.csv",
+            results_dir
+            / f"{control_type}_control_{cell_state}_{control_treatment}_mAP_scores.csv",
             index=False,
         )

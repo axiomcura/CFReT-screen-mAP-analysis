@@ -67,20 +67,11 @@ cntrl_copairs_ap_configs:
 
   # pos_sameby (list[str]): Metadata columns used to identify profiles that belong to the same
   # plate and control type. These ensure comparisons are made within the same plate and control group.
-  pos_sameby: ["Metadata_plate_barcode", "Metadata_control_type"]
-
-  # pos_diffby (list[str]): Metadata columns used to differentiate positive pairs.
-  # These comparisons differentiate profiles within the same plate and control type but in different wells.
-  pos_diffby: ["Metadata_Well"]
-
-  # neg_sameby (list[str]): Metadata columns used to identify negative pairs by ensuring
-  # profiles have the same well position and control type, but are compared across different plates.
-  neg_sameby: ["Metadata_Well", "Metadata_control_type"]
+  pos_sameby: ["Metadata_treatment", "Metadata_control_type"]
 
   # neg_diffby (list[str]): Metadata columns used to establish differences in negative pairs.
   # These define comparisons across different plates.
-  neg_diffby: ["Metadata_plate_barcode"]
-
+  neg_diffby: ["Metadata_control_type", "Metadata_targeted", "Metadata_reference_index"]
 
   # batch_size (int): The batch size for processing similarity computations
   # Larger values use more memory but process faster.
@@ -98,8 +89,7 @@ cntrl_copairs_map_configs:
   # the mAP score. For instance, to calculate the mAP score for a single treatment,
   # this parameter ensures the mean of AP scores is computed across entries with the
   # same treatment.
-  same_by: ["Metadata_treatment"]
-
+  same_by: ["Metadata_plate_barcode", "Metadata_Well"]
   # null_size (int): Defines the size of the null distribution when calculating p-values.
   null_size: 1000
 
