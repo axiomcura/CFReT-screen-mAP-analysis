@@ -17,7 +17,7 @@ download_configs:
   # downloaded is a zip archive, as the source contains a directory.
   github_metadata_url: https://github.com/WayScience/targeted_fibrosis_drug_screen/archive/refs/heads/main.zip
 
-copairs_ap_configs:
+trt_copairs_ap_configs:
   # This section contains the configurations used for calculating AP
   # (Average Precision)
 
@@ -45,7 +45,7 @@ copairs_ap_configs:
   # https://github.com/cytomining/copairs/blob/main/src/copairs/compute.py
   distance: cosine
 
-copairs_map_configs:
+trt_copairs_map_configs:
   # Parameters for calculating the mean average precision (mAP)
 
   # same_by (list[str]): Specifies the metadata columns to focus on when computing
@@ -54,6 +54,42 @@ copairs_map_configs:
   # same treatment.
   same_by: ["Metadata_treatment"]
 
+  # null_size (int): Defines the size of the null distribution when calculating p-values.
+  null_size: 1000
+
+  # threshold (float): Specifies the p-value threshold for determining statistical significance.
+  threshold: 0.05
+
+
+cntrl_copairs_ap_configs:
+  # This section contains the configurations used for calculating AP
+  # (Average Precision) for only the control wells
+
+  # pos_sameby (list[str]): Metadata columns used to identify profiles that belong to the same
+  # plate and control type. These ensure comparisons are made within the same plate and control group.
+  pos_sameby: ["Metadata_treatment", "Metadata_control_type"]
+
+  # neg_diffby (list[str]): Metadata columns used to establish differences in negative pairs.
+  # These define comparisons across different plates.
+  neg_diffby: ["Metadata_control_type", "Metadata_targeted", "Metadata_reference_index"]
+
+  # batch_size (int): The batch size for processing similarity computations
+  # Larger values use more memory but process faster.
+  batch_size: 10000
+
+  # distance (str): The distance metric used for similarity computations. Common options
+  # include "cosine". Other options can be found here:
+  # https://github.com/cytomining/copairs/blob/main/src/copairs/compute.py
+  distance: cosine
+
+cntrl_copairs_map_configs:
+  # Parameters for calculating the mean average precision (mAP)
+
+  # same_by (list[str]): Specifies the metadata columns to focus on when computing
+  # the mAP score. For instance, to calculate the mAP score for a single treatment,
+  # this parameter ensures the mean of AP scores is computed across entries with the
+  # same treatment.
+  same_by: ["Metadata_plate_barcode", "Metadata_Well"]
   # null_size (int): Defines the size of the null distribution when calculating p-values.
   null_size: 1000
 
