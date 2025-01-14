@@ -29,6 +29,7 @@
 import pathlib
 import sys
 import warnings
+from pprint import pprint
 
 import pandas as pd
 from copairs import map
@@ -56,6 +57,8 @@ def label_control_types(metadata_cell_type, heart_failure_type):
         and heart_failure_type == "dilated_cardiomyopathy"
     ):
         return "negative"
+    else:
+        raise ValueError(f"Unknown combination added: {metadata_cell_type} {heart_failure_type}")
 
 
 # This code sets up the necessary file paths and directories required for the notebook, ensuring that input files exist.
@@ -320,11 +323,19 @@ for batch_id, profile in loaded_plate_batches.items():
 
 
 # Load configurations for average precision (AP) and mean average precision (mAP)
-cntrl_copairs_ap_configs = configs["cntrl_copairs_ap_configs"]
-cntrl_copairs_map_configs = configs["cntrl_copairs_map_configs"]
-
 trt_copairs_ap_configs = configs["trt_copairs_ap_configs"]
 trt_copairs_map_configs = configs["trt_copairs_map_configs"]
+
+# displaying there parameters that were used to execute mAP pipeline
+print("AP paramters:")
+pprint(trt_copairs_ap_configs)
+
+print("\nmAP paramters:")
+pprint(trt_copairs_map_configs)
+
+
+# In[11]:
+
 
 # Define control conditions for the analysis
 # Each tuple specifies the control type, treatment, and associated cell state
