@@ -61,35 +61,45 @@ trt_copairs_map_configs:
   threshold: 0.05
 
 
-cntrl_copairs_ap_configs:
-  # This section contains the configurations used for calculating AP
-  # (Average Precision) for only the control wells
+dmso_copairs_ap_configs:
+  # Configuration for calculating Average Precision (AP) specifically for control wells (DMSO).
+  # These settings define how pairs of profiles are compared based on metadata and distance metrics.
 
-  # pos_sameby (list[str]): Metadata columns used to identify profiles that belong to the same
-  # plate and control type. These ensure comparisons are made within the same plate and control group.
-  pos_sameby: ["Metadata_treatment", "Metadata_control_type"]
+  # pos_sameby (list[str]): Specifies metadata columns that group profiles into positive pairs.
+  # Positive pairs are formed by comparing profiles within the same group. For DMSO, this ensures
+  # that control wells on the target plate are compared with each other, and reference wells
+  # are compared with each other.
+  pos_sameby: ["Metadata_targeted"]
 
-  # neg_diffby (list[str]): Metadata columns used to establish differences in negative pairs.
-  # These define comparisons across different plates.
-  neg_diffby: ["Metadata_control_type", "Metadata_targeted", "Metadata_reference_index"]
+  # neg_sameby (list[str]): Defines metadata columns used to identify negative pairs with shared attributes.
+  # Negative pairs are restricted to have the same treatment (e.g., DMSO) to ensure a consistent comparison
+  # within treatment groups.
+  neg_sameby: ["Metadata_treatment"]
 
-  # batch_size (int): The batch size for processing similarity computations
-  # Larger values use more memory but process faster.
+  # neg_diffby (list[str]): Specifies metadata columns that introduce variation in negative pairs.
+  # Despite sharing the same treatment, these columns differentiate pairs by comparing wells from the
+  # target plate to wells from the reference plate. This ensures comparisons between DMSO control wells
+  # from distinct plates.
+  neg_diffby: ["Metadata_targeted", "Metadata_reference_index"]
+
+  # batch_size (int): Defines the number of profiles to process in a single batch during similarity computation.
+  # Larger batch sizes improve processing speed but require more memory. Adjust based on available resources.
   batch_size: 10000
 
-  # distance (str): The distance metric used for similarity computations. Common options
-  # include "cosine". Other options can be found here:
+  # distance (str): The distance metric used to compute similarity between profiles.
+  # "cosine" is the default metric, but other metrics can be configured. For more options, refer to:
   # https://github.com/cytomining/copairs/blob/main/src/copairs/compute.py
-  distance: cosine
+  distance: "cosine"
 
-cntrl_copairs_map_configs:
+dmso_copairs_map_configs:
   # Parameters for calculating the mean average precision (mAP)
 
   # same_by (list[str]): Specifies the metadata columns to focus on when computing
   # the mAP score. For instance, to calculate the mAP score for a single treatment,
   # this parameter ensures the mean of AP scores is computed across entries with the
   # same treatment.
-  same_by: ["Metadata_plate_barcode", "Metadata_Well"]
+  same_by: ["Metadata_treatment_type"]
+
   # null_size (int): Defines the size of the null distribution when calculating p-values.
   null_size: 1000
 
