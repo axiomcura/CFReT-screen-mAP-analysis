@@ -24,7 +24,7 @@ import requests
 
 # importing analysis modules/imports
 sys.path.append("../../")
-from src.io_utils import load_config
+from utils.io_utils import load_config
 
 # Setting input and output paths
 

@@ -37,7 +37,7 @@ from pycytominer.cyto_utils import load_profiles
 from tqdm import TqdmWarning
 
 sys.path.append("../../")
-from src import data_utils, io_utils
+from utils import data_utils, io_utils
 
 # removing warnigns
 warnings.filterwarnings("ignore", category=TqdmWarning)
@@ -80,8 +80,9 @@ platemap_path = (metadata_dir / "updated_barcode_platemap.csv").resolve(strict=T
 config_path = pathlib.Path("../config.yaml").resolve(strict=True)
 
 # Setting the results directory, resolve the full path, and create it if it doesn't already exist
-results_dir = pathlib.Path("./results/map_scores").resolve()
-results_dir.mkdir(exist_ok=True, parents=True)
+results_dir = pathlib.Path("./results").resolve()
+map_results_dir = (results_dir /"map_scores").resolve()
+map_results_dir.mkdir(exist_ok=True, parents=True)
 
 
 # Loading in the files and setting config parameters
@@ -304,10 +305,10 @@ for batch_id, profile in loaded_plate_batches.items():
 
         # Store the computed AP and mAP scores as CSV files
         dmso_ap_scores.to_csv(
-            results_dir / f"{batch_id}_{ref_type}_ref_dmso_AP_scores.csv"
+            map_results_dir / f"{batch_id}_{ref_type}_ref_dmso_AP_scores.csv"
         )
         dmso_map_scores.to_csv(
-            results_dir / f"{batch_id}_{ref_type}_ref_dmso_mAP_scores.csv"
+            map_results_dir / f"{batch_id}_{ref_type}_ref_dmso_mAP_scores.csv"
         )
 
 
@@ -386,7 +387,7 @@ for batch_id, profile in loaded_plate_batches.items():
 
         # Save the calculated AP scores to a file for further analysis
         trt_replicate_aps.to_csv(
-            results_dir
+            map_results_dir
             / f"{control_type}_control_{cell_state}_{control_treatment}_AP_scores.csv",
             index=False,
         )
@@ -402,7 +403,7 @@ for batch_id, profile in loaded_plate_batches.items():
 
         # Save the mAP scores to a file for reporting
         trt_replicate_maps.to_csv(
-            results_dir
+            map_results_dir
             / f"{control_type}_control_{cell_state}_{control_treatment}_mAP_scores.csv",
             index=False,
         )
