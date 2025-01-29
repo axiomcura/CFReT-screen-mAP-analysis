@@ -10,7 +10,7 @@ repos:
         args: ["--verbose"]
 
   # Ruff for linting Python files
--   repo: https://github.com/charliermarsh/ruff-pre-commit
+  - repo: https://github.com/charliermarsh/ruff-pre-commit
     rev: v0.9.3
     hooks:
       - id: ruff
