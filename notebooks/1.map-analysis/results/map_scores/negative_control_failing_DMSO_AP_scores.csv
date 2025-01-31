@@ -1,13 +1,9 @@
 Metadata_reference_index,Metadata_plate_barcode,Metadata_WellRow,Metadata_WellCol,Metadata_heart_number,Metadata_cell_type,Metadata_heart_failure_type,Metadata_treatment,Metadata_Pathway,Metadata_Well,n_pos_pairs,n_total_pairs,average_precision
-0,localhost240926150001,B,2,7,healthy,,DMSO,,B02,24,212,0.5093769340732014
 1,localhost240926150001,B,3,19,failing,dilated_cardiomyopathy,UCD-0159256,Apoptosis,B03,3,219,0.8055555555555555
 2,localhost240926150001,B,4,19,failing,dilated_cardiomyopathy,UCD-0001766,Angiogenesis,B04,3,219,1.0
-3,localhost240926150001,B,5,7,healthy,,DMSO,,B05,24,212,0.46247170783826946
 4,localhost240926150001,B,6,19,failing,dilated_cardiomyopathy,UCD-0159262,Others,B06,3,219,1.0
 5,localhost240926150001,B,7,19,failing,dilated_cardiomyopathy,UCD-0001915,Others,B07,3,219,1.0
-6,localhost240926150001,B,8,7,healthy,,DMSO,,B08,24,212,0.4415890098795716
 7,localhost240926150001,B,10,19,failing,dilated_cardiomyopathy,UCD-0159279,Others,B10,3,217,1.0
-8,localhost240926150001,B,11,7,healthy,,DMSO,,B11,24,210,0.27999008801914965
 9,localhost240926150001,C,2,19,failing,dilated_cardiomyopathy,UCD-0159283,Endocrinology & Hormones,C02,3,217,1.0
 10,localhost240926150001,C,3,19,failing,dilated_cardiomyopathy,UCD-0001040,Endocrinology & Hormones,C03,3,217,1.0
 11,localhost240926150001,C,5,19,failing,dilated_cardiomyopathy,UCD-0000450,Neuronal Signaling,C05,3,216,1.0
@@ -25,16 +21,12 @@ Metadata_reference_index,Metadata_plate_barcode,Metadata_WellRow,Metadata_WellCo
 23,localhost240926150001,D,9,19,failing,dilated_cardiomyopathy,UCD-0001775,Others,D09,3,217,1.0
 24,localhost240926150001,D,10,19,failing,dilated_cardiomyopathy,UCD-0159274,Others,D10,3,217,0.6858974358974358
 25,localhost240926150001,D,11,19,failing,dilated_cardiomyopathy,UCD-0001792,Others,D11,1,217,0.06666666666666667
-26,localhost240926150001,E,2,19,failing,dilated_cardiomyopathy,DMSO,,E02,24,211,0.20050239516663781
 27,localhost240926150001,E,3,19,failing,dilated_cardiomyopathy,UCD-0159285,DNA Damage,E03,3,218,1.0
 28,localhost240926150001,E,4,19,failing,dilated_cardiomyopathy,UCD-0159289,Metabolism,E04,3,218,0.1301106301106301
-29,localhost240926150001,E,5,19,failing,dilated_cardiomyopathy,DMSO,,E05,24,211,0.22828605782354863
 30,localhost240926150001,E,6,19,failing,dilated_cardiomyopathy,UCD-0018179,MAPK,E06,3,218,1.0
 31,localhost240926150001,E,7,19,failing,dilated_cardiomyopathy,UCD-0001016,Neuronal Signaling,E07,3,218,1.0
-32,localhost240926150001,E,8,19,failing,dilated_cardiomyopathy,DMSO,,E08,24,211,0.2788338061587528
 33,localhost240926150001,E,9,19,failing,dilated_cardiomyopathy,UCD-0001804,,E09,3,218,0.7000000000000001
 34,localhost240926150001,E,10,19,failing,dilated_cardiomyopathy,UCD-0018207,Neuronal Signaling,E10,3,218,0.8055555555555555
-35,localhost240926150001,E,11,19,failing,dilated_cardiomyopathy,DMSO,,E11,24,211,0.27248342544721216
 36,localhost240926150001,F,2,19,failing,dilated_cardiomyopathy,UCD-0001844,Others,F02,3,218,1.0
 37,localhost240926150001,F,3,19,failing,dilated_cardiomyopathy,UCD-0159270,Others,F03,3,218,0.8333333333333334
 38,localhost240926150001,F,4,19,failing,dilated_cardiomyopathy,UCD-0159275,Others,F04,3,218,0.5873015873015873
@@ -54,16 +46,12 @@ Metadata_reference_index,Metadata_plate_barcode,Metadata_WellRow,Metadata_WellCo
 52,localhost240926150001,G,9,19,failing,dilated_cardiomyopathy,UCD-0001829,PI3K/Akt/mTOR,G09,3,219,0.4666666666666666
 53,localhost240926150001,G,10,19,failing,dilated_cardiomyopathy,UCD-0159259,PI3K/Akt/mTOR,G10,3,219,0.09064327485380118
 54,localhost240926150001,G,11,19,failing,dilated_cardiomyopathy,UCD-0001842,Neuronal Signaling,G11,3,219,0.12200435729847496
-0,localhost240927060001,B,2,7,healthy,,DMSO,,B02,24,212,0.5771637356759579
 1,localhost240927060001,B,3,19,failing,dilated_cardiomyopathy,UCD-0159256,Apoptosis,B03,3,219,0.8666666666666667
 2,localhost240927060001,B,4,19,failing,dilated_cardiomyopathy,UCD-0001766,Angiogenesis,B04,3,219,1.0
-3,localhost240927060001,B,5,7,healthy,,DMSO,,B05,24,212,0.5482727271817917
 4,localhost240927060001,B,6,19,failing,dilated_cardiomyopathy,UCD-0159262,Others,B06,3,219,1.0
 5,localhost240927060001,B,7,19,failing,dilated_cardiomyopathy,UCD-0001915,Others,B07,3,219,1.0
-6,localhost240927060001,B,8,7,healthy,,DMSO,,B08,24,212,0.5623472640646594
 7,localhost240927060001,B,9,19,failing,dilated_cardiomyopathy,UCD-0001783,Others,B09,1,217,0.04
 8,localhost240927060001,B,10,19,failing,dilated_cardiomyopathy,UCD-0159279,Others,B10,3,217,1.0
-9,localhost240927060001,B,11,7,healthy,,DMSO,,B11,24,210,0.4209028837696212
 10,localhost240927060001,C,2,19,failing,dilated_cardiomyopathy,UCD-0159283,Endocrinology & Hormones,C02,3,217,1.0
 11,localhost240927060001,C,3,19,failing,dilated_cardiomyopathy,UCD-0001040,Endocrinology & Hormones,C03,3,217,0.9166666666666666
 12,localhost240927060001,C,4,19,failing,dilated_cardiomyopathy,UCD-0018091,GPCR & G Protein,C04,1,216,1.0
@@ -80,16 +68,12 @@ Metadata_reference_index,Metadata_plate_barcode,Metadata_WellRow,Metadata_WellCo
 23,localhost240927060001,D,7,19,failing,dilated_cardiomyopathy,UCD-0159261,Others,D07,3,217,1.0
 24,localhost240927060001,D,9,19,failing,dilated_cardiomyopathy,UCD-0001775,Others,D09,3,216,1.0
 25,localhost240927060001,D,10,19,failing,dilated_cardiomyopathy,UCD-0159274,Others,D10,3,216,0.75
-26,localhost240927060001,E,2,19,failing,dilated_cardiomyopathy,DMSO,,E02,24,211,0.3188605121642678
 27,localhost240927060001,E,3,19,failing,dilated_cardiomyopathy,UCD-0159285,DNA Damage,E03,3,218,1.0
 28,localhost240927060001,E,4,19,failing,dilated_cardiomyopathy,UCD-0159289,Metabolism,E04,3,218,0.12857142857142856
-29,localhost240927060001,E,5,19,failing,dilated_cardiomyopathy,DMSO,,E05,24,211,0.21182585426118758
 30,localhost240927060001,E,6,19,failing,dilated_cardiomyopathy,UCD-0018179,MAPK,E06,3,218,1.0
 31,localhost240927060001,E,7,19,failing,dilated_cardiomyopathy,UCD-0001016,Neuronal Signaling,E07,3,218,1.0
-32,localhost240927060001,E,8,19,failing,dilated_cardiomyopathy,DMSO,,E08,24,211,0.33589347820938226
 33,localhost240927060001,E,9,19,failing,dilated_cardiomyopathy,UCD-0001804,,E09,3,218,0.8666666666666667
 34,localhost240927060001,E,10,19,failing,dilated_cardiomyopathy,UCD-0018207,Neuronal Signaling,E10,3,218,0.8666666666666667
-35,localhost240927060001,E,11,19,failing,dilated_cardiomyopathy,DMSO,,E11,24,211,0.2758586615053884
 36,localhost240927060001,F,2,19,failing,dilated_cardiomyopathy,UCD-0001844,Others,F02,3,218,1.0
 37,localhost240927060001,F,3,19,failing,dilated_cardiomyopathy,UCD-0159270,Others,F03,3,218,0.27485380116959063
 38,localhost240927060001,F,4,19,failing,dilated_cardiomyopathy,UCD-0159275,Others,F04,3,218,0.3833333333333333
@@ -109,15 +93,11 @@ Metadata_reference_index,Metadata_plate_barcode,Metadata_WellRow,Metadata_WellCo
 52,localhost240927060001,G,9,19,failing,dilated_cardiomyopathy,UCD-0001829,PI3K/Akt/mTOR,G09,3,219,0.5555555555555555
 53,localhost240927060001,G,10,19,failing,dilated_cardiomyopathy,UCD-0159259,PI3K/Akt/mTOR,G10,3,219,0.47697594501718216
 54,localhost240927060001,G,11,19,failing,dilated_cardiomyopathy,UCD-0001842,Neuronal Signaling,G11,3,219,0.6839080459770116
-0,localhost240927120001,B,2,7,healthy,,DMSO,,B02,24,212,0.5594271992423471
 1,localhost240927120001,B,3,19,failing,dilated_cardiomyopathy,UCD-0159256,Apoptosis,B03,3,219,1.0
 2,localhost240927120001,B,4,19,failing,dilated_cardiomyopathy,UCD-0001766,Angiogenesis,B04,3,219,1.0
-3,localhost240927120001,B,5,7,healthy,,DMSO,,B05,24,212,0.5579065268094358
 4,localhost240927120001,B,6,19,failing,dilated_cardiomyopathy,UCD-0159262,Others,B06,3,219,1.0
 5,localhost240927120001,B,7,19,failing,dilated_cardiomyopathy,UCD-0001915,Others,B07,3,219,1.0
-6,localhost240927120001,B,8,7,healthy,,DMSO,,B08,24,212,0.5470921718250689
 7,localhost240927120001,B,10,19,failing,dilated_cardiomyopathy,UCD-0159279,Others,B10,3,217,1.0
-8,localhost240927120001,B,11,7,healthy,,DMSO,,B11,24,210,0.4855152791078526
 9,localhost240927120001,C,2,19,failing,dilated_cardiomyopathy,UCD-0159283,Endocrinology & Hormones,C02,3,217,1.0
 10,localhost240927120001,C,3,19,failing,dilated_cardiomyopathy,UCD-0001040,Endocrinology & Hormones,C03,3,217,1.0
 11,localhost240927120001,C,4,19,failing,dilated_cardiomyopathy,UCD-0018091,GPCR & G Protein,C04,1,216,1.0
@@ -135,16 +115,12 @@ Metadata_reference_index,Metadata_plate_barcode,Metadata_WellRow,Metadata_WellCo
 23,localhost240927120001,D,9,19,failing,dilated_cardiomyopathy,UCD-0001775,Others,D09,3,217,1.0
 24,localhost240927120001,D,10,19,failing,dilated_cardiomyopathy,UCD-0159274,Others,D10,3,217,1.0
 25,localhost240927120001,D,11,19,failing,dilated_cardiomyopathy,UCD-0001792,Others,D11,1,217,0.2
-26,localhost240927120001,E,2,19,failing,dilated_cardiomyopathy,DMSO,,E02,24,211,0.42658534295664197
 27,localhost240927120001,E,3,19,failing,dilated_cardiomyopathy,UCD-0159285,DNA Damage,E03,3,218,1.0
 28,localhost240927120001,E,4,19,failing,dilated_cardiomyopathy,UCD-0159289,Metabolism,E04,3,218,0.28448275862068967
-29,localhost240927120001,E,5,19,failing,dilated_cardiomyopathy,DMSO,,E05,24,211,0.18296551452052903
 30,localhost240927120001,E,6,19,failing,dilated_cardiomyopathy,UCD-0018179,MAPK,E06,3,218,1.0
 31,localhost240927120001,E,7,19,failing,dilated_cardiomyopathy,UCD-0001016,Neuronal Signaling,E07,3,218,1.0
-32,localhost240927120001,E,8,19,failing,dilated_cardiomyopathy,DMSO,,E08,24,211,0.3558683483397182
 33,localhost240927120001,E,9,19,failing,dilated_cardiomyopathy,UCD-0001804,,E09,3,218,1.0
 34,localhost240927120001,E,10,19,failing,dilated_cardiomyopathy,UCD-0018207,Neuronal Signaling,E10,3,218,1.0
-35,localhost240927120001,E,11,19,failing,dilated_cardiomyopathy,DMSO,,E11,24,211,0.34366517711304717
 36,localhost240927120001,F,2,19,failing,dilated_cardiomyopathy,UCD-0001844,Others,F02,3,218,1.0
 37,localhost240927120001,F,3,19,failing,dilated_cardiomyopathy,UCD-0159270,Others,F03,3,218,0.8095238095238096
 38,localhost240927120001,F,4,19,failing,dilated_cardiomyopathy,UCD-0159275,Others,F04,3,218,0.40202702702702703
@@ -164,16 +140,12 @@ Metadata_reference_index,Metadata_plate_barcode,Metadata_WellRow,Metadata_WellCo
 52,localhost240927120001,G,9,19,failing,dilated_cardiomyopathy,UCD-0001829,PI3K/Akt/mTOR,G09,3,219,0.5555555555555555
 53,localhost240927120001,G,10,19,failing,dilated_cardiomyopathy,UCD-0159259,PI3K/Akt/mTOR,G10,3,219,0.5676037483266398
 54,localhost240927120001,G,11,19,failing,dilated_cardiomyopathy,UCD-0001842,Neuronal Signaling,G11,3,219,0.7666666666666666
-0,localhost240928120001,B,2,7,healthy,,DMSO,,B02,24,212,0.5726275689317549
 1,localhost240928120001,B,3,19,failing,dilated_cardiomyopathy,UCD-0159256,Apoptosis,B03,3,219,1.0
 2,localhost240928120001,B,4,19,failing,dilated_cardiomyopathy,UCD-0001766,Angiogenesis,B04,3,219,1.0
-3,localhost240928120001,B,5,7,healthy,,DMSO,,B05,24,212,0.5711847884407073
 4,localhost240928120001,B,6,19,failing,dilated_cardiomyopathy,UCD-0159262,Others,B06,3,219,1.0
 5,localhost240928120001,B,7,19,failing,dilated_cardiomyopathy,UCD-0001915,Others,B07,3,219,1.0
-6,localhost240928120001,B,8,7,healthy,,DMSO,,B08,24,212,0.5466541025996454
 7,localhost240928120001,B,9,19,failing,dilated_cardiomyopathy,UCD-0001783,Others,B09,1,217,0.029411764705882353
 8,localhost240928120001,B,10,19,failing,dilated_cardiomyopathy,UCD-0159279,Others,B10,3,217,1.0
-9,localhost240928120001,B,11,7,healthy,,DMSO,,B11,24,210,0.3195204591092161
 10,localhost240928120001,C,2,19,failing,dilated_cardiomyopathy,UCD-0159283,Endocrinology & Hormones,C02,3,217,1.0
 11,localhost240928120001,C,3,19,failing,dilated_cardiomyopathy,UCD-0001040,Endocrinology & Hormones,C03,3,217,1.0
 12,localhost240928120001,C,5,19,failing,dilated_cardiomyopathy,UCD-0000450,Neuronal Signaling,C05,3,217,0.8055555555555555
@@ -191,16 +163,12 @@ Metadata_reference_index,Metadata_plate_barcode,Metadata_WellRow,Metadata_WellCo
 24,localhost240928120001,D,8,19,failing,dilated_cardiomyopathy,UCD-0159264,Neuronal Signaling,D08,1,216,0.009615384615384616
 25,localhost240928120001,D,9,19,failing,dilated_cardiomyopathy,UCD-0001775,Others,D09,3,216,0.8666666666666667
 26,localhost240928120001,D,10,19,failing,dilated_cardiomyopathy,UCD-0159274,Others,D10,3,216,0.46014492753623193
-27,localhost240928120001,E,2,19,failing,dilated_cardiomyopathy,DMSO,,E02,24,209,0.28867038479911594
 28,localhost240928120001,E,3,19,failing,dilated_cardiomyopathy,UCD-0159285,DNA Damage,E03,3,216,1.0
 29,localhost240928120001,E,4,19,failing,dilated_cardiomyopathy,UCD-0159289,Metabolism,E04,3,216,0.09128045157456922
-30,localhost240928120001,E,5,19,failing,dilated_cardiomyopathy,DMSO,,E05,24,209,0.2584446507170722
 31,localhost240928120001,E,6,19,failing,dilated_cardiomyopathy,UCD-0018179,MAPK,E06,3,216,1.0
 32,localhost240928120001,E,7,19,failing,dilated_cardiomyopathy,UCD-0001016,Neuronal Signaling,E07,3,216,1.0
-33,localhost240928120001,E,8,19,failing,dilated_cardiomyopathy,DMSO,,E08,24,209,0.2732618893424545
 34,localhost240928120001,E,9,19,failing,dilated_cardiomyopathy,UCD-0001804,,E09,3,216,1.0
 35,localhost240928120001,E,10,19,failing,dilated_cardiomyopathy,UCD-0018207,Neuronal Signaling,E10,3,216,1.0
-36,localhost240928120001,E,11,19,failing,dilated_cardiomyopathy,DMSO,,E11,24,209,0.29058515480988295
 37,localhost240928120001,F,2,19,failing,dilated_cardiomyopathy,UCD-0001844,Others,F02,3,216,1.0
 38,localhost240928120001,F,3,19,failing,dilated_cardiomyopathy,UCD-0159270,Others,F03,3,216,0.7555555555555555
 39,localhost240928120001,F,4,19,failing,dilated_cardiomyopathy,UCD-0159275,Others,F04,3,216,0.4109311740890688
