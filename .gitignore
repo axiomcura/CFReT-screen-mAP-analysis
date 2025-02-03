@@ -176,5 +176,8 @@ cython_debug/
 # ignore data file
 notebooks/data/
 
+# removing ruff caching
+.ruff_cache/
+
 # ignore prototyping notebooks and scripts
 _*

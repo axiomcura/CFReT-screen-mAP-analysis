@@ -65,8 +65,8 @@ def calculate_dmso_map_batch_profiles(
 
     # Load configs
     general_configs = configs["general_configs"]
-    cntrl_copairs_ap_configs = configs["cntrl_copairs_ap_configs"]
-    cntrl_copairs_map_configs = configs["cntrl_copairs_map_configs"]
+    cntrl_copairs_ap_configs = configs["dmso_copairs_ap_configs"]
+    cntrl_copairs_map_configs = configs["dmso_copairs_map_configs"]
 
     # setting controls
     # where negative controls indicates failing cells and positive controls indicates

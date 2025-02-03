@@ -1,0 +1,2 @@
+Metadata_treatment_type,mean_average_precision,p_value,corrected_p_value,below_p,below_corrected_p
+control,0.8337251607128813,0.3696303696303696,0.3696303696303696,False,False

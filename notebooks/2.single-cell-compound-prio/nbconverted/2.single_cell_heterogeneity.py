@@ -14,7 +14,7 @@ from sklearn.cluster import DBSCAN
 from sklearn.metrics.pairwise import distance_metrics
 
 sys.path.append("../../utils")
-from src import data_utils
+from utils import data_utils
 
 # ## helper functions
 
