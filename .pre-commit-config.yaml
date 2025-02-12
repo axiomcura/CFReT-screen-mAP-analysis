@@ -3,56 +3,56 @@
 
 repos:
   # Keep pre-commit itself up to date
-  - repo: https://gitlab.com/vojko.pribudic.foss/pre-commit-update
+-   repo: https://gitlab.com/vojko.pribudic.foss/pre-commit-update
     rev: v0.6.1
     hooks:
-      - id: pre-commit-update
+    -   id: pre-commit-update
         args: ["--verbose"]
 
   # Ruff for linting Python files
-  - repo: https://github.com/charliermarsh/ruff-pre-commit
-    rev: v0.9.4
+-   repo: https://github.com/charliermarsh/ruff-pre-commit
+    rev: v0.9.6
     hooks:
-      - id: ruff
+    -   id: ruff
         args: ["--fix"]
 
     # nbQA to run Ruff on Jupyter Notebooks
-  - repo: https://github.com/nbQA-dev/nbQA
+-   repo: https://github.com/nbQA-dev/nbQA
     rev: 1.9.1
     hooks:
-      - id: nbqa-ruff
+    -   id: nbqa-ruff
         name: nbQA-Ruff
         args: ["--fix"]
         additional_dependencies: ["ruff"]
 
     # Format and sort TOML files
-  - repo: https://github.com/pappasam/toml-sort
+-   repo: https://github.com/pappasam/toml-sort
     rev: v0.24.2
     hooks:
-      - id: toml-sort
+    -   id: toml-sort
         args: ["--in-place"]
 
     # Sort imports in Python files (if separate from Ruff)
-  - repo: https://github.com/pre-commit/mirrors-isort
+-   repo: https://github.com/pre-commit/mirrors-isort
     rev: v5.10.1
     hooks:
-      - id: isort
+    -   id: isort
         args: ["--profile", "black"]
 
     # Pyupgrade for updating Python syntax to newer versions
-  - repo: https://github.com/asottile/pyupgrade
+-   repo: https://github.com/asottile/pyupgrade
     rev: v3.19.1
     hooks:
-      - id: pyupgrade
+    -   id: pyupgrade
         args: ["--py311-plus"]
 
-  - repo: https://github.com/pre-commit/pre-commit-hooks
+-   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v5.0.0
     hooks:
-      - id: check-yaml # Validate YAML files
-      - id: check-json # Validate JSON files
-      - id: end-of-file-fixer # Ensure files end with a newline
-      - id: trailing-whitespace # Remove trailing whitespace
-      - id: check-merge-conflict # Prevent committing merge conflict markers
-      - id: check-added-large-files # Warn about large files being added
+    -   id: check-yaml # Validate YAML files
+    -   id: check-json # Validate JSON files
+    -   id: end-of-file-fixer # Ensure files end with a newline
+    -   id: trailing-whitespace # Remove trailing whitespace
+    -   id: check-merge-conflict # Prevent committing merge conflict markers
+    -   id: check-added-large-files # Warn about large files being added
         args: ["--maxkb=102400"]

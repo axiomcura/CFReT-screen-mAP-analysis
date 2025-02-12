@@ -14,4 +14,5 @@ jupyter nbconvert --to python --output-dir=nbconverted/ *.ipynb
 # Execute the data download script
 python nbconverted/1.on_off_morphology_signatures.py
 python nbconverted/2.single_cell_heterogeneity.py
+python nbconverted/3.apply_metric.py
 python nbconverted/4.selecting_hits.py
