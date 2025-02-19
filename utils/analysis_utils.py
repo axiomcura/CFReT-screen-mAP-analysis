@@ -131,6 +131,9 @@ def calculate_dmso_map_batch_profiles(
                     )
                 )
 
+                # Metadata indicating the reference control type being compared with
+                dmso_profile_w_target_plate["Metadata_reference_control_type"] = ref_type
+
                 # Split metadata and feature columns for analysis
                 dmso_meta, dmso_feats = split_meta_and_features(
                     dmso_profile_w_target_plate
@@ -162,6 +165,7 @@ def calculate_dmso_map_batch_profiles(
                 threshold=cntrl_copairs_map_configs["threshold"],
                 seed=general_configs["seed"],
             )
+
 
             # Store the computed AP and mAP scores as CSV files
             dmso_ap_save_path = (
@@ -250,6 +254,7 @@ def calculate_trt_map_batch_profiles(
     for batch_id, profile in batched_profiles.items():
         # Analyze the profile for each control condition
         for control_type, control_treatment, cell_state in control_list:
+
             # Create a copy of the profile to preserve the original data
             profile = profile.copy()
 
@@ -291,7 +296,7 @@ def calculate_trt_map_batch_profiles(
             # Save the calculated AP scores to a file for further analysis
             save_ap_path = (
                 outdir_path
-                / f"{batch_id}_{shuffled_label}_{control_type}_control_{cell_state}_{control_treatment}_AP_scores.csv"
+                / f"{batch_id}_{shuffled_label}_{control_type}_control_{cell_state}_{control_treatment}_trt_AP_scores.csv"
             )
             replicate_aps.to_csv(
                 save_ap_path,
@@ -310,7 +315,7 @@ def calculate_trt_map_batch_profiles(
             # Save the mAP scores to a file for reporting
             save_map_path = (
                 outdir_path
-                / f"{batch_id}_{shuffled_label}_{control_type}_control_{cell_state}_{control_treatment}_mAP_scores.csv"
+                / f"{batch_id}_{shuffled_label}_{control_type}_control_{cell_state}_{control_treatment}_trt_mAP_scores.csv"
             )
             replicate_maps.to_csv(
                 save_map_path,

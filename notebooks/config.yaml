@@ -35,7 +35,6 @@ trt_copairs_ap_configs:
   # of compound replicates and the other to DMSO controls
   neg_diffby: ["Metadata_treatment", "Metadata_reference_index"]
 
-
   # batch_size (int): The batch size for processing similarity computations
   # Larger values use more memory but process faster.
   batch_size: 10000
@@ -59,7 +58,6 @@ trt_copairs_map_configs:
 
   # threshold (float): Specifies the p-value threshold for determining statistical significance.
   threshold: 0.05
-
 
 dmso_copairs_ap_configs:
   # Configuration for calculating Average Precision (AP) specifically for control wells (DMSO).
@@ -95,10 +93,15 @@ dmso_copairs_map_configs:
   # Parameters for calculating the mean average precision (mAP)
 
   # same_by (list[str]): Specifies the metadata columns to focus on when computing
-  # the mAP score. For instance, to calculate the mAP score for a single treatment,
-  # this parameter ensures the mean of AP scores is computed across entries with the
-  # same treatment.
-  same_by: ["Metadata_treatment_type"]
+  # the mAP score. This ensures that the mAP score is calculated for each plate
+  # and control type. Essentially, a single mAP score is computed per plate for both
+  # positive and negative references.
+  same_by:
+    [
+      "Metadata_plate_barcode",
+      "Metadata_reference_control_type",
+      "Metadata_control_type",
+    ]
 
   # null_size (int): Defines the size of the null distribution when calculating p-values.
   null_size: 1000

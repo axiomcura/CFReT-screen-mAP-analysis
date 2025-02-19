@@ -49,7 +49,7 @@ def split_meta_and_features(
 
     return (meta_cols, features_cols)
 
-def find_shared_features(profile_paths: list[str | pathlib.Path]) -> list[str]:
+def find_shared_features(profile_paths: list[str | pathlib.Path], delete_dups: bool | None =False) -> list[str]:
     """Find the shared features (columns) between the profiles in the provided list of
     file paths, while retaining the order of features as they appear in the first
     profile.
@@ -64,6 +64,10 @@ def find_shared_features(profile_paths: list[str | pathlib.Path]) -> list[str]:
     ----------
     profile_paths : list[str | pathlib.Path]
         A list of file paths pointing to the Parquet profile files.
+
+    delete_dups : Optional[bool], default=False
+        A boolean indicating if duplicate features should be removed from the shared
+        features list.
 
     Returns
     -------
@@ -98,6 +102,10 @@ def find_shared_features(profile_paths: list[str | pathlib.Path]) -> list[str]:
         else:
             # Retain only the features that are shared, keeping their order
             shared_features = [name for name in shared_features if name in column_names]
+
+    # Remove duplicate column names if specified while retaining the order
+    if delete_dups:
+        shared_features = list(dict.fromkeys(shared_features))
 
     return shared_features if shared_features else []
 
