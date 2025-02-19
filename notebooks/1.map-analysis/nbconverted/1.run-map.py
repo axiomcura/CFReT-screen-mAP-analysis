@@ -26,6 +26,7 @@
 # In[1]:
 
 
+import json
 import pathlib
 import sys
 import warnings
@@ -49,6 +50,7 @@ warnings.filterwarnings("ignore", category=RuntimeWarning)
 
 
 # Setting the base data directory and ensure it exists (raises an error if it doesn't)
+main_results_dir = pathlib.Path("./results/").resolve(strict=True)
 data_dir = pathlib.Path("../data/").resolve(strict=True)
 agg_data_dir = (data_dir / "agg_fs_profiles").resolve(strict=True)
 fs_profiles_paths = list((data_dir / "agg_fs_profiles").resolve(strict=True).glob("*.parquet"))
@@ -63,8 +65,8 @@ platemap_path = (metadata_dir / "updated_barcode_platemap.csv").resolve(strict=T
 config_path = pathlib.Path("../config.yaml").resolve(strict=True)
 
 # Setting the results directory, resolve the full path, and create it if it doesn't already exist
-results_dir = pathlib.Path("./results/map_scores").resolve()
-results_dir.mkdir(exist_ok=True, parents=True)
+map_results_dir = pathlib.Path("./results/map_scores").resolve()
+map_results_dir.mkdir(exist_ok=True, parents=True)
 
 
 # Loading in the files
@@ -87,6 +89,21 @@ barcode = pd.read_csv(platemap_path)
 
 # finding shared features while deleting duplicate column names
 shared_cols = data_utils.find_shared_features(profile_paths=fs_profiles_paths, delete_dups=True)
+
+# saving shared features to a json file
+# if the file already exists, it will not be overwritten
+if not (main_results_dir / "shared_features.json").exists():
+    print("shared_features.json does not exist. Saving shared features to a json file.")
+    shared_cols_dict = {}
+    shared_cols_dict["shared_features"] = shared_cols
+    with open(main_results_dir / "shared_features.json", "w") as shared_file:
+        json.dump(shared_cols_dict, shared_file)
+
+# if the file already exists, then we check if the shared features are the same
+else:
+    with open(main_results_dir / "shared_features.json") as shared_file:
+        shared_cols_dict = json.load(shared_file)
+    assert shared_cols == shared_cols_dict["shared_features"], "Shared features are not the same"
 
 # total amount of shared columns among all profiles in batch 1
 print("Total amount of shared columns among all profiles:")
@@ -172,7 +189,7 @@ for batch_index, (platemap_filename, associated_plates_df) in enumerate(
 analysis_utils.calculate_dmso_map_batch_profiles(
     batched_profiles=loaded_plate_batches,
     configs=configs,
-    outdir_path=results_dir,
+    outdir_path=map_results_dir,
     shuffled=False,
 )
 
@@ -180,7 +197,7 @@ analysis_utils.calculate_dmso_map_batch_profiles(
 analysis_utils.calculate_dmso_map_batch_profiles(
     batched_profiles=loaded_shuffled_plate_batches,
     configs=configs,
-    outdir_path=results_dir,
+    outdir_path=map_results_dir,
     shuffled=True,
 )
 
@@ -190,14 +207,14 @@ analysis_utils.calculate_dmso_map_batch_profiles(
 
 # In this section, we analyze a high-content screening dataset generated from cell painting experiments, where failing cardiac fibroblasts are treated with multiple compounds. Our goal is to calculate the mean average precision (mAP) by comparing the experimental treatments to two controls: a negative control consisting of DMSO-treated failing cardiac fibroblasts and a positive control consisting of DMSO-treated healthy cardiac fibroblasts.
 
-# In[ ]:
+# In[7]:
 
 
 # Here we execute mAP pipeline with with the original
 analysis_utils.calculate_trt_map_batch_profiles(
     batched_profiles=loaded_plate_batches,
     configs=configs,
-    outdir_path=results_dir,
+    outdir_path=map_results_dir,
     shuffled=False
 )
 
@@ -205,6 +222,6 @@ analysis_utils.calculate_trt_map_batch_profiles(
 analysis_utils.calculate_trt_map_batch_profiles(
     batched_profiles=loaded_shuffled_plate_batches,
     configs=configs,
-    outdir_path=results_dir,
+    outdir_path=map_results_dir,
     shuffled=True
 )
