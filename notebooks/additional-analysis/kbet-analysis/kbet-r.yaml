@@ -1,0 +1,20 @@
+name: kbet-r
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ipykernel
+  - r-base
+  - r-essentials
+  - r-irkernel
+  - r-tidyverse
+  - r-ggplot2
+  - r-dplyr
+  - r-data.table
+  - r-shiny
+  - r-readr
+  - r-stringr
+  - r-lubridate
+  - r-jsonlite
+  - r-devtools
+  - r-arrow

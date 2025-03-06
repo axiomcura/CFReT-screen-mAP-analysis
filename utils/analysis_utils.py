@@ -98,6 +98,8 @@ def calculate_dmso_map_batch_profiles(
         dmso_profile = dmso_profile.reset_index().rename(
             columns={"index": "original_index"}
         )
+        dmso_profile["original_index"] = dmso_profile["original_index"].astype(int)
+
 
         # Iterate over control types to use them as references
         for ref_type in control_list:
@@ -138,6 +140,7 @@ def calculate_dmso_map_batch_profiles(
                 dmso_meta, dmso_feats = split_meta_and_features(
                     dmso_profile_w_target_plate
                 )
+
 
                 # Compute average precision (AP) scores for the current setup
                 dmso_ap_scores = map.average_precision(
