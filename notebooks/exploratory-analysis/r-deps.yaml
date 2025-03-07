@@ -1,0 +1,16 @@
+name: cfret-r-analysis
+channels:
+  - conda-forge
+  - defaults
+  - r
+dependencies:
+  - python=3.11
+  - r-base=4.2
+  - r-essentials
+  - r-irkernel
+  - r-ggplot2
+  - r-dplyr
+  - r-tidyr
+  - r-umap
+  - r-ggthemes
+  - r-pheatmap

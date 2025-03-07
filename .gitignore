@@ -181,3 +181,6 @@ notebooks/data/
 
 # ignore prototyping notebooks and scripts
 _*
+
+# ignored due to large size
+notebooks/exploratory-analysis/UMAP-aggregated-fs-profiles/results/concat_data
