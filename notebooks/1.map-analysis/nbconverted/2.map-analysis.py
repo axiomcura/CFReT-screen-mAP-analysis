@@ -456,12 +456,16 @@ axes[0].set_ylabel("mAP score (reference: healthy CF cells + DMSO)", fontsize=14
 axes[0].set_title("DMSO-positive & DMSO-negative mAP scores", fontsize=14)
 axes[0].tick_params(axis="both", which="major", labelsize=14)
 
-# Updating legend manually changing name and size
-legend = axes[0].legend_
-if legend is not None:
-    legend.set_title("Control types", prop={"size": 14})  # Increase legend title size
-    for text in legend.get_texts():
-        text.set_fontsize(12)  # Increase legend label size
+# Updating legend values from DMSO-positive and DMSO-negative to DMSO-healthy and DMSO-failing
+dmso_legend = axes[0].legend_
+if dmso_legend is not None:
+    dmso_legend.set_title("Control types", prop={"size": 14})
+    for text in dmso_legend.get_texts():
+        if text.get_text() == "DMSO-positive":
+            text.set_text("DMSO-healthy")
+        elif text.get_text() == "DMSO-negative":
+            text.set_text("DMSO-failing")
+        text.set_fontsize(12)
 
 # Plotting the mAP scores of treated wells
 sns.scatterplot(
@@ -475,6 +479,9 @@ sns.scatterplot(
     edgecolor="black",
     alpha=0.8,
 )
+
+
+# Updating axes values
 axes[1].plot(
     [0, 1], [0, 1], color="red", linestyle="--", linewidth=1.5
 )  # Diagonal line
@@ -486,15 +493,33 @@ axes[1].set_ylabel("mAP score (reference: healthy CF cells + DMSO)", fontsize=14
 axes[1].set_title("Treated wells mAP scores", fontsize=14)
 axes[1].tick_params(axis="both", which="major", labelsize=14)
 
+
+# Remove the default legend and add a new one
+axes[1].legend_.remove()
+axes[1].legend(
+    loc="upper center",
+    bbox_to_anchor=(1.15, 1),
+    fancybox=True,
+    ncol=1,
+)
+
+# Adjust the legend position
+axes[1].legend_.set_bbox_to_anchor((1.20, .8))
+trt_map_legend = axes[1].legend_
+if trt_map_legend is not None:
+    trt_map_legend.set_title("Pathways", prop={"size": 14})
+    for text in trt_map_legend.get_texts():
+        text.set_fontsize(12)
+
+
+# Adjust the legend title size for only axes[1]:
+trt_map_legend.set_title("Pathways", prop={"size": 14})  # Increase legend title size
+
 # Adjust layout and add a main title
 fig.suptitle("mAP scores: negative vs. positive controls", fontsize=20, y=1.05)
-plt.tight_layout()
 
-legend = axes[1].legend_
-if legend is not None:
-    legend.set_title("Pathways", prop={"size": 14})  # Increase legend title size
-    for text in legend.get_texts():
-        text.set_fontsize(12)  # Increase legend label size
+# Adjust the spacing between subplots
+plt.tight_layout()
 
 # Save the figure
 plt.savefig(fig_dir_path / "map_scores_separated.png", dpi=300, bbox_inches="tight")

@@ -7,6 +7,7 @@ import pathlib
 
 import pandas as pd
 from copairs import map
+from copairs.matching import assign_reference_index
 
 from .data_utils import label_control_types, split_meta_and_features
 from .io_utils import load_config
@@ -95,7 +96,7 @@ def calculate_dmso_map_batch_profiles(
         )
 
         # Reset index and store the original index for reference
-        dmso_profile = dmso_profile.reset_index().rename(
+        dmso_profile = dmso_profile.copy().reset_index().rename(
             columns={"index": "original_index"}
         )
 
@@ -116,22 +117,15 @@ def calculate_dmso_map_batch_profiles(
                     )
                 )
 
-                # Initialize reference index for mAP calculation
-                # Default to -1 for all wells except targeted reference wells
-                dmso_profile_w_target_plate["Metadata_reference_index"] = (
-                    dmso_profile_w_target_plate.index
-                )
-                dmso_profile_w_target_plate["Metadata_reference_index"] = (
-                    dmso_profile_w_target_plate.apply(
-                        lambda row: row["Metadata_reference_index"]
-                        if row["Metadata_targeted"]
-                        and row["Metadata_control_type"] == ref_type
-                        else -1,
-                        axis=1,
-                    )
+                # set reference index for the targeted plate
+                ref_col = "Metadata_reference_index"
+                dmso_profile_w_target_plate = assign_reference_index(
+                    df = dmso_profile_w_target_plate,
+                    condition= f"Metadata_targeted and Metadata_Pathway == 'DMSO-{ref_type}'",
+                    reference_col = ref_col,
+                    default_value = -1,
                 )
 
-                # Metadata indicating the reference control type being compared with
                 dmso_profile_w_target_plate["Metadata_reference_control_type"] = ref_type
 
                 # Split metadata and feature columns for analysis
@@ -143,10 +137,10 @@ def calculate_dmso_map_batch_profiles(
                 dmso_ap_scores = map.average_precision(
                     meta=dmso_profile_w_target_plate[dmso_meta],
                     feats=dmso_profile_w_target_plate[dmso_feats].values,
-                    pos_sameby=cntrl_copairs_ap_configs["pos_sameby"],
+                    pos_sameby=cntrl_copairs_ap_configs["pos_sameby"] + [ref_col],
                     pos_diffby=[],
-                    neg_sameby=[],
-                    neg_diffby=cntrl_copairs_ap_configs["neg_diffby"],
+                    neg_sameby=cntrl_copairs_ap_configs["neg_sameby"],
+                    neg_diffby=cntrl_copairs_ap_configs["neg_diffby"] + [ref_col],
                     batch_size=cntrl_copairs_ap_configs["batch_size"],
                     distance=cntrl_copairs_ap_configs["distance"],
                 )
@@ -258,20 +252,12 @@ def calculate_trt_map_batch_profiles(
             # Create a copy of the profile to preserve the original data
             profile = profile.copy()
 
-            # Assign a default reference index based on the row index
-            profile["Metadata_reference_index"] = profile.index
-
-            # Mark all non-control replicates (e.g., treatments not matching the current control)
-            profile.loc[
-                (profile["Metadata_treatment"] != control_treatment)
-                & (profile["Metadata_cell_type"] != cell_state),
-                "Metadata_reference_index",
-            ] = -1
-
-            # Move the "Metadata_reference_index" column to the beginning for clarity
-            profile.insert(
-                0, "Metadata_reference_index", profile.pop("Metadata_reference_index")
-            )
+            # Setting reference index for the control treatment
+            ref_col = "Metadata_reference_index"
+            profile = assign_reference_index(df = profile,
+                                    condition = f"Metadata_Pathway == 'DMSO-{control_type}'",
+                                    reference_col = ref_col,
+                                    default_value = -1)
 
             # Separate metadata columns from feature columns for downstream calculations
             meta_columns, feature_columns = split_meta_and_features(profile)
@@ -282,10 +268,10 @@ def calculate_trt_map_batch_profiles(
             replicate_aps = map.average_precision(
                 meta=profile[meta_columns],
                 feats=profile[feature_columns].values,
-                pos_sameby=copairs_ap_configs["pos_sameby"],
+                pos_sameby=copairs_ap_configs["pos_sameby"] + [ref_col],
                 pos_diffby=copairs_ap_configs["pos_diffby"],
                 neg_sameby=[],
-                neg_diffby=copairs_ap_configs["neg_diffby"],
+                neg_diffby=copairs_ap_configs["neg_diffby"] + [ref_col],
             )
 
             # Exclude wells treated with the control treatment (DMSO)
@@ -306,7 +292,7 @@ def calculate_trt_map_batch_profiles(
             # Calculate mean average precision (mAP) from the AP scores
             replicate_maps = map.mean_average_precision(
                 replicate_aps,
-                sameby=copairs_map_configs["same_by"],  # Grouping criteria for mAP
+                sameby=copairs_map_configs["same_by"] + [ref_col],  # Grouping criteria for mAP
                 null_size=copairs_map_configs["null_size"],  # Null distribution size
                 threshold=copairs_map_configs["threshold"],  # Significance threshold
                 seed=general_configs["seed"],  # Seed for reproducibility

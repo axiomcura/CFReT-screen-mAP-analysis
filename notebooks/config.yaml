@@ -5,6 +5,14 @@ general_configs:
   # operations
   seed: 0
 
+  # plate_name_lookup (dict): A dictionary mapping plate barcodes to their respective names.
+  plate_name_lookup:
+    batch_1:
+      localhost240926150001: Plate_1
+      localhost240927060001: Plate_2
+      localhost240927120001: Plate_3
+      localhost240928120001: Plate_4
+
 download_configs:
   # Parameters for downloading the screen data from:
   # https://github.com/WayScience/targeted_fibrosis_drug_screen
@@ -78,7 +86,7 @@ dmso_copairs_ap_configs:
   # Despite sharing the same treatment, these columns differentiate pairs by comparing wells from the
   # target plate to wells from the reference plate. This ensures comparisons between DMSO control wells
   # from distinct plates.
-  neg_diffby: ["Metadata_targeted", "Metadata_reference_index"]
+  neg_diffby: ["Metadata_targeted"]
 
   # batch_size (int): Defines the number of profiles to process in a single batch during similarity computation.
   # Larger batch sizes improve processing speed but require more memory. Adjust based on available resources.

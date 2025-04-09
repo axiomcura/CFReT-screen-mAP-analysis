@@ -14,7 +14,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.11"
-copairs = "^0.4.2"
+copairs = "^0.5.1"
 ipykernel = "^6.29.5"
 seaborn = "^0.13.2"
 
