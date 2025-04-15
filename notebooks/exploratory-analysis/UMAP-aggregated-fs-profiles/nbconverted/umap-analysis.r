@@ -22,7 +22,7 @@ concat.agg_fs_df = read.csv(path.data)
 head(concat.agg_fs_df)
 
 # setting metadata to keep
-sel_metadata <- c("Metadata_plate_barcode", "Metadata_control_type", "Metadata_Pathway", "Metadata_treatment")
+sel_metadata <- c("Metadata_plate_name", "Metadata_control_type", "Metadata_Pathway", "Metadata_treatment")
 
 # separating metadata and morphology data
 metadata_df <- concat.agg_fs_df[,sel_metadata]
@@ -45,7 +45,7 @@ control_df <- concat.agg_fs_df[concat.agg_fs_df$Metadata_control_type %in%
 control_morphology_df <- control_df[,!grepl("^Metadata_", colnames(control_df))]
 cntrls_umap_result <- umap(control_morphology_df, n_components = 2)
 umap_control_df <- data.frame(
-  Plate = control_df$Metadata_plate_barcode,
+  Plate = control_df$Metadata_plate_name,
   Pathway = control_df$Metadata_Pathway,
   ControlType = control_df$Metadata_control_type,
   UMAP1 = cntrls_umap_result$layout[,1],
@@ -66,7 +66,7 @@ umap_result <- umap(morphology_features, n_components = 2)
 
 # Create a data frame with UMAP results and metadata
 umap_df <- data.frame(
-  Plate = metadata_df$Metadata_plate_barcode,
+  Plate = metadata_df$Metadata_plate_name,
   Pathway = metadata_df$Metadata_Pathway,
   Treatment = metadata_df$Metadata_treatment,
   UMAP1 = umap_result$layout[,1],

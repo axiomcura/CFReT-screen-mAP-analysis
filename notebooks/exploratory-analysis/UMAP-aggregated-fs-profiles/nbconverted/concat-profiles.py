@@ -108,6 +108,7 @@ results_dir.mkdir(exist_ok=True, parents=True)
 
 # loading config
 config = io_utils.load_config(config_path)
+plate_name_lookup = config["general_configs"]["plate_name_lookup"]["batch_1"]
 
 # loading shared features
 shared_features = io_utils.load_config(shared_features_path)["shared_features"]
@@ -127,9 +128,8 @@ for plate_idx, profile_path in enumerate(list_of_paths):
 
     # inserting the plate name at the first column
     aggregated_profiles.insert(0, "Metadata_plate_barcode", plate_name)
-    aggregated_profiles.insert(1, "Metadata_plate_index", plate_idx + 1)
+    aggregated_profiles.insert(1, "Metadata_plate_name", plate_name_lookup[plate_name])
 
-    print(plate_name, aggregated_profiles.loc[aggregated_profiles["Metadata_Pathway"] == "GPCR & G Protein"].shape)
 
     # next is to shuffled the data
     shuffled_aggregated_profiles = data_utils.shuffle_features(aggregated_profiles)
@@ -183,3 +183,9 @@ for batch, profile in loaded_profiles.items():
 for batch, profile in shuffled_loaded_profiles.items():
     profile.to_csv(results_dir /
                    f"shuffled_{batch}_concat_agg_fs.csv", index=False)
+
+
+# In[6]:
+
+
+loaded_profiles["batch_1"]["Metadata_plate_name"].unique()
