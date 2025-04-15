@@ -41,7 +41,7 @@ trt_copairs_ap_configs:
 
   # neg_diffby (list[str]): Define negative pairs as profiles where one belongs to a group
   # of compound replicates and the other to DMSO controls
-  neg_diffby: ["Metadata_treatment", "Metadata_reference_index"]
+  neg_diffby: ["Metadata_treatment"]
 
   # batch_size (int): The batch size for processing similarity computations
   # Larger values use more memory but process faster.

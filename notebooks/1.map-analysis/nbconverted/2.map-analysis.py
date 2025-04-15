@@ -143,10 +143,10 @@ negref_mAP_scores_path = (
 
 # Setting shuffled dmso mAP scores paths
 shuffled_posref_mAP_scores_path = (
-    map_scores_dir / "batch_1_original_positive_ref_dmso_mAP_scores.csv"
+    map_scores_dir / "batch_1_shuffled_positive_ref_dmso_mAP_scores.csv"
 ).resolve(strict=True)
 shuffled_negref_mAP_scores_path = (
-    map_scores_dir / "batch_1_original_negative_ref_dmso_mAP_scores.csv"
+    map_scores_dir / "batch_1_shuffled_negative_ref_dmso_mAP_scores.csv"
 )
 
 # make directory for figures
@@ -439,6 +439,8 @@ sns.scatterplot(
     x="negative_mean_average_precision",
     y="positive_mean_average_precision",
     hue="Pathway",
+    style="shuffled",
+    markers={True: "^", False: "o"},
     palette="tab20",
     ax=axes[0],
     s=110,
@@ -472,6 +474,8 @@ sns.scatterplot(
     data=other_pathways,
     x="negative_mean_average_precision",
     y="positive_mean_average_precision",
+    style="shuffled",
+    markers={True: "^", False: "o"},
     hue="Pathway",
     palette="tab20",
     ax=axes[1],
@@ -588,8 +592,9 @@ plt.show()
 # Plot stacked bar histogram using seaborn
 plt.figure(figsize=(10, 6))
 
+# plot delta mAP histogram for original data
 sns.histplot(
-    data=all_map_df,
+    data=all_map_df.loc[~all_map_df["shuffled"]],
     x="delta_mAP",
     hue="Pathway",
     multiple="stack",
@@ -612,16 +617,47 @@ plt.savefig(fig_dir_path / "delta_mAP_histogram.png", dpi=300, bbox_inches="tigh
 plt.show()
 
 
+# In[11]:
+
+
+# Plot stacked bar histogram using seaborn
+plt.figure(figsize=(10, 6))
+
+# plot delta mAP histogram for shuffled data
+sns.histplot(
+    data=all_map_df.loc[all_map_df["shuffled"]],
+    x="delta_mAP",
+    hue="Pathway",
+    multiple="stack",
+    bins=20,
+    palette="tab20",
+    alpha=0.8,
+)
+
+# Add plot labels and title
+plt.title("Delta mAP Distribution by Pathway (shuffled)", fontsize=16)
+plt.xlabel("Delta mAP (Negative mAP - Positive mAP)", fontsize=12)
+plt.ylabel("Frequency", fontsize=12)
+plt.tight_layout()
+
+
+# save plot
+plt.savefig(fig_dir_path / "shuffled_delta_mAP_histogram.png", dpi=300, bbox_inches="tight")
+
+# Show the plot
+plt.show()
+
+
 # Leveraging Delta mAP can also provide an opportunity to rank them from highest to lowest and identify potential hits.
 
-# In[11]:
+# In[12]:
 
 
 # whole figure configs
 plt.figure(dpi=200)
 
 # only getting the delta map scores
-delta_map_df = all_map_df[["Metadata_treatment", "delta_mAP", "Pathway"]]
+delta_map_df = all_map_df.loc[~all_map_df["shuffled"]][["Metadata_treatment", "delta_mAP", "Pathway"]]
 
 # Add ranks to the DataFrame
 delta_map_df["rank"] = delta_map_df["delta_mAP"].rank(ascending=True, method="max")
@@ -655,6 +691,52 @@ delta_map_df.to_csv(map_analysis_results_dir / "ranked_delta_mAPs.csv", index=Fa
 
 # save plot
 plt.savefig(fig_dir_path / "delta_mAP_rankings.png", dpi=300, bbox_inches="tight")
+
+# display plot
+plt.show()
+
+
+# In[13]:
+
+
+# whole figure configs
+plt.figure(dpi=200)
+
+# only getting the delta map scores that were generated from the shuffled feature space data
+delta_map_df = all_map_df.loc[all_map_df["shuffled"]][["Metadata_treatment", "delta_mAP", "Pathway"]]
+
+# Add ranks to the DataFrame
+delta_map_df["rank"] = delta_map_df["delta_mAP"].rank(ascending=True, method="max")
+delta_map_df = delta_map_df.sort_values(by="rank", ascending=False)
+
+# creating scatter plot of all Delta mAP score ranks
+sns.scatterplot(
+    data=delta_map_df, x="rank", y="delta_mAP", hue="Pathway", palette="tab20"
+)
+
+# setting figure title names
+plt.title("Delta mAP Rankings (shuffled)", fontsize=14)
+plt.xlabel("Ranks")
+plt.ylabel("Delta mAP")
+
+# setting the axis values
+axis_padding = 0.05
+plt.xlim(0, delta_map_df["rank"].max() + 1)
+plt.ylim(
+    -axis_padding + delta_map_df["delta_mAP"].min(),
+    delta_map_df["delta_mAP"].max() + axis_padding,
+)
+
+# updating the legend
+plt.rc("legend", fontsize=5)
+plt.rc("legend", title_fontsize=10)
+plt.legend(loc="upper left")
+
+# save ranked delta maps
+delta_map_df.to_csv(map_analysis_results_dir / "shuffled_ranked_delta_mAPs.csv", index=False)
+
+# save plot
+plt.savefig(fig_dir_path / "shuffled_delta_mAP_rankings.png", dpi=300, bbox_inches="tight")
 
 # display plot
 plt.show()

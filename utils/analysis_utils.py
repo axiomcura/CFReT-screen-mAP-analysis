@@ -252,7 +252,7 @@ def calculate_trt_map_batch_profiles(
             # Create a copy of the profile to preserve the original data
             profile = profile.copy()
 
-            # Setting reference index for the control treatment
+            # Setting reference index for the reference control
             ref_col = "Metadata_reference_index"
             profile = assign_reference_index(df = profile,
                                     condition = f"Metadata_Pathway == 'DMSO-{control_type}'",
