@@ -13,10 +13,11 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "3.11.*"
 copairs = "^0.5.1"
 ipykernel = "^6.29.5"
 seaborn = "^0.13.2"
+pairwise-compare = {git = "https://github.com/WayScience/pairwise_compare.git"}
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^4.0.1"
