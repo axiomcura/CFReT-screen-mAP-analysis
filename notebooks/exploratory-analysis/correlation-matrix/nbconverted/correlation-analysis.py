@@ -83,7 +83,7 @@ concat_profile_df["Metadata_Pathway"] = concat_profile_df.apply(
 	lambda row: update_dmso_pathway_label(row["Metadata_treatment"], row["Metadata_Pathway"]), axis=1
 )
 
-concat_profile_df["Metadata_Pathway"].replace("nan", "No Pathway", inplace=True)
+# concat_profile_df["Metadata_Pathway"].replace("nan", "No Pathway", inplace=True)
 
 
 # split the data into metadata and features
@@ -103,9 +103,9 @@ concat_profile_df.head()
 pathway_df = concat_profile_df[["Metadata_treatment", "Metadata_Pathway"] + feat_cols]
 
 # Replace invalid or missing values in the "Metadata_Pathway" column using apply()
-pathway_df["Metadata_Pathway"] = pathway_df["Metadata_Pathway"].apply(
-    lambda x: "No Pathway" if pd.isna(x) or x in ["NaN", "nan"] else x
-)
+# pathway_df["Metadata_Pathway"] = pathway_df["Metadata_Pathway"].apply(
+#     lambda x: "No Pathway" if pd.isna(x) or x in ["NaN", "nan"] else x
+# )
 
 # creating a dataframe with only morphological features
 morph_df = pathway_df[feat_cols].copy()

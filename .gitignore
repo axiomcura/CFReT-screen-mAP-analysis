@@ -184,3 +184,6 @@ _*
 
 # ignored due to large size
 notebooks/exploratory-analysis/UMAP-aggregated-fs-profiles/results/concat_data
+
+# ignore R plot pdf files
+Rplot.pdf

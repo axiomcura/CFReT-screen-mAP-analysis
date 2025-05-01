@@ -85,7 +85,7 @@ data_dir_path = pathlib.Path("../../data")
 
 # selecting aggregated feature selected files
 list_of_paths = list(
-    (data_dir_path / "agg_fs_profiles/").resolve(strict=True).glob("*.parquet")
+    (data_dir_path / "aggregated_profiles/").resolve(strict=True).glob("*.parquet")
 )
 
 # shared features columns
@@ -158,6 +158,18 @@ shuffled_aggregated_profiles = update_control_treatment(shuffled_aggregated_prof
 
 # split metadata and morphology feature columns
 meta_cols, feat_cols = data_utils.split_meta_and_features(loaded_aggregated_profiles)
+
+# update the Metadata_Pathway column based on the Metadata_treatment column.
+# if Metadata_treatment is "DMSO-positive", set Metadata_Pathway to "DMSO-positive".
+# if Metadata_treatment is "DMSO-negative", set Metadata_Pathway to "DMSO-negative".
+loaded_aggregated_profiles.loc[
+    loaded_aggregated_profiles["Metadata_treatment"] == "DMSO-positive",
+    "Metadata_Pathway",
+] = "DMSO-positive"
+loaded_aggregated_profiles.loc[
+    loaded_aggregated_profiles["Metadata_treatment"] == "DMSO-negative",
+    "Metadata_Pathway",
+] = "DMSO-negative"
 
 # store aggregate data profiles as batched
 loaded_profiles = {"batch_1": loaded_aggregated_profiles}

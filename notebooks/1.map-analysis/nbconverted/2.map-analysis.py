@@ -592,9 +592,18 @@ plt.show()
 # Plot stacked bar histogram using seaborn
 plt.figure(figsize=(10, 6))
 
+# editing data
+delta_map_df = all_map_df.loc[~all_map_df["shuffled"]][["delta_mAP", "Pathway"]]
+
+# remove rows that contains Pathway = DMSO-negative and DMSO-positive
+delta_map_df = delta_map_df[
+    ~delta_map_df["Pathway"].str.contains("DMSO-positive|DMSO-negative", na=False)
+]
+
+
 # plot delta mAP histogram for original data
 sns.histplot(
-    data=all_map_df.loc[~all_map_df["shuffled"]],
+    data=delta_map_df,
     x="delta_mAP",
     hue="Pathway",
     multiple="stack",
@@ -623,9 +632,18 @@ plt.show()
 # Plot stacked bar histogram using seaborn
 plt.figure(figsize=(10, 6))
 
+# editing data
+shuffled_delta_map_df = all_map_df.loc[all_map_df["shuffled"]][["delta_mAP", "Pathway"]]
+
+# remove rows that contains Pathway = DMSO-negative and DMSO-positive
+shuffled_delta_map_df = shuffled_delta_map_df[
+    ~shuffled_delta_map_df["Pathway"].str.contains("DMSO-positive|DMSO-negative", na=False)
+
+]
+
 # plot delta mAP histogram for shuffled data
 sns.histplot(
-    data=all_map_df.loc[all_map_df["shuffled"]],
+    data=shuffled_delta_map_df,
     x="delta_mAP",
     hue="Pathway",
     multiple="stack",
@@ -658,6 +676,11 @@ plt.figure(dpi=200)
 
 # only getting the delta map scores
 delta_map_df = all_map_df.loc[~all_map_df["shuffled"]][["Metadata_treatment", "delta_mAP", "Pathway"]]
+
+# remove rows that contains Pathway = DMSO-negative and DMSO-positive
+delta_map_df = delta_map_df[
+    ~delta_map_df["Pathway"].str.contains("DMSO-positive|DMSO-negative", na=False)
+]
 
 # Add ranks to the DataFrame
 delta_map_df["rank"] = delta_map_df["delta_mAP"].rank(ascending=True, method="max")
@@ -704,6 +727,10 @@ plt.figure(dpi=200)
 
 # only getting the delta map scores that were generated from the shuffled feature space data
 delta_map_df = all_map_df.loc[all_map_df["shuffled"]][["Metadata_treatment", "delta_mAP", "Pathway"]]
+
+# remove rows that contains Pathway = DMSO-negative and DMSO-positive
+delta_map_df = delta_map_df[
+    ~delta_map_df["Pathway"].str.contains("DMSO-positive|DMSO-negative", na=False)]
 
 # Add ranks to the DataFrame
 delta_map_df["rank"] = delta_map_df["delta_mAP"].rank(ascending=True, method="max")

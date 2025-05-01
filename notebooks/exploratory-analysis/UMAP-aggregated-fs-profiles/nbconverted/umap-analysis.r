@@ -33,7 +33,7 @@ metadata_df$Metadata_Pathway[metadata_df$Metadata_treatment == "DMSO-positive" &
 metadata_df$Metadata_Pathway[metadata_df$Metadata_treatment == "DMSO-negative" & metadata_df$Metadata_Pathway == ""] <- "DMSO"
 
 # if Treatment is not DMSO and Metadata_Pathway is empty, set Metadata_Pathway to unknown
-metadata_df$Metadata_Pathway[metadata_df$Metadata_treatment != "DMSO" & metadata_df$Metadata_Pathway == ""] <- "Unknown"
+# metadata_df$Metadata_Pathway[metadata_df$Metadata_treatment != "DMSO" & metadata_df$Metadata_Pathway == ""] <- "Unknown"
 
 # setting seed
 set.seed(0)
@@ -228,9 +228,3 @@ ggplot(umap_df, aes(x = UMAP1, y = UMAP2, color = Pathway)) +
 path.figure <- file.path(path.output, "facetplot_umap_all_plate_pathway_profiles.png")
 ggsave(path.figure, width = 15, height = 30, units = "in", dpi = 300)
 print(paste("UMAP of all plate and pathway profiles saved at", path.figure))
-
-
-# filter this to only where Pathwat is DMSO
-umap_df_dmsos <- umap_df[umap_df$Pathway == "DMSO", ]
-
-umap_df_dmsos
