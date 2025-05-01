@@ -1,0 +1,13 @@
+pearsons_correlation,Metadata_treatment,Metadata_plate_name__posthoc_group0,Metadata_plate_name__posthoc_group1
+0.816356482791563,DMSO-positive,Plate_1,Plate_2
+0.8183390317291328,DMSO-positive,Plate_1,Plate_3
+0.7682268638890466,DMSO-positive,Plate_1,Plate_4
+0.9135304158963791,DMSO-positive,Plate_2,Plate_3
+0.8940287037502324,DMSO-positive,Plate_2,Plate_4
+0.8542314272643112,DMSO-positive,Plate_3,Plate_4
+0.9320150610561846,DMSO-negative,Plate_1,Plate_2
+0.9352957066209273,DMSO-negative,Plate_1,Plate_3
+0.9238758388771573,DMSO-negative,Plate_1,Plate_4
+0.9360909992721097,DMSO-negative,Plate_2,Plate_3
+0.9616932470806486,DMSO-negative,Plate_2,Plate_4
+0.9506068752483855,DMSO-negative,Plate_3,Plate_4
